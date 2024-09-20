@@ -36,6 +36,7 @@ _SUPPORTED_MODELS = (
     'claude_21',
     'claude_20',
     'claude_instant',
+    'llama3'
 )
 _SUPPORTED_SEARCH_TYPES = ('serper')
 

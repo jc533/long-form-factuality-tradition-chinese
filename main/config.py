@@ -53,15 +53,15 @@ save_results = True
 #     'claude_instant',
 # ]
 ################################################################################
-responder_model_short = 'gpt_35_turbo'
+responder_model_short = 'llama3'
 
 ################################################################################
 #                               DEBUG SETTINGS
 # show_responder_prompts: bool = show prompts sent to responder if debugging.
 # show_responder_responses: bool = show responses from responder if debugging.
 ################################################################################
-show_responder_prompts = False
-show_responder_responses = False
+show_responder_prompts = True
+show_responder_responses = True
 
 ################################################################################
 #                               DATA SETTINGS
