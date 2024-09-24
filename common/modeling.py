@@ -168,7 +168,7 @@ class Model:
       model_name: str,
       temperature: float = 0.5,
       max_tokens: int = 2048,
-      show_responses: bool = False,
+      show_responses: bool = True,
       show_prompts: bool = False,
   ) -> None:
     """Initializes a model."""
