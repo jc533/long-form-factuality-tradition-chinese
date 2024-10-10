@@ -207,6 +207,17 @@ class Model:
           api_key=shared_config.anthropic_api_key,
           sampling_options=sampling,
       )
+    elif model_name.lower().startswith('llama:'):
+      # if not shared_config.openai_api_key:
+      #   utils.maybe_print_error('No OpenAI API Key specified.')
+      #   utils.stop_all_execution(True)
+
+      return lf.llms.LlamaCppRemote(
+          name=model_name[7:],
+          # api_key=shared_config.openai_api_key,
+          url="http://localhost:8080",
+          sampling_options=sampling,
+      )
     elif 'unittest' == model_name.lower():
       return lf.llms.Echo()
     else:
