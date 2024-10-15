@@ -50,7 +50,8 @@ model_options = {
     'claude_21': 'ANTHROPIC:claude-2.1',
     'claude_20': 'ANTHROPIC:claude-2.0',
     'claude_instant': 'ANTHROPIC:claude-instant-1.2',
-    'llama3':'LLAMA:llama3'
+    'llama3':'LLAMA:llama3',
+    'mixtral8x7':'LLAMA:mixtral'
 }
 model_string = {
     'gpt_4_turbo': 'gpt4turbo',
