@@ -36,9 +36,8 @@ people, numbers, events, locations, dates, times, etc.)
 """
 openai_api_key = ''
 anthropic_api_key = ''
-gemini_api_key = ''
-groq_api_key = ''
-groq_api_key = ''
+gemini_api_key = 'AIzaSyAuAxflxZuAk8_isJS3cHUdBrkVt5BAzBA'
+groq_api_key = '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'
 serper_api_key = '3b2cbe98231c00aa751859e123d1e214116870f1'
 # 
 random_seed = 1
