@@ -197,6 +197,26 @@ class Model:
           api_key=shared_config.openai_api_key,
           sampling_options=sampling,
       )
+    elif model_name.lower().startswith('gemini:'):
+      if not shared_config.gemini_api_key:
+        utils.maybe_print_error('No Gemini API Key specified.')
+        utils.stop_all_execution(True)
+
+      return lf.llms.GeminiPro1_5(
+          model=model_name[7:],
+          api_key=shared_config.gemini_api_key,
+          sampling_options=sampling,
+      )
+    elif model_name.lower().startswith('groq:'):
+      if not shared_config.groq_api_key:
+        utils.maybe_print_error('No Groq API Key specified.')
+        utils.stop_all_execution(True)
+
+      return lf.llms.Groq(
+          model=model_name[5:],
+          api_key=shared_config.groq_api_key,
+          sampling_options=sampling,
+      )
     elif model_name.lower().startswith('anthropic:'):
       if not shared_config.anthropic_api_key:
         utils.maybe_print_error('No Anthropic API Key specified.')
