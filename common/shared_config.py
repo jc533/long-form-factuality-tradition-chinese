@@ -54,7 +54,7 @@ model_options = {
     'claude_20': 'ANTHROPIC:claude-2.0',
     'claude_instant': 'ANTHROPIC:claude-instant-1.2',
     'gemini_15_pro': 'GEMINI:gemini_15_pro',
-    'groq': 'GROQ:groq',
+    'groq': 'GROQ:llama-3.1-70b-versatile',
     'llama3':'LLAMA:llama3',
     'mixtral8x7':'LLAMA:mixtral'
 }
