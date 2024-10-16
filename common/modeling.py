@@ -26,6 +26,8 @@ import langfun as lf
 import openai
 import pyglove as pg
 
+from langfunextend import Groq
+
 # pylint: disable=g-bad-import-order
 from common import modeling_utils
 from common import shared_config
@@ -212,7 +214,7 @@ class Model:
         utils.maybe_print_error('No Groq API Key specified.')
         utils.stop_all_execution(True)
 
-      return lf.llms.Groq(
+      return Groq(
           model=model_name[5:],
           api_key=shared_config.groq_api_key,
           sampling_options=sampling,
