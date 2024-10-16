@@ -31,11 +31,11 @@ class LongFactDataset:
 
 LONGFACT_CONCEPTS_FOLDER = os.path.join(
     shared_config.root_dir,
-    'longfact/longfact-concepts_gpt4_01-10-2024_noduplicates/',
+    'longfact/longfact-concepts/',
 )
 LONGFACT_OBJECTS_FOLDER = os.path.join(
     shared_config.root_dir,
-    'longfact/longfact-objects_gpt4_01-12-2024_noduplicates/',
+    'longfact/longfact-objects/',
 )
 DATASETS = [
     LongFactDataset(topic='20th century events'),
