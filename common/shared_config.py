@@ -32,7 +32,7 @@ import os
 ################################################################################
 prompt_postamble = """\
 Provide as many specific details and examples as possible (such as names of \
-people, numbers, events, locations, dates, times, etc.)
+people, numbers, events, locations, dates, times, etc.) in zh-tw
 """
 openai_api_key = ''
 anthropic_api_key = ''

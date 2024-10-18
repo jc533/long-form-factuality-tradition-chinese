@@ -26,7 +26,7 @@ import langfun as lf
 import openai
 import pyglove as pg
 
-from langfunextend import Groq
+from common.langfunextend import Groq
 
 # pylint: disable=g-bad-import-order
 from common import modeling_utils
@@ -53,9 +53,10 @@ class Usage(pg.Object):
 
 
 class LMSamplingResult(lf.LMSamplingResult):
-  """LMSamplingResult with usage information."""
+  pass
+#   """LMSamplingResult with usage information."""
 
-  usage: Usage | None = None
+#   usage: Usage | None = None
 
 
 @lf.use_init_args(['model'])
@@ -115,7 +116,7 @@ class AnthropicModel(lf.LanguageModel):
 
     return args
 
-  def _sample(self, prompts: list[lf.Message]) -> list[LMSamplingResult]:
+  def _sample(self, prompts: list[lf.Message]):
     assert self._api_initialized
     return self._complete_batch(prompts)
 
@@ -127,8 +128,8 @@ class AnthropicModel(lf.LanguageModel):
 
   def _complete_batch(
       self, prompts: list[lf.Message]
-  ) -> list[LMSamplingResult]:
-    def _anthropic_chat_completion(prompt: lf.Message) -> LMSamplingResult:
+  ):
+    def _anthropic_chat_completion(prompt: lf.Message):
       content = prompt.text
       client = anthropic.Anthropic(api_key=self.api_key)
       response = client.messages.create(
@@ -171,7 +172,7 @@ class Model:
       temperature: float = 0.5,
       max_tokens: int = 2048,
       show_responses: bool = True,
-      show_prompts: bool = False,
+      show_prompts: bool = True,
   ) -> None:
     """Initializes a model."""
     self.model_name = model_name
@@ -235,7 +236,7 @@ class Model:
       #   utils.stop_all_execution(True)
 
       return lf.llms.LlamaCppRemote(
-          name=model_name[7:],
+          model=model_name[7:],
           # api_key=shared_config.openai_api_key,
           url="http://localhost:8080",
           sampling_options=sampling,
@@ -248,7 +249,7 @@ class Model:
   def generate(
       self,
       prompt: str,
-      do_debug: bool = False,
+      do_debug: bool = True,
       temperature: Optional[float] = None,
       max_tokens: Optional[int] = None,
       max_attempts: int = 1000,

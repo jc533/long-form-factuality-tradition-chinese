@@ -42,7 +42,7 @@ Jinja2==3.1.3
 joblib==1.3.2
 kiwisolver==1.4.5
 langcodes==3.3.0
-langfun==0.0.2.dev20240202
+langfun==0.1.1
 MarkupSafe==2.1.5
 matplotlib==3.8.2
 mpmath==1.3.0
@@ -74,7 +74,7 @@ pyasn1==0.5.1
 pyasn1-modules==0.3.0
 pydantic==2.6.0
 pydantic_core==2.16.1
-pyglove==0.4.5.dev20240202
+pyglove==0.4.5.dev202410160809
 pyparsing==3.1.1
 python-dateutil==2.8.2
 pytz==2024.1

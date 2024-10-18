@@ -146,7 +146,7 @@ def listdir_wrapped(filepath: str, **kwargs) -> list[str]:
 
 def read_json(filepath: str) -> dict[Any, Any]:
   """Reads in the json file at the filepath."""
-  with open_file_wrapped(filepath, mode='r') as f:
+  with open_file_wrapped(filepath, mode='r',encoding='utf8') as f:
     return json.load(f)
 
 
@@ -154,8 +154,8 @@ def save_json(filepath: str, json_obj: dict[Any, Any]) -> None:
   """Saves the json object at the filepath."""
   make_directory_wrapped(filepath)
 
-  with open_file_wrapped(filepath, mode='w') as f:
-    json.dump(json_obj, f)
+  with open_file_wrapped(filepath, mode='w',encoding='utf8') as f:
+    json.dump(json_obj, f,ensure_ascii=False)
 
 
 def read_from_jsonlines(filepath: str) -> list[dict[Any, Any]]:
