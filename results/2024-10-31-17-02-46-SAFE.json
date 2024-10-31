@@ -1,0 +1,1382 @@
+{
+    "add_universal_postamble": "True",
+    "max_num_examples": "1",
+    "num_sentences": "1",
+    "parallelize": "False",
+    "responder_model": "OPENAI:gpt-3.5-turbo-0125",
+    "responder_model_short": "gpt_35_turbo",
+    "response_length_postamble": "Respond in exactly 1 sentence.",
+    "save_results": "True",
+    "shared_config": "<module 'common.shared_config' from '/home/user/program/long-form-factuality-tradition-chinese/common/shared_config.py'>",
+    "show_responder_prompts": "True",
+    "show_responder_responses": "True",
+    "shuffle_data": "False",
+    "side_1": "placeholder",
+    "side_2": "vanilla_prompting",
+    "task": "longfact_concepts",
+    "task_short": "longfact_concepts",
+    "use_length_ablation": "False",
+    "per_prompt_data": [
+        {
+            "prompt": "誰是豬哥亮？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。\n他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。\n豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。\n他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。\n豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。\n他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。\n豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。\n",
+            "side2_posthoc_eval_data": {
+                "prompt": "誰是豬哥亮？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+                "response": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。\n他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。\n豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。\n他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。\n豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。\n他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。\n豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。\n",
+                "num_claims": 27,
+                "sentences_and_atomic_facts": [
+                    [
+                        "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        [
+                            "豬哥亮的原名是鄭金龍。",
+                            "豬哥亮是台灣的歌手。",
+                            "豬哥亮是台灣的演員。",
+                            "豬哥亮是台灣的主持人。",
+                            "豬哥亮是知名人物。."
+                        ]
+                    ],
+                    [
+                        "他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。",
+                        [
+                            "他活躍於演藝圈。",
+                            "他活躍於1970年代至1980年代。",
+                            "他以幽默搞笑的風格而聞名。",
+                            "他以獨特的歌唱方式而聞名。."
+                        ]
+                    ],
+                    [
+                        "豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。",
+                        [
+                            "豬哥亮曾與蔡琴合作演唱過許多經典歌曲。",
+                            "豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。",
+                            "豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。",
+                            "這些歌曲至今仍然深受人們喜愛。."
+                        ]
+                    ],
+                    [
+                        "他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。",
+                        [
+                            "他曾主持過許多電視節目。",
+                            "他主持過《豬哥亮的瘋狂世界》。",
+                            "《豬哥亮的瘋狂世界》是一個電視節目。",
+                            "《豬哥亮的瘋狂世界》深受觀眾喜愛。."
+                        ]
+                    ],
+                    [
+                        "豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。",
+                        [
+                            "豬哥亮在演藝事業上取得了巨大的成功。",
+                            "豬哥亮為台灣文化界留下了印記。",
+                            "豬哥亮的印記是不可磨滅的。."
+                        ]
+                    ],
+                    [
+                        "他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。",
+                        [
+                            "他的幽默風格讓他成為了一代人心中的經典偶像。",
+                            "他的獨特魅力讓他成為了一代人心中的經典偶像。",
+                            "他是一代人心中的經典偶像。."
+                        ]
+                    ],
+                    [
+                        "豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。",
+                        [
+                            "豬哥亮於2014年去世。",
+                            "豬哥亮因病去世。",
+                            "豬哥亮的作品烙印在人們的心中。",
+                            "豬哥亮的形象烙印在人們的心中。."
+                        ]
+                    ]
+                ],
+                "all_atomic_facts": [
+                    {
+                        "sentence": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        "atomic_facts": [
+                            "豬哥亮的原名是鄭金龍。",
+                            "豬哥亮是台灣的歌手。",
+                            "豬哥亮是台灣的演員。",
+                            "豬哥亮是台灣的主持人。",
+                            "豬哥亮是知名人物。."
+                        ]
+                    },
+                    {
+                        "sentence": "他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。",
+                        "atomic_facts": [
+                            "他活躍於演藝圈。",
+                            "他活躍於1970年代至1980年代。",
+                            "他以幽默搞笑的風格而聞名。",
+                            "他以獨特的歌唱方式而聞名。."
+                        ]
+                    },
+                    {
+                        "sentence": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。",
+                        "atomic_facts": [
+                            "豬哥亮曾與蔡琴合作演唱過許多經典歌曲。",
+                            "豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。",
+                            "豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。",
+                            "這些歌曲至今仍然深受人們喜愛。."
+                        ]
+                    },
+                    {
+                        "sentence": "他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。",
+                        "atomic_facts": [
+                            "他曾主持過許多電視節目。",
+                            "他主持過《豬哥亮的瘋狂世界》。",
+                            "《豬哥亮的瘋狂世界》是一個電視節目。",
+                            "《豬哥亮的瘋狂世界》深受觀眾喜愛。."
+                        ]
+                    },
+                    {
+                        "sentence": "豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。",
+                        "atomic_facts": [
+                            "豬哥亮在演藝事業上取得了巨大的成功。",
+                            "豬哥亮為台灣文化界留下了印記。",
+                            "豬哥亮的印記是不可磨滅的。."
+                        ]
+                    },
+                    {
+                        "sentence": "他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "atomic_facts": [
+                            "他的幽默風格讓他成為了一代人心中的經典偶像。",
+                            "他的獨特魅力讓他成為了一代人心中的經典偶像。",
+                            "他是一代人心中的經典偶像。."
+                        ]
+                    },
+                    {
+                        "sentence": "豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。",
+                        "atomic_facts": [
+                            "豬哥亮於2014年去世。",
+                            "豬哥亮因病去世。",
+                            "豬哥亮的作品烙印在人們的心中。",
+                            "豬哥亮的形象烙印在人們的心中。."
+                        ]
+                    }
+                ],
+                "checked_statements": [
+                    {
+                        "sentence": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        "atomic_fact": "豬哥亮的原名是鄭金龍。",
+                        "self_contained_atomic_fact": "豬哥亮的原名是鄭金龍。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮的原名是鄭金龍。",
+                            "revised_fact": "The subject in the statement \"豬哥亮的原名是鄭金龍\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮的原名是鄭金龍。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 鄭金龍 (Zhèng Jīnlóng)\n\nThe phrase \"豬哥亮（原名：鄭金龍）\" in the RESPONSE indicates that the two subjects, 豬哥亮 and 鄭金龍, are the same person, with 鄭金龍 being the real name of 豬哥亮. Therefore, the subjects 豬哥亮 and 鄭金龍 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The provided knowledge points mention that 豬哥亮的原名是謝新達 (Ti-ko-liāng's original name is 謝新達).\n2. The knowledge does not mention anything about his original name being 鄭金龍 (Zheng Jinlong).\n3. The main points of the knowledge are that his original name is 謝新達, he was a Taiwanese host, singer, and comedian, and he was born in Kaohsiung City, Taiwan.\n4. Based on the knowledge provided, there is no mention of his original name being 鄭金龍.\n5. **Statement:** 豬哥亮的原名是鄭金龍.\n6. [**Not Supported**]",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        "atomic_fact": "豬哥亮是台灣的歌手。",
+                        "self_contained_atomic_fact": "豬哥亮是台灣的歌手。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮是台灣的歌手。",
+                            "revised_fact": "The subject in the statement \"豬哥亮是台灣的歌手\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是台灣的歌手。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 台灣的歌手\n\nThe RESPONSE provides information that 豬哥亮 is a well-known Taiwanese singer, actor, and host. It mentions that he was active in the entertainment industry in Taiwan during the 1970s to 1980s, known for his humorous and unique singing style. This establishes a clear relationship between the subjects in the QUESTION and STATEMENT, as it directly states that 豬哥亮 is a singer in Taiwan. Therefore, the subjects 豬哥亮 and 台灣的歌手 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provide information about Chu Ke-liang (豬哥亮), stating that he was a Taiwanese comedian, actor, television show host, and singer.\n2. The knowledge mentions that Chu Ke-liang was known for his work as a singer.\n3. The main points of the knowledge are that Chu Ke-liang was a Taiwanese comedian, actor, television show host, and singer, and he was known for his singing career.\n4. **Supporting Evidence:** The knowledge explicitly states that Chu Ke-liang was a singer.\n5. **Statement:** 豬哥亮是台灣的歌手。\n6. **[Supported]**",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        "atomic_fact": "豬哥亮是台灣的演員。",
+                        "self_contained_atomic_fact": "豬哥亮是台灣的演員。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮是台灣的演員。",
+                            "revised_fact": "The subject in the statement \"豬哥亮是台灣的演員\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是台灣的演員。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 台灣的演員 (Taiwanese actor)\n\nSpecific reasoning:\nThe RESPONSE provides information that 豬哥亮 is a 台灣歌手、演員和主持人 (Taiwanese singer, actor, and host). This indicates that the subject of the STATEMENT (豬哥亮) is indeed a type of actor, which aligns with the broad subject of the QUESTION. Therefore, the subjects 豬哥亮 and 台灣的演員 should be considered [Foo]. \n\n[Foo]"
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided establish that Chu Ke-liang, also known as 豬哥亮, was a Taiwanese comedian, actor, television show host, and singer.\n2. Chu Ke-liang was born in Zuoying District, Taiwan, and had significant connections to the region.\n3. The information clearly indicates that Chu Ke-liang was a prominent figure in the entertainment industry in Taiwan, with a career spanning hosting, singing, and acting.\n4. The statement that \"豬哥亮是台灣的演員\" translates to \"Chu Ke-liang is a Taiwanese actor.\"\n5. Based on the provided knowledge, it is evident that Chu Ke-liang was indeed an actor in Taiwan, along with being a comedian, television show host, and singer.\n6. Therefore, the statement is [Supported].\n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        "atomic_fact": "豬哥亮是台灣的主持人。",
+                        "self_contained_atomic_fact": "豬哥亮是台灣的主持人。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮是台灣的主持人。",
+                            "revised_fact": "The subject in the statement \"豬哥亮是台灣的主持人\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是台灣的主持人。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 台灣的主持人 (Taiwanese host)\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 (Zhū Gēliàng)曾主持過許多電視節目 (has hosted many TV shows), such as 《豬哥亮的瘋狂世界》 (Zhū Gēliàng's Crazy World). This indicates that there is a direct relationship between the subject of the STATEMENT and the subject of the QUESTION, as they are both related to hosting TV shows.\n\nTherefore, the subjects 豬哥亮 (Zhū Gēliàng) and 台灣的主持人 (Taiwanese host) are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided mention that 豬哥亮 (Zhu Ge Liang) is a Taiwanese program host, singer, and comedian.\n2. It is stated that he was born in Taiwan, specifically in Kaohsiung City.\n3. He was active in Taiwan's entertainment scene in the 1980s, hosting popular shows like 《豬哥亮歌廳秀》 (Zhu Ge Liang's Song Hall Show).\n4. The knowledge also highlights his collaborations with various female stars and his unique comedic style that made him well-known in Taiwan.\n5. Overall, the information strongly suggests that 豬哥亮 is indeed a Taiwanese host.\n\nSTATEMENT: \n豬哥亮是台灣的主持人。\n\nBased on the provided knowledge points, the statement is [Supported].",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮（原名：鄭金龍），是一位知名的台灣歌手、演員和主持人。",
+                        "atomic_fact": "豬哥亮是知名人物。.",
+                        "self_contained_atomic_fact": "豬哥亮是知名人物。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮是知名人物。.",
+                            "revised_fact": "The subject in the statement \"豬哥亮是知名人物。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是知名人物。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 知名人物 (zhīmíng rénwù)\n\nSpecific Reasoning:\nThe RESPONSE provides information about how 豬哥亮 is a well-known Taiwanese singer, actor, and host who was active in the entertainment industry in the 1970s and 1980s. He collaborated with 蔡琴 on classic songs like \"酒干倘卖无\" and \"爱拼才会赢.\" Additionally, he hosted TV shows like \"豬哥亮的瘋狂世界.\" These details establish that 豬哥亮 is a prominent figure in the entertainment industry, making him a 知名人物.\n\nTherefore, the subjects 豬哥亮 and 知名人物 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. Chu Ke-liang (豬哥亮) was a Taiwanese comedian, actor, television show host, and singer known for his unique appearance, coarse humor, and popularity in Taiwan.\n2. Chu Ke-liang (豬哥亮) was born on December 6, 1946, in Zuoying District, Taiwan, and passed away on May 15, 2017, at the National Taiwan University Hospital in Taipei, Taiwan.\n3. Chu Ke-liang (豬哥亮) had children named Jeannie Hsieh and Twinkling Ting, and his spouse was Ye Ruei Mei.\n4. Chu Ke-liang (豬哥亮) served in the Taiwanese military at the age of 20, with reports from neighbors suggesting that he attempted to desert multiple times but was eventually able to leave the service with the help of his older brother.\n5. Despite claims of desertion during his military service, Chu Ke-liang (豬哥亮) jokingly denied being a deserter and mentioned that he had taken leave, implying that he did complete his military service.\n\nBased on the provided knowledge, the statement \"豬哥亮是知名人物\" (Chu Ke-liang is a well-known figure) is [Supported]. Chu Ke-liang's career as a comedian, actor, and television show host, along with his unique style and popularity in Taiwan, align with the description of a well-known personality.",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。",
+                        "atomic_fact": "他活躍於演藝圈。",
+                        "self_contained_atomic_fact": "豬哥亮活躍於演藝圈。",
+                        "relevance_data": {
+                            "atomic_fact": "他活躍於演藝圈。",
+                            "revised_fact": "The subject in the statement \"他活躍於演藝圈\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a vague reference that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮活躍於演藝圈。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮\n\nThe phrase \"他在1970年代至1980年代間活躍於演藝圈\" from the RESPONSE indicates that 豬哥亮 was active in the entertainment industry during the 1970s and 1980s. Since the STATEMENT directly refers to this aspect of his career, the subjects 豬哥亮 in the QUESTION and STATEMENT are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. 豬哥亮是台灣的節目主持人、歌手、喜劇演員。\n2. 他在台灣演藝圈活躍的時間跨足了很長一段，包括1977年至1994年、1997年至1999年以及2009年至2017年。\n3. 豬哥亮的主持生涯中有多個作品都以「豬」字命名，顯示他在綜藝圈早已奠定了教父地位。\n4. 他的藝名「豬哥亮」來自於他在劇中的角色名稱，並因演技亮眼而成為藝名。\n5. 豬哥亮的演藝活動主要使用台灣話，並在台灣走紅後在其他福佬話社群中也有知名度。\n\nSTATEMENT: \n豬哥亮活躍於演藝圈。\n\nBased on the provided knowledge points, the statement is Supported. \n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。",
+                        "atomic_fact": "他活躍於1970年代至1980年代。",
+                        "self_contained_atomic_fact": "豬哥亮活躍於1970年代至1980年代。",
+                        "relevance_data": {
+                            "atomic_fact": "他活躍於1970年代至1980年代。",
+                            "revised_fact": "The subject in the statement \"他活躍於1970年代至1980年代。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a vague reference that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮活躍於1970年代至1980年代。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 1970年代至1980年代 (1970s to 1980s)\n\nSpecific Reasoning:\nThe RESPONSE provides information that 豬哥亮 was active in the entertainment industry during the 1970s to 1980s. This directly connects the subject of the STATEMENT (1970年代至1980年代) with the subject of the QUESTION (豬哥亮). Therefore, the subjects should be considered [Foo]. \n\nTherefore, the subjects 豬哥亮 and 1970年代至1980年代 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided detail the career and activities of 豬哥亮, also known as 猪哥亮, a Taiwanese entertainer.\n2. The knowledge mentions that his active years were from 1977 to 1994, 1997 to 1999, and 2009 to 2017.\n3. It is stated that he left the entertainment industry in 1999 due to gambling debts and made a brief comeback in 2009.\n4. The statement claims that 豬哥亮 was active in the 1970s to 1980s.\n\nBased on the knowledge provided, the statement that \"豬哥亮活躍於1970年代至1980年代\" is **Not Supported**.\n\nAlthough the knowledge mentions his active years starting from 1977, which is close to the 1970s, it does not explicitly state that he was active in the 1970s. The knowledge clearly indicates his active years were from 1977 onwards, which aligns more with the late 1970s rather than the entire decade. Therefore, the statement is not strongly implied by the knowledge provided.\n\n[Not Supported]",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。",
+                        "atomic_fact": "他以幽默搞笑的風格而聞名。",
+                        "self_contained_atomic_fact": "豬哥亮以幽默搞笑的風格而聞名。",
+                        "relevance_data": {
+                            "atomic_fact": "他以幽默搞笑的風格而聞名。",
+                            "revised_fact": "The subject in the statement \"他以幽默搞笑的風格而聞名\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that the statement is referring to 豬哥亮. Therefore, \"他\" should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮以幽默搞笑的風格而聞名。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 is known for his humorous and funny style, which is evident in his work as a singer, actor, and host. This establishes a direct relationship between the subject of the STATEMENT and the subject of the QUESTION, as both refer to the same individual and highlight his distinctive comedic style. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) in the STATEMENT and QUESTION are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. 豬哥亮是知名的演員，每年在春節時期推出過年賀歲片。\n2. 豬哥亮主演過多部電影，如《雞排英雄》、《大尾鱸鰻》、《大稻埕》、《大囍臨門》等。\n3. 豬哥亮的作品以幽默搞笑為主，他在影視作品中展現了幽默的風格。\n4. 豬哥亮在不同節目中展現了幽默搞笑的一面，如在《豬哥壹級棒》中。\n   \nSTATEMENT: \n豬哥亮以幽默搞笑的風格而聞名。\n\nBased on the provided knowledge, the statement is Supported.\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他在1970年代至1980年代間活躍於演藝圈，以其幽默搞笑的風格和獨特的歌唱方式而聞名。",
+                        "atomic_fact": "他以獨特的歌唱方式而聞名。.",
+                        "self_contained_atomic_fact": "豬哥亮以獨特的歌唱方式而聞名。",
+                        "relevance_data": {
+                            "atomic_fact": "他以獨特的歌唱方式而聞名。.",
+                            "revised_fact": "The subject in the statement \"他以獨特的歌唱方式而聞名。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮以獨特的歌唱方式而聞名。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮的獨特歌唱方式\n\nThe RESPONSE provides information that 豬哥亮 is known for his unique singing style and has collaborated with 蔡琴 on classic songs like \"酒干倘卖无\" and \"爱拼才会赢\". This shows a clear relationship between the subject of the STATEMENT (豬哥亮的獨特歌唱方式) and the subject of the QUESTION (豬哥亮) based on their connection through his singing style. Therefore, the subjects should be considered [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The provided knowledge points mention various aspects of 豬哥亮 (Zhu Ge Liang), including his humor, unique style, and upcoming album.\n2. The knowledge does not explicitly state that 豬哥亮 is known for his singing, but it does mention his upcoming album, which implies that he is involved in music.\n3. The knowledge points suggest that 豬哥亮 is a well-known figure in entertainment, with a distinct style and upcoming musical project.\n4. The fact that 豬哥亮 is mentioned in the context of entertainment, humor, and an upcoming album strongly implies that he is known for his singing.\n5. STATEMENT: 豬哥亮以獨特的歌唱方式而聞名。\n6. [Supported]\n\nTherefore, the final answer is: [Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。",
+                        "atomic_fact": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲。",
+                        "self_contained_atomic_fact": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲.",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲。",
+                            "revised_fact": "The subject in the statement \"豬哥亮曾與蔡琴合作演唱過許多經典歌曲\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮曾與蔡琴合作演唱過許多經典歌曲.\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nSpecific Reasoning:\nThe QUESTION asks about who 豬哥亮 (Zhū Gēliàng) is.\nThe STATEMENT mentions that 豬哥亮 (Zhū Gēliàng) collaborated with 蔡琴 (Cài Qín) to sing many classic songs.\nThis shows that the relationship between 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) is that they collaborated on singing classic songs.\nTherefore, the subjects 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points mention that both 豬哥亮 and 蔡琴 have appeared on a show together where 蔡琴 sang several popular songs including \"好預兆\" and \"團圓,\" which were dedicated to 豬哥亮 and 謝金燕.\n2. Another knowledge point indicates that there are classic songs performed by both artists, but it does not explicitly state that they have collaborated on singing these songs together.\n3. The information provided suggests that both artists have performed on the same show and that 蔡琴 has sung songs dedicated to 豬哥亮, implying a close relationship or collaboration between them.\n4. However, there is no direct mention of them singing together in the provided knowledge.\n5. STATEMENT: 豬哥亮曾與蔡琴合作演唱過許多經典歌曲.\n6. [Not Supported] - While the knowledge implies a close relationship between the two artists and their performances on the same show, there is no explicit mention of them collaborating to sing classic songs together.",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。",
+                        "atomic_fact": "豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。",
+                        "self_contained_atomic_fact": "豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。",
+                            "revised_fact": "The subject in the statement \"豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nThe phrase \"豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》\" from the RESPONSE indicates that 豬哥亮 and 蔡琴 have collaborated on singing the song \"酒干倘卖无.\" This shows a direct relationship between the two subjects, making them [Foo]. \n\nTherefore, the subjects 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided mention that 豬哥亮接下主持大棒，星期日黃金時段綜藝節目，並且在節目中演唱了多首歌曲。\n2. There is no explicit mention of a collaboration between 豬哥亮 and 蔡琴 on the song \"酒干倘卖无\" in the provided knowledge.\n3. The knowledge mainly focuses on the hosting and singing activities of 豬哥亮 on various programs, but does not specifically mention a collaboration with 蔡琴 on the song \"酒干倘卖无.\"\n4. Therefore, based on the provided knowledge, there is no direct evidence to support the statement that 豬哥亮 and 蔡琴 collaborated on the song \"酒干倘卖无.\"\n\nSTATEMENT: \n豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》.\n[Not Supported]",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。",
+                        "atomic_fact": "豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。",
+                        "self_contained_atomic_fact": "豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。",
+                            "revised_fact": "The subject in the statement \"豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nThe phrase \"豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》\" from the RESPONSE indicates that there is a relationship between 豬哥亮 and 蔡琴, as they collaborated on singing the song \"爱拼才会赢.\" Therefore, the subjects 豬哥亮 and 蔡琴 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provide information about the song \"爱拼才会赢\" (Love Will Win with Effort) composed by Taiwanese composer 陈百潭 and originally sung by 叶启田 in Minnan language.\n2. The song has been covered or adapted by multiple singers and was featured in the 2021 drama \"山海情\" (Shan Hai Qing) as an insert song.\n3. There is no direct mention of 豬哥亮 (Zhu Ge Liang) collaborating with 蔡琴 (Cai Qin) on the song \"爱拼才会赢\" in the provided knowledge points.\n4. Based on the knowledge provided, there is no explicit mention or implication of a collaboration between 豬哥亮 and 蔡琴 on the song \"爱拼才会赢.\"\n5. **Statement:** 豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。\n6. [Not Supported]",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》、《爱拼才会赢》等，這些歌曲至今仍然深受人們喜愛。",
+                        "atomic_fact": "這些歌曲至今仍然深受人們喜愛。.",
+                        "self_contained_atomic_fact": "The classic songs that 豬哥亮 and 蔡琴 collaborated on are still deeply loved by people.",
+                        "relevance_data": {
+                            "atomic_fact": "這些歌曲至今仍然深受人們喜愛。.",
+                            "revised_fact": "The subject in the statement \"這些歌曲至今仍然深受人們喜愛。\" is \"這些歌曲\" which is a vague reference to an unknown entity. From the RESPONSE, we can see that the statement is referring to the classic songs that 豬哥亮 and 蔡琴 collaborated on. Therefore, \"這些歌曲\" should be replaced by \"the classic songs that 豬哥亮 and 蔡琴 collaborated on\". Thus, the revised statement is:\n\n```\nThe classic songs that 豬哥亮 and 蔡琴 collaborated on are still deeply loved by people.\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) collaborated on classic songs such as \"酒干倘卖无\" and \"爱拼才会赢,\" which are still deeply loved by people. This shows a direct relationship between 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) as collaborators on these songs. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge provided talks about the popularity and impact of classic songs by artists like 豬哥亮 and 蔡琴.\n2. It mentions how these songs are well-loved and have stood the test of time.\n3. The knowledge also highlights how 豬哥亮 and 蔡琴's songs are considered classics in the Chinese music industry.\n\nTherefore, based on the knowledge provided, it can be inferred that the classic songs that 豬哥亮 and 蔡琴 collaborated on are still deeply loved by people.\n\n**Statement:** The classic songs that 豬哥亮 and 蔡琴 collaborated on are still deeply loved by people.\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。",
+                        "atomic_fact": "他曾主持過許多電視節目。",
+                        "self_contained_atomic_fact": "豬哥亮曾主持過許多電視節目。",
+                        "relevance_data": {
+                            "atomic_fact": "他曾主持過許多電視節目。",
+                            "revised_fact": "The subject in the statement \"他曾主持過許多電視節目。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮曾主持過許多電視節目。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe RESPONSE provides information that 豬哥亮 (Zhū Gēliàng) has hosted many TV shows, such as \"豬哥亮的瘋狂世界\" (Zhū Gēliàng's Crazy World). The STATEMENT directly relates to this information by mentioning that he has hosted many TV shows. Therefore, the subjects of the STATEMENT and the QUESTION are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. Chu Ke-liang, also known as 豬哥亮, was a Taiwanese comedian, actor, television show host, and singer.\n2. He was known for his over-the-top appearance, unusual clothing and hair styles, and coarse humor.\n3. Chu Ke-liang was born on December 6, 1946, in Zuoying District, Taiwan, and passed away on May 15, 2017, at the National Taiwan University Hospital in Taipei, Taiwan.\n4. He had two children, Jeannie Hsieh and Twinkling Ting, and was married to Ye Ruei Mei from 1994 until his passing.\n5. Chu Ke-liang was a prominent figure in the Taiwanese entertainment industry, hosting shows like \"豬哥會社\" and \"猪哥猪哥亮晶晶.\"\n6. He was involved in various forms of entertainment, including hosting, acting in skits, TV dramas, movies, and singing.\n\nBased on the knowledge provided, the statement \"豬哥亮曾主持過許多電視節目\" is:\n[Supported] because Chu Ke-liang was a well-known television show host, and the knowledge mentions several TV programs he hosted, such as \"豬哥會社\" and \"猪哥猪哥亮晶晶.\"",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。",
+                        "atomic_fact": "他主持過《豬哥亮的瘋狂世界》。",
+                        "self_contained_atomic_fact": "豬哥亮主持過《豬哥亮的瘋狂世界》。",
+                        "relevance_data": {
+                            "atomic_fact": "他主持過《豬哥亮的瘋狂世界》。",
+                            "revised_fact": "The subject in the statement \"他主持過《豬哥亮的瘋狂世界》。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a vague reference that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮主持過《豬哥亮的瘋狂世界》。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\n\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe phrase \"他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等\" from the RESPONSE indicates that 豬哥亮 has hosted the show \"豬哥亮的瘋狂世界\". This shows a direct relationship between the subject of the QUESTION and the subject of the STATEMENT, as they are both referring to the same individual. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) in the QUESTION and STATEMENT are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The provided knowledge discusses the show \"華視天王豬哥秀\" and mentions that it was the last show hosted by 豬哥亮 before his passing.\n2. There is no explicit mention of a show called \"豬哥亮的瘋狂世界\" in the provided knowledge.\n3. The knowledge mainly focuses on the show \"華視天王豬哥秀\" and 豬哥亮's involvement in it, along with his passing.\n4. There is no direct evidence or mention supporting the statement that 豬哥亮 hosted \"豬哥亮的瘋狂世界\" in the provided knowledge.\n5. **Statement:** 豬哥亮主持過《豬哥亮的瘋狂世界》.\n6. [Not Supported]",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。",
+                        "atomic_fact": "《豬哥亮的瘋狂世界》是一個電視節目。",
+                        "self_contained_atomic_fact": "The television program associated with 豬哥亮 is called \"豬哥亮的瘋狂世界\".",
+                        "relevance_data": {
+                            "atomic_fact": "《豬哥亮的瘋狂世界》是一個電視節目。",
+                            "revised_fact": "The subject in the statement \"《豬哥亮的瘋狂世界》是一個電視節目。\" is \"《豬哥亮的瘋狂世界》\". This is a vague reference to an unknown entity, as it is unclear what specific television program is being referred to. From the RESPONSE, we can see that the program mentioned is associated with 豬哥亮. Therefore, \"《豬哥亮的瘋狂世界》\" should be replaced with \"the television program associated with 豬哥亮\". Thus, the revised statement is:\n\n```\nThe television program associated with 豬哥亮 is called \"豬哥亮的瘋狂世界\".\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: The television program \"豬哥亮的瘋狂世界\"\n\nThe RESPONSE mentions that 豬哥亮主持過許多電視節目,其中包括\"豬哥亮的瘋狂世界\". This shows that the relationship between 豬哥亮 and the television program \"豬哥亮的瘋狂世界\" is that he was the host of the show. Therefore, the subjects 豬哥亮 and the television program \"豬哥亮的瘋狂世界\" are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The provided knowledge discusses the career of 豬哥亮, including his roles as a program host, singer, and comedian.\n2. The knowledge mentions the program associated with 豬哥亮, stating that the current viewership ratings of the show have returned to normal levels.\n3. There is no explicit mention of a specific program name like \"豬哥亮的瘋狂世界\" in the knowledge, but it does discuss the resurgence of 豬哥亮's show, which implies that there is a program associated with him.\n4. The knowledge indirectly supports the idea that there is a television program associated with 豬哥亮, even though the specific name \"豬哥亮的瘋狂世界\" is not explicitly mentioned.\n5. Therefore, based on the information provided, the statement is:\n   - Supported\n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等，深受觀眾喜愛。",
+                        "atomic_fact": "《豬哥亮的瘋狂世界》深受觀眾喜愛。.",
+                        "self_contained_atomic_fact": "The show hosted by 豬哥亮 is deeply loved by the audience.",
+                        "relevance_data": {
+                            "atomic_fact": "《豬哥亮的瘋狂世界》深受觀眾喜愛。.",
+                            "revised_fact": "The subject in the statement \"《豬哥亮的瘋狂世界》深受觀眾喜愛。\" is \"《豬哥亮的瘋狂世界》\". This is a vague reference to an unknown entity, as it is unclear what specific show is being referred to. From the RESPONSE, we can see that the show mentioned is hosted by 豬哥亮. Therefore, \"《豬哥亮的瘋狂世界》\" should be replaced with \"the show hosted by 豬哥亮\". Thus, the revised statement is:\n\n```\nThe show hosted by 豬哥亮 is deeply loved by the audience.\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: The show hosted by 豬哥亮\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 has hosted many TV shows, such as \"豬哥亮的瘋狂世界,\" which is deeply loved by the audience. This shows a direct relationship between 豬哥亮 and the TV show, indicating that the show hosted by him is loved by the audience. Therefore, the subjects 豬哥亮 and the show hosted by him are [Foo]. \n\nTherefore, the subjects should be considered [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The provided knowledge points highlight the success and popularity of the shows hosted by 豬哥亮, including programs like \"豬哥會社\", \"豬哥壹級棒\", and \"萬秀豬王\" which had high viewership. Additionally, it is mentioned that even after his passing, the advertisements and programs he recorded remain popular among audiences.\n\n2. The knowledge also mentions that despite his illness and eventual passing, 豬哥亮's shows and advertisements continue to be well-received, indicating a lasting impact and fondness for his work.\n\n3. The main points of the knowledge are:\n- 豬哥亮 hosted successful shows like \"豬哥會社\", \"豬哥壹級棒\", and \"萬秀豬王\" with high viewership.\n- Even after his passing, the advertisements and programs he recorded remain popular.\n- His shows and advertisements continue to be well-received, showcasing a lasting impact.\n\nSTATEMENT: The show hosted by 豬哥亮 is deeply loved by the audience.\n\nBased on the provided knowledge and the points highlighted, it can be inferred that the statement is [Supported]. The success, popularity, and lasting impact of 豬哥亮's shows and advertisements suggest a deep love and appreciation from the audience.",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。",
+                        "atomic_fact": "豬哥亮在演藝事業上取得了巨大的成功。",
+                        "self_contained_atomic_fact": "豬哥亮在演藝事業上取得了巨大的成功。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮在演藝事業上取得了巨大的成功。",
+                            "revised_fact": "The subject in the statement \"豬哥亮在演藝事業上取得了巨大的成功。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮在演藝事業上取得了巨大的成功。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nSpecific Reasoning:\nThe QUESTION asks about who 豬哥亮 is, and the STATEMENT provides information about his success in the entertainment industry. The RESPONSE also discusses his career as a singer, actor, and host, highlighting his achievements and impact on Taiwanese culture. Since both the QUESTION and the STATEMENT focus on the success and career of 豬哥亮, the subjects should be considered [Foo].\n\nTherefore, the subjects 豬哥亮 in the QUESTION and the STATEMENT are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided highlight the career and achievements of Taiwanese entertainer 豬哥亮.\n2. It mentions his record-breaking hosting fees for various TV shows, reflecting his popularity and success in the entertainment industry.\n3. Additionally, it emphasizes the importance of box office success and audience approval in determining an artist's achievement in the entertainment industry.\n4. The knowledge also mentions how his career spanned from cabaret shows to movies, TV, and advertisements, proving his societal value as a comedian.\n5. The overall tone of the knowledge points suggests that 豬哥亮 had a significant and successful career in the entertainment industry.\n\nSTATEMENT: \n豬哥亮在演藝事業上取得了巨大的成功。\n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。",
+                        "atomic_fact": "豬哥亮為台灣文化界留下了印記。",
+                        "self_contained_atomic_fact": "豬哥亮為台灣文化界留下了印記.",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮為台灣文化界留下了印記。",
+                            "revised_fact": "The subject in the statement \"豬哥亮為台灣文化界留下了印記\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮為台灣文化界留下了印記.\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 台灣文化界 (Taiwanese cultural scene)\n\nSpecific reasoning:\nThe RESPONSE provides information about how 豬哥亮 was a well-known Taiwanese singer, actor, and host who left a lasting mark on the Taiwanese cultural scene. The statement directly mentions that 豬哥亮為台灣文化界留下了印記, indicating that he made a significant impact on the Taiwanese cultural scene. Therefore, the subjects 豬哥亮 and 台灣文化界 are [Foo]. \n\nTherefore, the subjects 豬哥亮 and 台灣文化界 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided highlight the impact and influence of 豬哥亮 in Taiwan's entertainment industry during the 1980s.\n2. It is mentioned that he was a famous show host, known for his humor and entertainment value, and his rise and fall in the industry were significant.\n3. Additionally, it is stated that 豬哥亮's unique style, including his use of Minnan dialect and unconventional performances, made him a beloved figure in the entertainment scene.\n4. The knowledge also mentions his involvement in political events, such as supporting a political candidate in 1994, which further emphasizes his presence in Taiwanese culture.\n5. Overall, the knowledge points strongly suggest that 豬哥亮 has indeed left a mark on Taiwan's cultural landscape.\n\nSTATEMENT: \n豬哥亮為台灣文化界留下了印記.\n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記。",
+                        "atomic_fact": "豬哥亮的印記是不可磨滅的。.",
+                        "self_contained_atomic_fact": "豬哥亮的印記是不可磨滅的。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮的印記是不可磨滅的。.",
+                            "revised_fact": "The subject in the statement \"豬哥亮的印記是不可磨滅的。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮的印記是不可磨滅的。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮的印記\n\nSpecific reasoning:\nThe STATEMENT mentions that \"豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記.\" This indicates that the subject of the STATEMENT, which is the lasting imprint left by 豬哥亮, is directly related to the broad subject of the QUESTION, which is 豬哥亮. Therefore, the subjects should be considered [Foo]. \n\nTherefore, the subjects are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge provided talks about the legendary life of 豬哥亮, his impact on the entertainment industry, and his unique style of performance.\n2. It mentions how despite his often risque humor on stage, there were no rumors of him mistreating young female artists or being involved in scandals with them.\n3. Additionally, it highlights his distinctive element of \"karmic retribution\" in his content, which is not typically found in contemporary or American-style stand-up comedy.\n4. The knowledge also emphasizes the enduring nature of his impact, as seen in the phrase \"历久弥新\" (enduring and renewing).\n5. Overall, the knowledge portrays 豬哥亮 as a significant figure with a lasting legacy in the entertainment industry.\n\nSTATEMENT: \n豬哥亮的印記是不可磨滅的.\n\nBased on the knowledge provided, the statement is supported. The enduring impact and unique elements of 豬哥亮's performances suggest that his legacy and imprint on the entertainment industry are indelible.\n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "atomic_fact": "他的幽默風格讓他成為了一代人心中的經典偶像。",
+                        "self_contained_atomic_fact": "豬哥亮的幽默風格讓他成為了一代人心中的經典偶像。",
+                        "relevance_data": {
+                            "atomic_fact": "他的幽默風格讓他成為了一代人心中的經典偶像。",
+                            "revised_fact": "The subject in the statement \"他的幽默風格讓他成為了一代人心中的經典偶像\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮的幽默風格讓他成為了一代人心中的經典偶像。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe phrase \"豬哥亮的幽默風格讓他成為了一代人心中的經典偶像\" from the RESPONSE explains how 豬哥亮's humorous style made him a classic idol in the hearts of a generation. This shows a direct relationship between the subject of the QUESTION (豬哥亮) and the subject of the STATEMENT (豬哥亮). Therefore, the subjects should be considered [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The provided knowledge discusses the career and impact of Taiwanese entertainer, Piggy Chou (豬哥亮), highlighting his humor, hosting style, and influence on the audience.\n2. Piggy Chou rose to fame in the 1980s during Taiwan's economic boom, where many people started from scratch and workers faced challenging conditions.\n3. Piggy Chou's unique humor and hosting style earned him the title of \"天王\" (King of the Stage) and established him as an iconic figure in the entertainment industry.\n4. The knowledge emphasizes Piggy Chou's enduring popularity and the lasting impact of his \"豬式風格\" (Piggy Style) on the audience.\n5. The information provided strongly suggests that Piggy Chou's humor and style have made him a beloved and iconic figure for a generation of people.\n\nSTATEMENT: \n豬哥亮的幽默風格讓他成為了一代人心中的經典偶像。\n\nBased on the knowledge provided, the statement is [Supported]. Piggy Chou's humor and style have indeed made him a classic idol in the hearts of many people.",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "atomic_fact": "他的獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "self_contained_atomic_fact": "豬哥亮的獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "relevance_data": {
+                            "atomic_fact": "他的獨特魅力讓他成為了一代人心中的經典偶像。",
+                            "revised_fact": "The subject in the statement \"他的獨特魅力讓他成為了一代人心中的經典偶像\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮的獨特魅力讓他成為了一代人心中的經典偶像。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe phrase \"豬哥亮的獨特魅力讓他成為了一代人心中的經典偶像\" from the RESPONSE explains how 豬哥亮's unique charm made him a classic idol in the hearts of a generation. This shows a direct relationship between the subject of the QUESTION (豬哥亮) and the subject of the STATEMENT (豬哥亮). Therefore, the subjects 豬哥亮 and 豬哥亮 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points highlight the unique charm and stage presence of 豬哥亮, a comedian and entertainer.\n2. It is mentioned that his humor and charisma were undeniable, leading to his popularity and success on stage.\n3. The knowledge emphasizes how his style and humor resonated with audiences, making him a beloved figure in the entertainment industry.\n4. The information provided strongly implies that 豬哥亮's unique charm and stage presence made him a classic idol for many people.\n\nSTATEMENT: \n豬哥亮的獨特魅力讓他成為了一代人心中的經典偶像.\n\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "atomic_fact": "他是一代人心中的經典偶像。.",
+                        "self_contained_atomic_fact": "豬哥亮是一代人心中的經典偶像。",
+                        "relevance_data": {
+                            "atomic_fact": "他是一代人心中的經典偶像。.",
+                            "revised_fact": "The subject in the statement \"他是一代人心中的經典偶像。\" is \"他\". This is a pronoun that refers to an unknown entity in the broader context. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮是一代人心中的經典偶像。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 一代人 (Yīdài rén)\n\nSpecific Reasoning:\nThe RESPONSE mentions that \"他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像\" which translates to \"His humorous style and unique charm have made him a classic idol in the hearts of a generation.\" This shows that the relationship between 豬哥亮 and 一代人 is that he is considered a classic idol by a generation.\n\nTherefore, the subjects 豬哥亮 and 一代人 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. Chu Ke-liang (豬哥亮) was a Taiwanese comedian, actor, television show host, and singer known for his unique appearance, coarse humor, and popularity in Taiwan.\n2. Chu Ke-liang (豬哥亮) passed away on May 15, 2017, at the age of 70.\n3. Chu Ke-liang (豬哥亮) had a tumultuous life, experiencing highs and lows, including significant financial losses due to gambling.\n\nBased on the knowledge provided, it can be inferred that Chu Ke-liang (豬哥亮) was indeed a classic idol in the hearts of many people, given his extensive career in entertainment, his popularity, and the impact he had on Taiwanese culture.\n\n**Statement:** 豬哥亮是一代人心中的經典偶像。\n**Final Answer:** [Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。",
+                        "atomic_fact": "豬哥亮於2014年去世。",
+                        "self_contained_atomic_fact": "豬哥亮於2014年去世。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮於2014年去世。",
+                            "revised_fact": "The subject in the statement \"豬哥亮於2014年去世。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮於2014年去世。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe subject of the QUESTION is 豬哥亮 (Zhū Gēliàng). The subject of the STATEMENT is also 豬哥亮 (Zhū Gēliàng). The RESPONSE explicitly states that 豬哥亮 passed away in 2014. This shows a direct relationship between the two subjects, as the STATEMENT provides information about the death of the individual mentioned in the QUESTION. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) in the QUESTION and STATEMENT are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided state that 豬哥亮 (Zhu Ge Liang) passed away on May 15, 2017, at the age of 70 due to colorectal cancer. It also mentions that after his death, there were internet memes expressing support for him.\n2. The knowledge also mentions that 豬哥亮 was diagnosed with colorectal cancer in 2014 and his condition deteriorated rapidly as he did not opt for conventional treatment.\n3. The main points of the knowledge are:\n   - 豬哥亮 passed away in 2017 at the age of 70 due to colorectal cancer.\n   - He was diagnosed with colorectal cancer in 2014 and did not undergo conventional treatment, leading to a rapid deterioration of his health.\n   - There were internet memes expressing support for him after his death.\n4. **Statement:** 豬哥亮於2014年去世 (Zhu Ge Liang passed away in 2014).\n5. **Reasoning:** The statement is not supported by the knowledge provided. The knowledge clearly states that 豬哥亮 passed away in 2017, not in 2014. The information about his battle with colorectal cancer and eventual passing all point to the year 2017, not 2014.\n6. **[Not Supported]】",
+                            "answer": "Not Supported"
+                        },
+                        "annotation": "Not Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。",
+                        "atomic_fact": "豬哥亮因病去世。",
+                        "self_contained_atomic_fact": "豬哥亮因病去世。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮因病去世。",
+                            "revised_fact": "The subject in the statement \"豬哥亮因病去世\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮因病去世。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮\n\nThe STATEMENT directly states that 豬哥亮 passed away due to illness. This information is directly related to the broad subject of the QUESTION, which is also about 豬哥亮. Therefore, the subjects in the STATEMENT and QUESTION are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. The knowledge points provided indicate that the Taiwanese entertainer, 豬哥亮 (Zhu Ge Liang), passed away on May 15, 2017, due to advanced colorectal cancer that led to liver failure.\n2. It is mentioned that he was diagnosed with stage II colorectal cancer in May 2014 and despite plans for surgery, he did not undergo the procedure and eventually succumbed to the illness.\n3. The information emphasizes the severity of colorectal cancer, highlighting its danger and the fact that it has been a leading cause of cancer-related deaths in Taiwan for 15 years. Several well-known individuals, including entertainers like 豬哥亮, have lost their lives to this disease.\n4. The details provided strongly imply that the statement \"豬哥亮因病去世\" (Zhu Ge Liang passed away due to illness) is supported by the knowledge points.\n5. **Statement:** 豬哥亮因病去世。\n6. [Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。",
+                        "atomic_fact": "豬哥亮的作品烙印在人們的心中。",
+                        "self_contained_atomic_fact": "豬哥亮的作品烙印在人們的心中。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮的作品烙印在人們的心中。",
+                            "revised_fact": "The subject in the statement \"豬哥亮的作品烙印在人們的心中\" is \"豬哥亮的作品\". This is a vague reference as it does not specify whose works are imprinted in people's hearts. From the RESPONSE, we can see that the works referred to in the STATEMENT are those of 豬哥亮. Therefore, \"豬哥亮的作品\" should be replaced by \"豬哥亮的作品\". Thus, the revised statement is:\n```\n豬哥亮的作品烙印在人們的心中。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮的作品 (Zhū Gēliàng's works)\n\nThe RESPONSE provides information about how 豬哥亮's works have left a lasting impression on people's hearts. The statement \"他的作品和形象仍然深深地烙印在人們的心中\" directly connects the subject of the QUESTION (豬哥亮) with the subject of the STATEMENT (豬哥亮的作品) by explaining that his works have deeply imprinted in people's hearts. Therefore, the subjects 豬哥亮 and 豬哥亮的作品 are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. 豬哥亮是台灣的節目主持人、歌手、喜劇演員，曾在夜總會的舞台上表演，並以錄影帶形式流動於全台各地。\n2. 他的作品包括《天下一大樂》、《少爺當大兵》、《新少林五祖》、《雞排英雄》等，以及一些電影和節目。\n3. 豬哥亮的表演風格被描述為低俗、歧視、充斥著關於性與女人的玩笑。\n4. 他在過去的表演中很受歡迎，但最近復出後的作品被評為不再好笑，甚至被形容為爛。\n\nBased on the knowledge provided, it can be inferred that 豬哥亮's works have left a lasting impact on people, even though his recent works have not been well-received.\n\nSTATEMENT: 豬哥亮的作品烙印在人們的心中。\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    },
+                    {
+                        "sentence": "豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中。",
+                        "atomic_fact": "豬哥亮的形象烙印在人們的心中。.",
+                        "self_contained_atomic_fact": "豬哥亮的形象烙印在人們的心中。",
+                        "relevance_data": {
+                            "atomic_fact": "豬哥亮的形象烙印在人們的心中。.",
+                            "revised_fact": "The subject in the statement \"豬哥亮的形象烙印在人們的心中。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮的形象烙印在人們的心中。\n```",
+                            "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮的形象 (Zhū Gēliàng's image)\n\nThe phrase \"豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中\" from the RESPONSE indicates that the relationship between 豬哥亮 (Zhū Gēliàng) and his image is that his image is deeply imprinted in people's hearts. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) and 豬哥亮的形象 (Zhū Gēliàng's image) are [Foo]."
+                        },
+                        "rate_data": {
+                            "response": "1. 豬哥亮是台灣的節目主持人、歌手、喜劇演員，他的演藝活動大多使用台灣話，並在台灣走紅後在其他閩南人社群中也有知名度。\n2. 豬哥亮的形象品牌包括馬桶蓋造型，他在流行文化中被視為先驅和開創者，並且在舞台上展現獨特性，不在乎形象或當丑角。\n3. 豬哥亮的形象吸引了黑幫老板的注意，並成為歌廳的導演和編劇。他的形象在廣告片中以AI科技呈現，讓人感覺真實又溫暖。\n4. 豬哥亮的形象在各方面都有獨特性和影響力，並且在人們心中留下深刻印象。\n\nSTATEMENT: 豬哥亮的形象烙印在人們的心中.\n[Supported]",
+                            "answer": "Supported"
+                        },
+                        "annotation": "Supported"
+                    }
+                ],
+                "revised_fact_jsonified_all": [
+                    {
+                        "atomic_fact": "豬哥亮的原名是鄭金龍。",
+                        "revised_fact": "The subject in the statement \"豬哥亮的原名是鄭金龍\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮的原名是鄭金龍。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 鄭金龍 (Zhèng Jīnlóng)\n\nThe phrase \"豬哥亮（原名：鄭金龍）\" in the RESPONSE indicates that the two subjects, 豬哥亮 and 鄭金龍, are the same person, with 鄭金龍 being the real name of 豬哥亮. Therefore, the subjects 豬哥亮 and 鄭金龍 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮是台灣的歌手。",
+                        "revised_fact": "The subject in the statement \"豬哥亮是台灣的歌手\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是台灣的歌手。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 台灣的歌手\n\nThe RESPONSE provides information that 豬哥亮 is a well-known Taiwanese singer, actor, and host. It mentions that he was active in the entertainment industry in Taiwan during the 1970s to 1980s, known for his humorous and unique singing style. This establishes a clear relationship between the subjects in the QUESTION and STATEMENT, as it directly states that 豬哥亮 is a singer in Taiwan. Therefore, the subjects 豬哥亮 and 台灣的歌手 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮是台灣的演員。",
+                        "revised_fact": "The subject in the statement \"豬哥亮是台灣的演員\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是台灣的演員。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 台灣的演員 (Taiwanese actor)\n\nSpecific reasoning:\nThe RESPONSE provides information that 豬哥亮 is a 台灣歌手、演員和主持人 (Taiwanese singer, actor, and host). This indicates that the subject of the STATEMENT (豬哥亮) is indeed a type of actor, which aligns with the broad subject of the QUESTION. Therefore, the subjects 豬哥亮 and 台灣的演員 should be considered [Foo]. \n\n[Foo]"
+                    },
+                    {
+                        "atomic_fact": "豬哥亮是台灣的主持人。",
+                        "revised_fact": "The subject in the statement \"豬哥亮是台灣的主持人\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是台灣的主持人。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 台灣的主持人 (Taiwanese host)\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 (Zhū Gēliàng)曾主持過許多電視節目 (has hosted many TV shows), such as 《豬哥亮的瘋狂世界》 (Zhū Gēliàng's Crazy World). This indicates that there is a direct relationship between the subject of the STATEMENT and the subject of the QUESTION, as they are both related to hosting TV shows.\n\nTherefore, the subjects 豬哥亮 (Zhū Gēliàng) and 台灣的主持人 (Taiwanese host) are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮是知名人物。.",
+                        "revised_fact": "The subject in the statement \"豬哥亮是知名人物。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮是知名人物。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 知名人物 (zhīmíng rénwù)\n\nSpecific Reasoning:\nThe RESPONSE provides information about how 豬哥亮 is a well-known Taiwanese singer, actor, and host who was active in the entertainment industry in the 1970s and 1980s. He collaborated with 蔡琴 on classic songs like \"酒干倘卖无\" and \"爱拼才会赢.\" Additionally, he hosted TV shows like \"豬哥亮的瘋狂世界.\" These details establish that 豬哥亮 is a prominent figure in the entertainment industry, making him a 知名人物.\n\nTherefore, the subjects 豬哥亮 and 知名人物 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他活躍於演藝圈。",
+                        "revised_fact": "The subject in the statement \"他活躍於演藝圈\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a vague reference that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮活躍於演藝圈。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮\n\nThe phrase \"他在1970年代至1980年代間活躍於演藝圈\" from the RESPONSE indicates that 豬哥亮 was active in the entertainment industry during the 1970s and 1980s. Since the STATEMENT directly refers to this aspect of his career, the subjects 豬哥亮 in the QUESTION and STATEMENT are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他活躍於1970年代至1980年代。",
+                        "revised_fact": "The subject in the statement \"他活躍於1970年代至1980年代。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a vague reference that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮活躍於1970年代至1980年代。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 1970年代至1980年代 (1970s to 1980s)\n\nSpecific Reasoning:\nThe RESPONSE provides information that 豬哥亮 was active in the entertainment industry during the 1970s to 1980s. This directly connects the subject of the STATEMENT (1970年代至1980年代) with the subject of the QUESTION (豬哥亮). Therefore, the subjects should be considered [Foo]. \n\nTherefore, the subjects 豬哥亮 and 1970年代至1980年代 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他以幽默搞笑的風格而聞名。",
+                        "revised_fact": "The subject in the statement \"他以幽默搞笑的風格而聞名\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that the statement is referring to 豬哥亮. Therefore, \"他\" should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮以幽默搞笑的風格而聞名。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 is known for his humorous and funny style, which is evident in his work as a singer, actor, and host. This establishes a direct relationship between the subject of the STATEMENT and the subject of the QUESTION, as both refer to the same individual and highlight his distinctive comedic style. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) in the STATEMENT and QUESTION are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他以獨特的歌唱方式而聞名。.",
+                        "revised_fact": "The subject in the statement \"他以獨特的歌唱方式而聞名。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮以獨特的歌唱方式而聞名。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮的獨特歌唱方式\n\nThe RESPONSE provides information that 豬哥亮 is known for his unique singing style and has collaborated with 蔡琴 on classic songs like \"酒干倘卖无\" and \"爱拼才会赢\". This shows a clear relationship between the subject of the STATEMENT (豬哥亮的獨特歌唱方式) and the subject of the QUESTION (豬哥亮) based on their connection through his singing style. Therefore, the subjects should be considered [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮曾與蔡琴合作演唱過許多經典歌曲。",
+                        "revised_fact": "The subject in the statement \"豬哥亮曾與蔡琴合作演唱過許多經典歌曲\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮曾與蔡琴合作演唱過許多經典歌曲.\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nSpecific Reasoning:\nThe QUESTION asks about who 豬哥亮 (Zhū Gēliàng) is.\nThe STATEMENT mentions that 豬哥亮 (Zhū Gēliàng) collaborated with 蔡琴 (Cài Qín) to sing many classic songs.\nThis shows that the relationship between 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) is that they collaborated on singing classic songs.\nTherefore, the subjects 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。",
+                        "revised_fact": "The subject in the statement \"豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮曾與蔡琴合作演唱過《酒干倘卖无》。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nThe phrase \"豬哥亮曾與蔡琴合作演唱過許多經典歌曲，如《酒干倘卖无》\" from the RESPONSE indicates that 豬哥亮 and 蔡琴 have collaborated on singing the song \"酒干倘卖无.\" This shows a direct relationship between the two subjects, making them [Foo]. \n\nTherefore, the subjects 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。",
+                        "revised_fact": "The subject in the statement \"豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nThe phrase \"豬哥亮曾與蔡琴合作演唱過《爱拼才会赢》\" from the RESPONSE indicates that there is a relationship between 豬哥亮 and 蔡琴, as they collaborated on singing the song \"爱拼才会赢.\" Therefore, the subjects 豬哥亮 and 蔡琴 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "這些歌曲至今仍然深受人們喜愛。.",
+                        "revised_fact": "The subject in the statement \"這些歌曲至今仍然深受人們喜愛。\" is \"這些歌曲\" which is a vague reference to an unknown entity. From the RESPONSE, we can see that the statement is referring to the classic songs that 豬哥亮 and 蔡琴 collaborated on. Therefore, \"這些歌曲\" should be replaced by \"the classic songs that 豬哥亮 and 蔡琴 collaborated on\". Thus, the revised statement is:\n\n```\nThe classic songs that 豬哥亮 and 蔡琴 collaborated on are still deeply loved by people.\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín)\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) collaborated on classic songs such as \"酒干倘卖无\" and \"爱拼才会赢,\" which are still deeply loved by people. This shows a direct relationship between 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) as collaborators on these songs. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) and 蔡琴 (Cài Qín) are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他曾主持過許多電視節目。",
+                        "revised_fact": "The subject in the statement \"他曾主持過許多電視節目。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮曾主持過許多電視節目。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe RESPONSE provides information that 豬哥亮 (Zhū Gēliàng) has hosted many TV shows, such as \"豬哥亮的瘋狂世界\" (Zhū Gēliàng's Crazy World). The STATEMENT directly relates to this information by mentioning that he has hosted many TV shows. Therefore, the subjects of the STATEMENT and the QUESTION are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他主持過《豬哥亮的瘋狂世界》。",
+                        "revised_fact": "The subject in the statement \"他主持過《豬哥亮的瘋狂世界》。\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a vague reference that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮主持過《豬哥亮的瘋狂世界》。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\n\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe phrase \"他也曾主持過許多電視節目，如《豬哥亮的瘋狂世界》等\" from the RESPONSE indicates that 豬哥亮 has hosted the show \"豬哥亮的瘋狂世界\". This shows a direct relationship between the subject of the QUESTION and the subject of the STATEMENT, as they are both referring to the same individual. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) in the QUESTION and STATEMENT are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "《豬哥亮的瘋狂世界》是一個電視節目。",
+                        "revised_fact": "The subject in the statement \"《豬哥亮的瘋狂世界》是一個電視節目。\" is \"《豬哥亮的瘋狂世界》\". This is a vague reference to an unknown entity, as it is unclear what specific television program is being referred to. From the RESPONSE, we can see that the program mentioned is associated with 豬哥亮. Therefore, \"《豬哥亮的瘋狂世界》\" should be replaced with \"the television program associated with 豬哥亮\". Thus, the revised statement is:\n\n```\nThe television program associated with 豬哥亮 is called \"豬哥亮的瘋狂世界\".\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: The television program \"豬哥亮的瘋狂世界\"\n\nThe RESPONSE mentions that 豬哥亮主持過許多電視節目,其中包括\"豬哥亮的瘋狂世界\". This shows that the relationship between 豬哥亮 and the television program \"豬哥亮的瘋狂世界\" is that he was the host of the show. Therefore, the subjects 豬哥亮 and the television program \"豬哥亮的瘋狂世界\" are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "《豬哥亮的瘋狂世界》深受觀眾喜愛。.",
+                        "revised_fact": "The subject in the statement \"《豬哥亮的瘋狂世界》深受觀眾喜愛。\" is \"《豬哥亮的瘋狂世界》\". This is a vague reference to an unknown entity, as it is unclear what specific show is being referred to. From the RESPONSE, we can see that the show mentioned is hosted by 豬哥亮. Therefore, \"《豬哥亮的瘋狂世界》\" should be replaced with \"the show hosted by 豬哥亮\". Thus, the revised statement is:\n\n```\nThe show hosted by 豬哥亮 is deeply loved by the audience.\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: The show hosted by 豬哥亮\n\nSpecific Reasoning:\nThe RESPONSE mentions that 豬哥亮 has hosted many TV shows, such as \"豬哥亮的瘋狂世界,\" which is deeply loved by the audience. This shows a direct relationship between 豬哥亮 and the TV show, indicating that the show hosted by him is loved by the audience. Therefore, the subjects 豬哥亮 and the show hosted by him are [Foo]. \n\nTherefore, the subjects should be considered [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮在演藝事業上取得了巨大的成功。",
+                        "revised_fact": "The subject in the statement \"豬哥亮在演藝事業上取得了巨大的成功。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮在演藝事業上取得了巨大的成功。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nSpecific Reasoning:\nThe QUESTION asks about who 豬哥亮 is, and the STATEMENT provides information about his success in the entertainment industry. The RESPONSE also discusses his career as a singer, actor, and host, highlighting his achievements and impact on Taiwanese culture. Since both the QUESTION and the STATEMENT focus on the success and career of 豬哥亮, the subjects should be considered [Foo].\n\nTherefore, the subjects 豬哥亮 in the QUESTION and the STATEMENT are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮為台灣文化界留下了印記。",
+                        "revised_fact": "The subject in the statement \"豬哥亮為台灣文化界留下了印記\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮為台灣文化界留下了印記.\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 台灣文化界 (Taiwanese cultural scene)\n\nSpecific reasoning:\nThe RESPONSE provides information about how 豬哥亮 was a well-known Taiwanese singer, actor, and host who left a lasting mark on the Taiwanese cultural scene. The statement directly mentions that 豬哥亮為台灣文化界留下了印記, indicating that he made a significant impact on the Taiwanese cultural scene. Therefore, the subjects 豬哥亮 and 台灣文化界 are [Foo]. \n\nTherefore, the subjects 豬哥亮 and 台灣文化界 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮的印記是不可磨滅的。.",
+                        "revised_fact": "The subject in the statement \"豬哥亮的印記是不可磨滅的。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮的印記是不可磨滅的。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮的印記\n\nSpecific reasoning:\nThe STATEMENT mentions that \"豬哥亮在演藝事業上取得了巨大的成功，並為台灣文化界留下了不可磨滅的印記.\" This indicates that the subject of the STATEMENT, which is the lasting imprint left by 豬哥亮, is directly related to the broad subject of the QUESTION, which is 豬哥亮. Therefore, the subjects should be considered [Foo]. \n\nTherefore, the subjects are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他的幽默風格讓他成為了一代人心中的經典偶像。",
+                        "revised_fact": "The subject in the statement \"他的幽默風格讓他成為了一代人心中的經典偶像\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮的幽默風格讓他成為了一代人心中的經典偶像。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe phrase \"豬哥亮的幽默風格讓他成為了一代人心中的經典偶像\" from the RESPONSE explains how 豬哥亮's humorous style made him a classic idol in the hearts of a generation. This shows a direct relationship between the subject of the QUESTION (豬哥亮) and the subject of the STATEMENT (豬哥亮). Therefore, the subjects should be considered [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他的獨特魅力讓他成為了一代人心中的經典偶像。",
+                        "revised_fact": "The subject in the statement \"他的獨特魅力讓他成為了一代人心中的經典偶像\" is \"他\". This is a pronoun that refers to an unknown entity. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" is a pronoun that should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮的獨特魅力讓他成為了一代人心中的經典偶像。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe phrase \"豬哥亮的獨特魅力讓他成為了一代人心中的經典偶像\" from the RESPONSE explains how 豬哥亮's unique charm made him a classic idol in the hearts of a generation. This shows a direct relationship between the subject of the QUESTION (豬哥亮) and the subject of the STATEMENT (豬哥亮). Therefore, the subjects 豬哥亮 and 豬哥亮 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "他是一代人心中的經典偶像。.",
+                        "revised_fact": "The subject in the statement \"他是一代人心中的經典偶像。\" is \"他\". This is a pronoun that refers to an unknown entity in the broader context. From the RESPONSE, we can see that \"他\" is referring to \"豬哥亮\". Therefore, \"他\" should be replaced by \"豬哥亮\". Thus, the revised statement is:\n\n```\n豬哥亮是一代人心中的經典偶像。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 一代人 (Yīdài rén)\n\nSpecific Reasoning:\nThe RESPONSE mentions that \"他的幽默風格和獨特魅力讓他成為了一代人心中的經典偶像\" which translates to \"His humorous style and unique charm have made him a classic idol in the hearts of a generation.\" This shows that the relationship between 豬哥亮 and 一代人 is that he is considered a classic idol by a generation.\n\nTherefore, the subjects 豬哥亮 and 一代人 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮於2014年去世。",
+                        "revised_fact": "The subject in the statement \"豬哥亮於2014年去世。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮於2014年去世。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮 (Zhū Gēliàng)\n\nThe subject of the QUESTION is 豬哥亮 (Zhū Gēliàng). The subject of the STATEMENT is also 豬哥亮 (Zhū Gēliàng). The RESPONSE explicitly states that 豬哥亮 passed away in 2014. This shows a direct relationship between the two subjects, as the STATEMENT provides information about the death of the individual mentioned in the QUESTION. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) in the QUESTION and STATEMENT are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮因病去世。",
+                        "revised_fact": "The subject in the statement \"豬哥亮因病去世\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮因病去世。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮\nBroad subject of the STATEMENT: 豬哥亮\n\nThe STATEMENT directly states that 豬哥亮 passed away due to illness. This information is directly related to the broad subject of the QUESTION, which is also about 豬哥亮. Therefore, the subjects in the STATEMENT and QUESTION are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮的作品烙印在人們的心中。",
+                        "revised_fact": "The subject in the statement \"豬哥亮的作品烙印在人們的心中\" is \"豬哥亮的作品\". This is a vague reference as it does not specify whose works are imprinted in people's hearts. From the RESPONSE, we can see that the works referred to in the STATEMENT are those of 豬哥亮. Therefore, \"豬哥亮的作品\" should be replaced by \"豬哥亮的作品\". Thus, the revised statement is:\n```\n豬哥亮的作品烙印在人們的心中。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮的作品 (Zhū Gēliàng's works)\n\nThe RESPONSE provides information about how 豬哥亮's works have left a lasting impression on people's hearts. The statement \"他的作品和形象仍然深深地烙印在人們的心中\" directly connects the subject of the QUESTION (豬哥亮) with the subject of the STATEMENT (豬哥亮的作品) by explaining that his works have deeply imprinted in people's hearts. Therefore, the subjects 豬哥亮 and 豬哥亮的作品 are [Foo]."
+                    },
+                    {
+                        "atomic_fact": "豬哥亮的形象烙印在人們的心中。.",
+                        "revised_fact": "The subject in the statement \"豬哥亮的形象烙印在人們的心中。\" is \"豬哥亮\". \"豬哥亮\" is not a pronoun and does not reference an unknown entity. Furthermore, \"豬哥亮\" is not further specified in the RESPONSE, so we can assume that it is a full name. Therefore \"豬哥亮\" is not a vague reference. Thus, the revised statement is:\n```\n豬哥亮的形象烙印在人們的心中。\n```",
+                        "is_relevant": "Broad subject of the QUESTION: 豬哥亮 (Zhū Gēliàng)\nBroad subject of the STATEMENT: 豬哥亮的形象 (Zhū Gēliàng's image)\n\nThe phrase \"豬哥亮於2014年因病去世，但他的作品和形象仍然深深地烙印在人們的心中\" from the RESPONSE indicates that the relationship between 豬哥亮 (Zhū Gēliàng) and his image is that his image is deeply imprinted in people's hearts. Therefore, the subjects 豬哥亮 (Zhū Gēliàng) and 豬哥亮的形象 (Zhū Gēliàng's image) are [Foo]."
+                    }
+                ],
+                "past_steps_jsonified_all": [
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 鄭金龍 真實姓名",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 鄭 金龍. 豬哥亮（1543年-1585年7月27日），本名謝新達。 出生於高雄市左營區。 台灣知名主持人，也為早期秀場天王。 1993年疑因為賭博積欠大筆賭債而「走路」（閩南語「逃亡」之意 ... Missing: 金龍 | Show results with:金龍. 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... Missing: 鄭 金龍."
+                            },
+                            {
+                                "query": "豬哥亮 鄭金龍 原名",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 鄭 金龍. 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... Missing: 鄭 金龍. 豬哥亮為何可以模仿阿吉仔？ 在節目中模仿殘障演藝人員，最早也最多的案例，其實並不是阿吉仔，而是1986年中視的智障臨時演員「兩百塊」（本名王萬利）。 ..."
+                            },
+                            {
+                                "query": "豬哥亮 鄭金龍 原名",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 鄭 金龍. 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... Missing: 鄭 金龍. 豬哥亮為何可以模仿阿吉仔？ 在節目中模仿殘障演藝人員，最早也最多的案例，其實並不是阿吉仔，而是1986年中視的智障臨時演員「兩百塊」（本名王萬利）。 ..."
+                            },
+                            {
+                                "query": "豬哥亮 鄭金龍 原名",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 鄭 金龍. 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... Missing: 鄭 金龍. 豬哥亮為何可以模仿阿吉仔？ 在節目中模仿殘障演藝人員，最早也最多的案例，其實並不是阿吉仔，而是1986年中視的智障臨時演員「兩百塊」（本名王萬利）。 ..."
+                            },
+                            {
+                                "query": "豬哥亮 鄭金龍 原名",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 鄭 金龍. 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... Missing: 鄭 金龍. 豬哥亮為何可以模仿阿吉仔？ 在節目中模仿殘障演藝人員，最早也最多的案例，其實並不是阿吉仔，而是1986年中視的智障臨時演員「兩百塊」（本名王萬利）。 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 台灣 歌手 資料",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 歌手 資料",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 歌手",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... ... 歌手、演员、猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之 ... 衷心欣賞這個段子，豬大哥的幽默詼諧比那些炎上的節目好太多. 1:13:22 · Go to channel · 江蕙 ... Duration: 0:59. Posted: Aug 1, 2024."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 歌手",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手 ... ... 歌手、演员、猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之 ... 秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 歌手",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ... 秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 出生地 台灣",
+                                "result": "Zuoying District, Taiwan Zuoying District is a district of Kaohsiung City in southern Taiwan. Zuoying District has the most populous village in Taiwan: Fushan Village. Zuoying District (左營區) Region: Southern Taiwan. 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 高雄 左營 區",
+                                "result": "... 高雄左營人，區公所特別將他老家的巷子，取名為豬哥巷，還立了磚牆簡介，豬哥亮信仰神 ... Duration: 3:18. Posted: May 15, 2017. 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 豬哥亮當年從高雄、藍寶石歌廳發跡，他其實家鄉在高雄左營，當地區公所，還將他老家的那一條巷子，取名為豬哥巷，他和南部的淵源也很深，生前固定到新港奉天宮 ..."
+                            },
+                            {
+                                "query": "豬哥亮 高雄 左營 區",
+                                "result": "綜藝天王豬哥亮過世，南部有許多熱愛豬哥亮的忠實粉絲相當不捨，事實上，豬哥亮是高雄左 ... Duration: 3:18. Posted: May 15, 2017. 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手 ... 豬哥亮當年從高雄、藍寶石歌廳發跡，他其實家鄉在高雄左營，當地區公所，還將他老家的那一條巷子，取名為豬哥巷，他和南部的淵源也很深，生前固定到新港 ..."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 演員 資料",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 演員",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手 ... ... 台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、电视剧和电影，而唱歌也有一手。猪哥亮曾因负债两亿而退出娱乐圈，2009年复出 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 主持節目 台灣",
+                                "result": "台灣 · 1977年 · 《廖添丁》 · 主持： 《豬哥亮歌廳秀》 《巨登大歌廳》 《爆笑訪問秀》 《豬哥會社》 《萬秀豬王》 《華視天王豬哥秀》 音樂： 〈豬哥亮歌廳秀主題曲〉 〈 ... 猪哥亮 ; 台湾 · 1977年 · 《廖添丁》 · 主持： 《猪哥亮歌厅秀》 《巨登大歌厅》 《爆笑访问秀》 《猪哥会社》 《万秀猪王》 《华视天王猪哥秀》 音乐： 〈猪哥亮歌厅秀主题曲〉 ... 台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、电视剧和电影，而唱歌也有一手。猪哥亮曾因负债两亿而退出娱乐圈，2009年复出 ..."
+                            },
+                            {
+                                "query": "猪哥亮 台灣 主持人 資料",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ..."
+                            },
+                            {
+                                "query": "site:tw.wikipedia.org 豬哥亮 主持人",
+                                "result": "No good Google Search result was found"
+                            },
+                            {
+                                "query": "豬哥亮 台灣 主持人 資料",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮（1946年12月5日－2017年5月15日），本名谢新达，出生于中国台湾省高雄市左营区，祖籍中国福建省漳州南靖县奎洋镇。毕业于高雄市左营国中，中国台湾男主持人、歌手、 ..."
+                            },
+                            {
+                                "query": "site:tw 豬哥亮 主持人 台灣",
+                                "result": "豬哥亮在秀場上與張菲、邢峰齊名，並稱「南豬、北張、中邢峰」。 和豬哥亮合作女星不勝枚舉；今天站長介紹幾位女星穿搭風格，讓大家也能穿得像各位女星一樣美麗。 台灣知名主持人，出生於1946年。1980年代活躍於台灣秀場，以搞笑風格、獨特腔調、招牌髮型之形象聞名，並以秀場節目《豬哥亮歌廳秀》廣受歡迎，曾以《豬哥會社》獲頒2010 ... 豬哥亮出生於台灣高雄的他從小就展現表演天份，在學校曾以搞笑才藝逗得全般哈哈大笑而躲過體罰。14歲時他加入「新劇團」拜林松煙為師，起初負責拉幕，因為表演者受傷，他 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 事蹟",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮20歲時入伍服役。豬哥亮的鄰居稱，豬哥亮於中華民國陸軍服役時曾多次逃兵，被憲兵逮捕銬回老家；豬哥亮逃兵被捕後，其大哥用錢疏通，豬哥亮才順利退伍。豬哥亮 ... 台灣著名主持人豬哥亮周一（5月15日）病逝，終年70歲。他幽默、草根性強的主持風格讓他紅遍台灣，但嗜賭讓他家庭破碎、隱居避債十多年，一生起伏如戲。 猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、 ... Missing: 事蹟 | Show results with:事蹟."
+                            },
+                            {
+                                "query": "豬哥亮 逃兵 陸軍 事蹟",
+                                "result": "豬哥亮20歲時入伍服役。豬哥亮的鄰居稱，豬哥亮於中華民國陸軍服役時曾多次逃兵，被憲兵逮捕銬回老家；豬哥亮逃兵被捕後，其大哥用錢疏通，豬哥亮才順利退伍。豬 ... 猪哥亮的邻居称，猪哥亮于中华民国陆军服役时曾多次逃兵，被宪兵逮捕铐回老家 ... 猪哥亮称自己真的有服完兵役，但对于逃兵一事开玩笑说，自己不是逃兵，都有请假 ... 豬哥會社#新兵日記#李興文#姚元浩#劉香慈還沒訂閱嗎？大家緊來訂閱喲▻ https://reurl ... Duration: 12:50. Posted: May 28, 2021."
+                            },
+                            {
+                                "query": "豬哥亮 逃兵 事件",
+                                "result": "豬哥亮的鄰居稱，豬哥亮於中華民國陸軍服役時曾 ... 豬哥亮稱自己真的有服完兵役，但對於逃兵一事開玩笑 ... 豬哥亮當選總統大選事件. 2024年1月13日總統大選後 ... 民國77年，豬哥亮在藍寶石大歌廳遭到槍擊；綜藝大姊大白冰冰和台語洪榮宏也曾因作秀糾紛逃不過血光之災。 廣告. 廣告. 更糟的是，豬哥亮嗜睹，而且是「睹 ... Missing: 逃兵 | Show results with:逃兵."
+                            },
+                            {
+                                "query": "豬哥亮 逃兵 真相",
+                                "result": "豬哥亮20歲時入伍服役。 豬哥亮的鄰居稱，豬哥亮於中華民國陸軍服役時曾多次逃兵，被憲兵逮捕銬回老家；豬哥亮逃兵被捕後，其大哥用錢疏通，豬哥亮才順利退伍。 Missing: 真相 | Show results with:真相. 猪哥亮20岁时入伍服役。 猪哥亮的邻居称，猪哥亮于中华民国陆军服役时曾多次逃兵，被宪兵逮捕铐回老家；猪哥亮逃兵被捕后，其大哥用钱疏通，猪哥亮才顺利退伍。 Missing: 真相 | Show results with:真相. 豬哥亮入伍遭兵變慘戴綠帽白雲義氣相挺幫挽回愛人！ 冷涼卡好!! 好膽賣造!! 想看更多豬 ... Duration: 16:56. Posted: Aug 6, 2023."
+                            },
+                            {
+                                "query": "豬哥亮真實逃兵事件",
+                                "result": "豬哥亮稱自己真的有服完兵役，但對於逃兵一事開玩笑說，自己不是逃兵，都有請假，只是軍營的長官沒看到而已。 有人說豬哥亮退伍後曾成為「師公」（臺語對道士的稱呼），根 ... 有人形容，當時藝人都在刀口上討生活。 民國77年，豬哥亮在藍寶石大歌廳遭到槍擊；綜藝大姊大白冰冰和台語洪榮宏也曾因作秀糾紛逃不過血光之災。 Missing: 真實 逃兵. 5月9日上午，嫌疑男子仍在装疯卖傻，说自己是东北人，在漳州做生意。可是，此前抓捕时，他带着平和腔调的闽南语“出卖”了他，面对民警的质疑，男子沉默不语。 Missing: 逃兵 事件."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 演藝圈 資訊",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 豬哥亮出生於台灣高雄的他從小就展現表演天份，在學校曾以搞笑才藝逗得全般哈哈大笑而躲過體罰。14歲時他加入「新劇團」拜林松煙為師，起初負責拉幕，因為表演者受傷，他 ... Missing: 資訊 | Show results with:資訊. 猪哥亮（台湾话：Ti-ko-liāng，1946年12月5日—2017年5月15日），别名猪哥、秀场天王、秀场巨星，原名谢新达，2009年复出后改名谢友侦，中国台湾节目主持人、歌手、喜剧演员。"
+                            },
+                            {
+                                "query": "豬哥亮 演藝圈 活躍 證據",
+                                "result": "活躍年代, 1977年－1994年 1997年－1999年 2009年－2017 ... 由於楊登魁在台灣演藝圈的教父級地位，豬哥亮能與楊登魁公開見面，也等同豬哥亮得以在演藝圈全面復出。 Missing: 證據 | Show results with:證據. 豬哥亮的主持生涯，其實不難發現從《豬哥亮歌廳秀》到《華視天王豬哥秀》，數十個作品都「豬」字不離，從中就能發現「豬哥亮」一名在綜藝圈早奠定教父地位，而 ... Missing: 活躍 證據. 做秀超忙怎麼還有時間賭啦！ 存起來的話早就都是億萬富翁了 #國光幫幫忙#邢峰#小亮哥 ... Duration: 7:15. Posted: Oct 3, 2022."
+                            },
+                            {
+                                "query": "豬哥亮 演藝圈 活躍 證據",
+                                "result": "活躍年代, 1977年－1994年 1997年－1999年 2009年－2017 ... 由於楊登魁在台灣演藝圈的教父級地位，豬哥亮能與楊登魁公開見面，也等同豬哥亮得以在演藝圈全面復出。 Missing: 證據 | Show results with:證據. 豬哥亮的主持生涯，其實不難發現從《豬哥亮歌廳秀》到《華視天王豬哥秀》，數十個作品都「豬」字不離，從中就能發現「豬哥亮」一名在綜藝圈早奠定教父地位，而 ... Missing: 活躍 證據. 做秀超忙怎麼還有時間賭啦！ 存起來的話早就都是億萬富翁了 #國光幫幫忙#邢峰#小亮哥 ... Duration: 7:15. Posted: Oct 3, 2022."
+                            },
+                            {
+                                "query": "豬哥亮 演藝圈 活躍 證據",
+                                "result": "其實「豬哥亮」一名的由來，是他演出《廖添丁》劇中丑角，同時也是角色名稱，因演技亮眼便以此作為藝名。而隨著公演的結束，豬哥亮在張健、張帝的推薦下， ... Missing: 活躍 證據. 豬哥亮的演藝活動大多使用台灣話，在臺灣走紅以後，豬哥亮在各個福佬話社群中，如中國和東南亞的閩南人之間也頗有知名度，他早期的《豬哥亮歌廳秀》或其他秀場錄影帶和光 ... Missing: 證據 | Show results with:證據. 做秀超忙怎麼還有時間賭啦！ 存起來的話早就都是億萬富翁了 #國光幫幫忙#邢峰#小亮哥 ... Duration: 7:15. Posted: Oct 3, 2022."
+                            },
+                            {
+                                "query": "豬哥亮 演藝圈 活躍 證據",
+                                "result": "豬哥亮的主持生涯，其實不難發現從《豬哥亮歌廳秀》到《華視天王豬哥秀》，數十個作品都「豬」字不離，從中就能發現「豬哥亮」一名在綜藝圈早奠定教父地位 ... Missing: 活躍 證據. 豬哥亮的演藝活動大多使用台灣話，在臺灣走紅以後，豬哥亮在各個福佬話社群中，如中國和東南亞的閩南人之間也頗有知名度，他早期的《豬哥亮歌廳秀》或其他秀場錄影帶和光 ... Missing: 證據 | Show results with:證據. 做秀超忙怎麼還有時間賭啦！ 存起來的話早就都是億萬富翁了 #國光幫幫忙#邢峰#小亮哥 ... Duration: 7:15. Posted: Oct 3, 2022."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 活躍年代",
+                                "result": "在1980年代，他的藝名「豬哥亮」在秀場上曾與張菲、邢峰齊名，並稱「南豬北張中 ... 活躍年代, 1977年－1994年 1997年－1999年 2009年－2017年. 唱片公司, 動脈音樂 ... 在1980年代，他的艺名“猪哥亮”在秀场上曾与张菲、邢峰齐名，并称“南猪北张中邢 ... 《大钓哥》. 活跃年代, 1977年－1994年 1997年－1999年 2009年－2017年. 唱片公司 ... ... 活躍年代:1980年-1993年、1997-1999年、2009年5月至今- 豬哥亮（ ... 巨登育樂《豬哥亮俱樂部》、《豬哥亮爆笑劇》系列. 錄音帶. 藍天唱片音樂帶 ..."
+                            },
+                            {
+                                "query": "豬哥亮 演藝活躍年代",
+                                "result": "活躍年代, 1977年－1994年 1997年－1999年 2009年－2017年. 唱片公司, 動脈音樂 ... 豬哥亮的演藝活動大多使用台灣話，在臺灣走紅以後，豬哥亮在各個福佬話社群中 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... ... 活躍年代:1980年-1993年、1997-1999年、2009年5月至今- 豬哥亮（ ... 他因沉迷於「大家樂」，欠下巨額賭債；為了躲債，於1999年黯然離開演藝圈，從此失去連絡。"
+                            },
+                            {
+                                "query": "豬哥亮 演藝活躍時間",
+                                "result": "1997年曾短暫復出，1999年再度離開演藝圈，沉潛十年之久，直到2009年豬哥亮被《蘋果日報》記者發現，因而暴露行蹤。 當年4月24日豬哥亮為燦坤3C拍攝電視廣告而復出。 1997年曾短暂复出，1999年再度离开演艺圈，沉潜十年之久，直到2009年猪哥亮被《苹果日报》记者发现，因而暴露行踪。 当年4月24日猪哥亮为灿坤3C拍摄电视广告而复出。 ... 活躍年代:1980年-1993年、1997-1999年、2009年5月至今- 豬哥亮（ ... 他因沉迷於「大家樂」，欠下巨額賭債；為了躲債，於1999年黯然離開演藝圈，從此失去連絡。"
+                            },
+                            {
+                                "query": "豬哥亮 演藝活躍時間",
+                                "result": "1997年曾短暫復出，1999年再度離開演藝圈，沉潛十年之久，直到2009年豬哥亮被《蘋果日報》記者發現，因而暴露行蹤。 當年4月24日豬哥亮為燦坤3C拍攝電視廣告而復出。 1997年曾短暂复出，1999年再度离开演艺圈，沉潜十年之久，直到2009年猪哥亮被《苹果日报》记者发现，因而暴露行踪。 当年4月24日猪哥亮为灿坤3C拍摄电视广告而复出。 ... 活躍年代:1980年-1993年、1997-1999年、2009年5月至今- 豬哥亮（ ... 他因沉迷於「大家樂」，欠下巨額賭債；為了躲債，於1999年黯然離開演藝圈，從此失去連絡。"
+                            },
+                            {
+                                "query": "豬哥亮 演藝活躍時間",
+                                "result": "1997年曾短暫復出，1999年再度離開演藝圈，沉潛十年之久，直到2009年豬哥亮被《蘋果日報》記者發現，因而暴露行蹤。 當年4月24日豬哥亮為燦坤3C拍攝電視廣告而復出。 1997年曾短暂复出，1999年再度离开演艺圈，沉潜十年之久，直到2009年猪哥亮被《苹果日报》记者发现，因而暴露行踪。 当年4月24日猪哥亮为灿坤3C拍摄电视广告而复出。 ... 活躍年代:1980年-1993年、1997-1999年、2009年5月至今- 豬哥亮（ ... 他因沉迷於「大家樂」，欠下巨額賭債；為了躲債，於1999年黯然離開演藝圈，從此失去連絡。"
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 年輕時期的喜劇作品",
+                                "result": "2011年起，每年豬哥亮都會在春節（農曆新年）時期推出主演的過年賀歲片，如《雞排英雄》、《大尾鱸鰻》、《大稻埕》、《大囍臨門》、《大尾鱸鰻2》等電影，每年均破新臺幣 ... 「焦點影人：天王崛起－億萬巨星豬哥亮」破天荒集合喜劇泰斗豬哥亮的4部精采作品，包括《雞排英雄》、《大囍臨門》、《大稻埕》、《大尾鱸鰻》，雖然豬哥 ... 2014年《大稻埕》穿越到日治時期，豬哥亮變身扭轉歷史關鍵人物，還與隋棠飾演的藝伎談戀愛；2015年《大囍臨門》逗趣幽默描寫兩岸聯姻，豬哥亮扮演林心如的父親 ..."
+                            },
+                            {
+                                "query": "豬哥亮 幽默搞笑 風格",
+                                "result": "\"豬\"式幽默豬哥亮會演也會說搞笑片段再現｜三立新聞網SETN.com · Comments30. Duration: 4:33. Posted: May 17, 2017. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. ... 亮帶給觀眾的精采時光，《豬哥壹級棒》將重現！節目搭檔苗可麗主持，鼓勵關懷弱勢，分享人生點滴，一改以往搞笑為主的風格，讓觀眾一同緬懷秀場天王的傳奇之作。"
+                            },
+                            {
+                                "query": "豬哥亮 幽默搞笑 風格",
+                                "result": "\"豬\"式幽默豬哥亮會演也會說搞笑片段再現｜三立新聞網SETN.com · Comments30. Duration: 4:33. Posted: May 17, 2017. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. ... 亮帶給觀眾的精采時光，《豬哥壹級棒》將重現！節目搭檔苗可麗主持，鼓勵關懷弱勢，分享人生點滴，一改以往搞笑為主的風格，讓觀眾一同緬懷秀場天王的傳奇之作。"
+                            },
+                            {
+                                "query": "豬哥亮 幽默搞笑 風格",
+                                "result": "\"豬\"式幽默豬哥亮會演也會說搞笑片段再現｜三立新聞網SETN.com · Comments30. Duration: 4:33. Posted: May 17, 2017. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. ... 亮帶給觀眾的精采時光，《豬哥壹級棒》將重現！節目搭檔苗可麗主持，鼓勵關懷弱勢，分享人生點滴，一改以往搞笑為主的風格，讓觀眾一同緬懷秀場天王的傳奇之作。"
+                            },
+                            {
+                                "query": "豬哥亮 幽默搞笑 風格",
+                                "result": "\"豬\"式幽默豬哥亮會演也會說搞笑片段再現｜三立新聞網SETN.com · Comments30. Duration: 4:33. Posted: May 17, 2017. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. ... 亮帶給觀眾的精采時光，《豬哥壹級棒》將重現！節目搭檔苗可麗主持，鼓勵關懷弱勢，分享人生點滴，一改以往搞笑為主的風格，讓觀眾一同緬懷秀場天王的傳奇之作。"
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 獨特歌唱方式",
+                                "result": "趙樹海#王夢麟#豬哥亮. Duration: 0:59. Posted: Aug 1, 2024. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. ◎越頭看自己– 民視“夜市人生”片尾曲◎牽K耐–隨人打算– 豬哥亮、蔡佳縈男女對唱豬式探戈人人搖擺！ ◎歸叢好好- 免臭彈，免秋條，豬哥要你好擱卡好！ ◎東山再起- ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特 歌唱方式",
+                                "result": "趙樹海#王夢麟#豬哥亮. Duration: 0:59. Posted: Aug 1, 2024. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. 聽到綜藝天王豬哥亮要出唱片，很多人的第一個反應是: 豬哥亮會唱歌嗎？ ... 這些獨特的豬式幽默、豬式動作，從短褲西裝，到馬桶蓋髮型等等誇張的豬式 ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特 歌唱方式",
+                                "result": "趙樹海#王夢麟#豬哥亮. Duration: 0:59. Posted: Aug 1, 2024. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. 聽到綜藝天王豬哥亮要出唱片，很多人的第一個反應是: 豬哥亮會唱歌嗎？ ... 這些獨特的豬式幽默、豬式動作，從短褲西裝，到馬桶蓋髮型等等誇張的豬式 ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特 歌唱方式",
+                                "result": "趙樹海#王夢麟#豬哥亮. Duration: 0:59. Posted: Aug 1, 2024. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. 聽到綜藝天王豬哥亮要出唱片，很多人的第一個反應是: 豬哥亮會唱歌嗎？ ... 這些獨特的豬式幽默、豬式動作，從短褲西裝，到馬桶蓋髮型等等誇張的豬式 ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特 歌唱方式",
+                                "result": "趙樹海#王夢麟#豬哥亮. Duration: 0:59. Posted: Aug 1, 2024. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. 聽到綜藝天王豬哥亮要出唱片，很多人的第一個反應是: 豬哥亮會唱歌嗎？ ... 這些獨特的豬式幽默、豬式動作，從短褲西裝，到馬桶蓋髮型等等誇張的豬式 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 蔡琴 合作 歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 蔡琴她在節目上鋪好一堆梗，唱「好預兆」、「團圓」，表示這些歌通通都有特殊意味，她說：「我一定會替豬哥亮找到謝金燕！」（資料照，記者王文麟攝）〔記者 ... ... 歌后蔡琴昨(3)日力挺豬哥亮，為「華視天王豬哥秀」錄影， ... 她一連帶來《好預兆》、《讀你》、《思慕的人》、《團圓》四首膾炙人口的歌曲 ..."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作演唱 經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. Comments · 鳳飛飛經典組曲費玉清蔡琴美聲合唱帶你回味四十年間的好歌 ... Duration: 43:51. Posted: 8 days ago. 她一連帶來《好預兆》、《讀你》、《思慕的人》、《團圓》四首膾炙人口的歌曲，《好預兆》祝賀豬大哥開新節目有好兆頭，而《團圓》則是要送給豬大哥和謝金燕 ..."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作演唱 經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. [精彩音乐汇]歌曲《亲密爱人》 演唱：蔡琴 · [回声嘹亮]齐欢深情演唱经典歌曲《亲密爱人 ... Duration: 1:00. Posted: Aug 29, 2020. 汇聚最好听的经典老歌，网罗最热门的流行金曲。 ... [闪亮的歌]歌曲《爱人》 演唱：刘玉洁 · [唱响新时代] ... [2019春晚倒计时]看点：蔡琴再唱春晚经典《你的眼神》."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作演唱 經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 欢迎订阅SMG音乐频道➡️http://bit.ly/33lUKNA 更多经典音乐综艺请点击下方⬇️ ... Duration: 43:51. Posted: 8 days ago. ... M posts. Discover videos related to 豬哥亮演唱會on TikTok ... 69.6K1w ago. #東山再起#高音質#台語經典歌曲#經典老歌#台語#豬哥亮 ... 合作#廣告#造型#穿 ... Missing: 蔡琴 | Show results with:蔡琴."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作演唱 經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 欢迎订阅SMG音乐频道➡️http://bit.ly/33lUKNA 更多经典音乐综艺请点击下方⬇️ ... Duration: 43:51. Posted: 8 days ago. ... 經典歌曲#經典老歌#台語#豬哥亮 · a034251488 1486. 518 Likes, TikTok video from 芬芬 (@xufenlan2022): “笑. 28.3K1w ago. 笑掉大牙#豬哥亮#豬哥會社 ... Missing: 蔡琴 | Show results with:蔡琴."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 蔡琴 合作 歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 蔡琴她在節目上鋪好一堆梗，唱「好預兆」、「團圓」，表示這些歌通通都有特殊意味，她說：「我一定會替豬哥亮找到謝金燕！」（資料照，記者王文麟攝）〔記者 ... ... 歌后蔡琴昨(3)日力挺豬哥亮，為「華視天王豬哥秀」錄影， ... 她一連帶來《好預兆》、《讀你》、《思慕的人》、《團圓》四首膾炙人口的歌曲 ..."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作 演唱 酒干倘賣無",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 酒幹倘賣無歌手：蘇芮電影《搭錯車》主題曲作曲：侯德健作詞：侯德健/羅大佑所屬專輯：酒幹倘賣無/優柔 ... Duration: 4:32. Posted: Aug 27, 2019. ... 亮生命https://goo.gl/p0l9mm ○ 《回声嘹亮》向经典的文艺作品致敬https://goo.gl ... Duration: 4:55. Posted: May 5, 2016."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作 演唱 酒干倘卖无",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. ... 亮生命https://goo.gl/p0l9mm ○ 《回声嘹亮》向经典的文艺作品致敬https://goo.gl ... Duration: 4:55. Posted: May 5, 2016. 《超级歌单》是江西卫视2015年6月28日推出的季播综艺栏目，节目每期邀请一位经典原唱歌手发布 ... Duration: 5:02. Posted: Aug 10, 2015."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作 演唱 酒干倘卖无",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. ... 亮生命https://goo.gl/p0l9mm ○ 《回声嘹亮》向经典的文艺作品致敬https://goo.gl ... Duration: 4:55. Posted: May 5, 2016. 《超级歌单》是江西卫视2015年6月28日推出的季播综艺栏目，节目每期邀请一位经典原唱歌手发布 ... Duration: 5:02. Posted: Aug 10, 2015."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作 演唱 酒干倘卖无",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. ... 亮生命https://goo.gl/p0l9mm ○ 《回声嘹亮》向经典的文艺作品致敬https://goo.gl ... Duration: 4:55. Posted: May 5, 2016. 《超级歌单》是江西卫视2015年6月28日推出的季播综艺栏目，节目每期邀请一位经典原唱歌手发布 ... Duration: 5:02. Posted: Aug 10, 2015."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 蔡琴 合作 歌曲 爱拼才会赢",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 《爱拼才会赢》是中国台湾作曲家陈百潭填词及作曲，叶启田演唱的一首闽南语流行音乐歌曲。后来被多名歌手翻唱或改编。 ... 该曲也是2021年播出的脱贫攻坚剧《山海情》中的插曲 ... Missing: 豬 亮 蔡琴. 您在查找陈百潭爱拼才会赢猪哥亮吗？抖音综合搜索帮你找到更多相关视频、图文、直播内容，支持在线观看。更有海量高清视频、相关直播、用户，满足您的在线观看需求。 Missing: 蔡琴 | Show results with:蔡琴."
+                            },
+                            {
+                                "query": "陳百潭 豬哥亮 蔡琴 合作 演唱 爱拼才会赢",
+                                "result": "陈百潭爱拼才会赢猪哥亮 ... 免费征婚大舞台，你若单身大胆来！ ... 一首巜爱拼才会赢》激励了几代人，自励向前。励志故事，历历在目。#青春有你 #请你欣赏 。 Missing: 蔡琴 | Show results with:蔡琴. 陈百潭爱拼才会赢. le8909•79K views · 3:38 · Go to ... 歌实况录音林 ... Duration: 3:52. Posted: Aug 29, 2015. 《爱拼才会赢》是中国台湾作曲家陈百潭填词及作曲，叶启田演唱的一首闽南语流行音乐歌曲。后来被多名歌手翻唱或改编。该曲也是2021年播出的脱贫攻坚剧《山海情》中的 ... Missing: 豬 亮 蔡琴."
+                            },
+                            {
+                                "query": "陈百潭爱拼才会赢猪哥亮 蔡琴",
+                                "result": "闽南语想起一位艺人“猪哥亮”谢新达。 henvm. 55. henvm. 2021-12-18 ... 爱拼才会赢，只知道这个，但也够了，还好福建不是只有闽南e 哈哈，然后拼 ... 《爱拼才会赢》为一首台语流行音乐歌曲，由台湾作曲家陈百潭填词及作曲，歌手叶启田原主唱，后来被多名歌手翻唱或改编。收录该歌曲的同名专辑于1988年由吉马唱片发行，正逢 ... Missing: 猪 亮 蔡琴. 您在查找陈百潭爱拼才会赢猪哥亮吗？抖音综合搜索帮你找到更多相关视频、图文、直播内容，支持在线观看。更有海量高清视频、相关直播、用户，满足您的在线观看需求。 Missing: 蔡琴 | Show results with:蔡琴."
+                            },
+                            {
+                                "query": "陳百潭 豬哥亮 蔡琴 爱拼才会赢 合作",
+                                "result": "您在查找陈百潭爱拼才会赢猪哥亮吗？抖音综合搜索帮你找到更多相关视频、图文、直播内容，支持在线观看。更有海量高清视频、相关直播、用户，满足您的在线观看需求。 Missing: 蔡琴 | Show results with:蔡琴. 15 台灣好歌聲【陳百潭好歌點唱機】愛拼才會贏. 6.1K views · 9 years ago ... 陈百潭 ... Duration: 3:52. Posted: Aug 29, 2015. 《爱拼才会赢》为一首台语流行音乐歌曲，由台湾作曲家陈百潭填词及作曲，歌手叶启田原主唱，后来被多名歌手翻唱或改编。收录该歌曲的同名专辑于1988年由吉马唱片发行，正逢 ... Missing: 豬 亮 蔡琴 合作."
+                            },
+                            {
+                                "query": "陳百潭 蔡琴 豬哥亮 爱拼才会赢 合作",
+                                "result": "《爱拼才会赢》为一首台语流行音乐歌曲，由台湾作曲家陈百潭填词及作曲，歌手叶启田原主唱，后来被多名歌手翻唱或改编。收录该歌曲的同名专辑于1988年由吉马唱片发行，正逢 ... Missing: 蔡琴 豬 亮 合作. 您在查找陈百潭爱拼才会赢猪哥亮吗？抖音综合搜索帮你找到更多相关视频、图文、直播内容，支持在线观看。更有海量高清视频、相关直播、用户，满足您的在线观看需求。 Missing: 蔡琴 | Show results with:蔡琴. 15 台灣好歌聲【陳百潭好歌點唱機】愛拼才會贏. 6.1K views · 9 years ago ... 陈百潭 ... Duration: 3:52. Posted: Aug 29, 2015."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮和蔡琴合作的經典歌曲仍深受人們喜愛",
+                                "result": "同年9月30日，Alesso发行和蔡依林合作的单曲〈I Wanna Know〉。 ... Q毛Jolin眉頭深鎖不單純幸福路上圍繞愛- 自由娛樂. ... ^ 金曲歌后蔡依林对嘴假唱遭批演唱实力受质疑. 豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. ... 歌曲《獨佔》，並大呼自己很喜歡這首歌！近來熱浪 ... 兩人深深 ... 許含光加入新音樂廠牌『好多音樂』X『何樂音樂』，與音樂人陳建騏合作，搶先推出新單曲《25》。"
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作 經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 熱門歌曲推薦：「東山再起」、「牽K耐」、「越頭看自己」 Missing: 蔡琴 經典. 歌曲：〈華視天王豬哥秀〉 主唱：豬哥亮、陳亞蘭 詞曲：謝順福 伴奏：孔鏘超級樂團 · 黃淑宜、蔡文楓 · 映畫傳播."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作經典歌曲 受歡迎程度",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 记忆里那些挥之不去的华语经典抒情歌曲. 1．《我愿意》 为爱情，为亲情，都可以把此歌献上。从某种角度来讲，王菲、姚谦、黄国伦组成的黄金阵容为华语乐坛 ... 豬哥亮熱門歌曲 ; 豬哥亮- 東山再起. 東山再起 · 東山再起. 4:39 ; 豬哥亮- 東山再起. 牽K耐 · 東山再起. 4:19 ; 豬哥亮- 東山再起. 越頭看自己 · 東山再起. 3:31. Missing: 蔡琴 經典 程度."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 歌曲：〈華視天王豬哥秀〉 主唱：豬哥亮、陳亞蘭 詞曲：謝順福 伴奏：孔鏘超級樂團 · 黃淑宜、蔡文楓 · 映畫傳播. ... 歌后蔡琴昨(3)日力挺豬哥亮，為「華視天王豬哥秀」錄影， ... 她一連帶來《好預兆》、《讀你》、《思慕的人》、《團圓》四首膾炙人口的歌曲 ..."
+                            },
+                            {
+                                "query": "豬哥亮 蔡琴 合作經典歌曲",
+                                "result": "豬哥亮再度接下主持大棒，星期日黃金時段綜藝節目，也因為豬哥亮在演藝圈的好人緣，節目第一 ... Duration: 1:32. Posted: Dec 3, 2014. 歌曲：〈華視天王豬哥秀〉 主唱：豬哥亮、陳亞蘭 詞曲：謝順福 伴奏：孔鏘超級樂團 · 黃淑宜、蔡文楓 · 映畫傳播. 熱門歌曲推薦：「東山再起」、「牽K耐」、「越頭看自己」 Missing: 蔡琴 經典."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 電視節目 主持",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 同年的8月1日豬哥亮復出演藝界之後，主持的第一個綜藝節目為民視《豬哥會社》，收視率曾衝破10%；2010年10月22日，豬哥亮與侯怡君以《豬哥會社》拿下第45屆金鐘獎「綜藝 ... ... 主持的华视综艺节目《猪哥猪哥亮晶晶》因消息走漏而夭折，原因是民视不满猪哥亮在主持民视综艺节目《猪哥会社》的同时又主持其他电视台的节目。当时猪哥亮经纪人苏瑞煌 ... ... 主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、电视剧和电影，而唱歌也有一手。猪哥亮 ... 《猪哥亮歌厅秀》《猪哥 ... [7] 猪哥亮新节目《万秀猪王》 ..."
+                            },
+                            {
+                                "query": "豬哥亮 電視節目 主持",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手 ... 猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 電視節目 主持",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 電視節目 主持",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手谢金燕、谢金晶 ... 猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、 ..."
+                            },
+                            {
+                                "query": "豬哥亮 電視節目 主持",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手 ... 猪哥亮（台湾话：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名谢新达，复出后改名谢友侦，台湾节目主持人、歌手、喜剧演员，出生于高雄市左营区，为女歌手 ... 猪哥亮成名前，在台湾高雄市蓝宝石歌厅打杂，后因一次顶班而一炮而红，逐步成为上世纪台湾最主要的主持人之一。《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目內容",
+                                "result": "《華視天王豬哥秀》是映畫傳播製作、中華電視公司監製和播出的臺灣綜藝節目，2014年10月30日舉行簽約記者會，華視主頻在12月21日起臺灣時間每週日晚上8點播出，主持人為豬 ... 秀場天王豬哥亮傳奇一生在昨天畫下休止符，從罹患大腸癌到病逝短短三年，豬哥亮苦撐不開刀的真相為何？回憶起豬哥亮大起大落的秀場人生，豬式幽默成絕響， ... 在影視史上，能夠與許不了並列傳奇諧星的豬哥亮辭世，留給世人許多的回憶與討論。豬哥亮的離開，送走了一個時代，送走了那個台灣錢淹腳目的年代。豬哥亮 ..."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目",
+                                "result": "《華視天王豬哥秀》是映畫傳播製作、中華電視公司監製和播出的臺灣綜藝節目，2014年10月30日舉行簽約記者會，華視主頻在12月21日起臺灣時間每週日晚上8點播出，主持人為豬 ... Comments49 ; 0620豬哥亮告別式-安葬. udn video · 502K views ; 人生 ... Duration: 18:22. Posted: Jun 19, 2017. ... 歌名吸睛張小燕新節目!\"直播+歌唱\"每集砸300萬暑假檔掀動畫戰\"小小兵\"對上 ... Duration: 24:01. Posted: Jun 20, 2017."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目 豬哥亮",
+                                "result": "2017年5月15日，豬哥亮病逝，《華視天王豬哥秀》成為豬哥亮最後一個主持的綜藝節目。 ... 瘋狂同學會. 豬哥亮（飾顧客）、陳亞蘭（飾老闆）、林佑星（飾顧客）、黃思婷 ... This content isn't available. 豬哥亮告別式播放的追思影片永遠的綜藝天王 ... Duration: 18:22. Posted: Jun 19, 2017. 《猪哥亮歌厅秀》是三立影视有限公司于1985年后期至1990年贩售、出租的秀场综艺节目录像带，制作人是林崑海、张荣华，企划是林煌坤，本节目也是《三立五虎将金牌点唱秀》 ... Missing: 瘋狂 世界."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目",
+                                "result": "《華視天王豬哥秀》是映畫傳播製作、中華電視公司監製和播出的臺灣綜藝節目，2014年10月30日舉行簽約記者會，華視主頻在12月21日起臺灣時間每週日晚上8點播出，主持人為豬 ... Comments49 ; 0620豬哥亮告別式-安葬. udn video · 502K views ; 人生 ... Duration: 18:22. Posted: Jun 19, 2017. ... 豬哥亮該如何應對？此外還有讓您笑破肚皮的萬秀劇場。 01:05 萬秀劇場-爆笑診所11:31 ... Duration: 1:18:22. Posted: Feb 10, 2024."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目 豬哥亮",
+                                "result": "2017年5月15日，豬哥亮病逝，《華視天王豬哥秀》成為豬哥亮最後一個主持的綜藝節目。 ... 瘋狂同學會. 豬哥亮（飾顧客）、陳亞蘭（飾老闆）、林佑星（飾顧客）、黃思婷 ... This content isn't available. 豬哥亮告別式播放的追思影片永遠的綜藝天王 ... Duration: 18:22. Posted: Jun 19, 2017. 《猪哥亮歌厅秀》是三立影视有限公司于1985年后期至1990年贩售、出租的秀场综艺节目录像带，制作人是林崑海、张荣华，企划是林煌坤，本节目也是《三立五虎将金牌点唱秀》 ... Missing: 瘋狂 世界."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮的瘋狂世界 電視節目 真實性",
+                                "result": "Comments45 · 震震有詞#351 完整版- 不向宿命低頭的藝界大姊大！ · 她曾當小 ... Duration: 38:19. Posted: Jul 10, 2024. 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 瘋狂 真實. 羅志祥（英語：Show Lo，1979年7月30日—），外號小豬，臺灣男歌手、詞曲作家、主持人、舞者、演員及商人。1996年，以團體「四大天王」出道，後與歐漢聲組成雙人團體「羅密歐」， ..."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目名稱 正確性",
+                                "result": "本表以首播日期為該年份的節目及按照順序排列，以便查找是否重複，常年常規周播節目則需備註常規節目即可，季播節目則備註第幾季；盡可能引用外部新聞、官方公告，等有效與確切 ... 在1980年代，他的藝名「豬哥亮」在秀場上曾與張菲、邢峰齊名，並稱「南豬北張中邢峰」，亦有人加入高凌風和倪敏然，合稱為「南豬、北張、中邢峰、高凌風草上飛、倪敏然總管」。 Missing: 瘋狂 正確. 目前豬哥會社綜藝節目收視率已經恢復正常水準，這也呼應Web 2.0相關網站的發展寫照，不管話題再怎麼熱門、行銷做得如何淋漓盡致，但節目（服務）的本質才是關鍵，光靠話題炒熱 ... Missing: 瘋狂 世界 名稱 正確 性."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目名稱 正確性",
+                                "result": "本表以首播日期為該年份的節目及按照順序排列，以便查找是否重複，常年常規周播節目則需備註常規節目即可，季播節目則備註第幾季；盡可能引用外部新聞、官方公告，等有效與確切 ... 目前豬哥會社綜藝節目收視率已經恢復正常水準，這也呼應Web 2.0相關網站的發展寫照，不管話題再怎麼熱門、行銷做得如何淋漓盡致，但節目（服務）的本質才是關鍵，光靠話題炒熱 ... Missing: 瘋狂 世界 名稱 正確 性. 在1980年代，他的藝名「豬哥亮」在秀場上曾與張菲、邢峰齊名，並稱「南豬北張中邢峰」，亦有人加入高凌風和倪敏然，合稱為「南豬、北張、中邢峰、高凌風草上飛、倪敏然總管」。 Missing: 瘋狂 正確."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目名稱 正確性",
+                                "result": "本表以首播日期為該年份的節目及按照順序排列，以便查找是否重複，常年常規周播節目則需備註常規節目即可，季播節目則備註第幾季；盡可能引用外部新聞、官方公告，等有效與確切 ... 在1980年代，他的藝名「豬哥亮」在秀場上曾與張菲、邢峰齊名，並稱「南豬北張中邢峰」，亦有人加入高凌風和倪敏然，合稱為「南豬、北張、中邢峰、高凌風草上飛、倪敏然總管」。 Missing: 瘋狂 正確. 目前豬哥會社綜藝節目收視率已經恢復正常水準，這也呼應Web 2.0相關網站的發展寫照，不管話題再怎麼熱門、行銷做得如何淋漓盡致，但節目（服務）的本質才是關鍵，光靠話題炒熱 ... Missing: 瘋狂 世界 名稱 正確 性."
+                            },
+                            {
+                                "query": "豬哥亮的瘋狂世界 節目名稱 正確性",
+                                "result": "本表以首播日期為該年份的節目及按照順序排列，以便查找是否重複，常年常規周播節目則需備註常規節目即可，季播節目則備註第幾季；盡可能引用外部新聞、官方公告，等有效與確切 ... 在1980年代，他的藝名「豬哥亮」在秀場上曾與張菲、邢峰齊名，並稱「南豬北張中邢峰」，亦有人加入高凌風和倪敏然，合稱為「南豬、北張、中邢峰、高凌風草上飛、倪敏然總管」。 Missing: 瘋狂 正確. Find residential and commercial tankless models, hybrid heat pumps and storage tanks. Explore A. O. Smith's line of gas and electric water heaters."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 主持的節目受到觀眾深深喜愛的證據",
+                                "result": "豬哥亮＂卡好＂的台灣秀場人生！？2010年第0869集2300 關鍵時刻 · Comments3. Duration: 59:05. Posted: Apr 27, 2016. 他剛復出就接到廣告，一路順遂，綜藝節目包括《豬哥會社》、《豬哥壹級棒》、《萬秀豬王》都有高收視；賀歲檔台灣片《大稻埕》、《大尾鱸鰻》、《大囍臨門》 ... 早期有著台灣秀場天王之稱的豬哥亮，在1980年以《豬哥亮歌廳秀》開啟主持生涯，也因為愛在節目上穿插髒話及黃色笑話深得觀眾喜愛，同時也成為主持後輩爭 ... Missing: 證據 | Show results with:證據."
+                            },
+                            {
+                                "query": "豬哥亮 節目 受歡迎度 證據",
+                                "result": "秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024. 豬哥亮＂卡好＂的台灣秀場人生！？2010年第0869集2300 關鍵時刻 · Comments3. Duration: 59:05. Posted: Apr 27, 2016. 目前豬哥會社綜藝節目收視率已經恢復正常水準，這也呼應Web 2.0相關網站的發展寫照，不管話題再怎麼熱門、行銷做得如何淋漓盡致，但節目（服務）的本質才是關鍵，光靠話題炒熱 ... Missing: 度 證據."
+                            },
+                            {
+                                "query": "豬哥亮 節目 受歡迎度 證據",
+                                "result": "秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024. ... 全國家戶，即使豬哥亮因病逝世多年，他拍的廣告錄製的節目依舊廣受歡迎，台灣演義當年獲得豬哥亮同意，親自受訪，成為他一生唯一一次的新聞專訪節目。 Missing: 度 | Show results with:度. 豬哥亮＂卡好＂的台灣秀場人生！？2010年第0869集2300 關鍵時刻 · Comments3. Duration: 59:05. Posted: Apr 27, 2016."
+                            },
+                            {
+                                "query": "豬哥亮 節目 受歡迎度 證據",
+                                "result": "秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024. ... 全國家戶，即使豬哥亮因病逝世多年，他拍的廣告錄製的節目依舊廣受歡迎，台灣演義當年獲得豬哥亮同意，親自受訪，成為他一生唯一一次的新聞專訪節目。 Missing: 度 | Show results with:度. 豬哥亮＂卡好＂的台灣秀場人生！？2010年第0869集2300 關鍵時刻 · Comments3. Duration: 59:05. Posted: Apr 27, 2016."
+                            },
+                            {
+                                "query": "豬哥亮 節目 受歡迎度",
+                                "result": "更多精彩內容請點閱以下網址: ○訂閱《華視綜藝頻道》：https://goo.gl/uWPvlP ○按讚《華視娛樂秀 ... Duration: 9:19. Posted: May 17, 2017. 豬哥亮告別式在2017年6月20日舉行,許多人都送了他最後一程.2009年豬哥亮復出前，他 ... Duration: 38:38. Posted: Jun 19, 2017. 豬哥亮的演藝活動大多使用台灣話，在臺灣走紅以後，豬哥亮在各個福佬話社群中，如中國和東南亞的閩南人之間也頗有知名度，他早期的《豬哥亮歌廳秀》或其他秀場錄影帶和光碟在 ... Missing: 度 | Show results with:度."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 演藝事業 成就",
+                                "result": "主持酬勞於民視綜藝節目《豬哥會社》一集新臺幣30萬元、中視《萬秀豬王》70萬元，直至華視《華視天王豬哥秀》的85萬元，創下台灣主持界最高紀錄。 2011年起，每年豬哥亮都會在 ... Missing: 成就 | Show results with:成就. 豬哥亮的演藝經歷反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了比劃得獎紀錄之外，更重要的是票房實力，因為只有獲得觀眾的肯定，才是藝人演藝事業 ... 豬哥亮的演藝經歷其實反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了比劃得獎紀錄之外，更重要的是票房實力，因為只有獲得觀眾的肯定才是藝人演藝 ..."
+                            },
+                            {
+                                "query": "豬哥亮 演藝事業 成就",
+                                "result": "主持酬勞於民視綜藝節目《豬哥會社》一集新臺幣30萬元、中視《萬秀豬王》70萬元，直至華視《華視天王豬哥秀》的85萬元，創下台灣主持界最高紀錄。 2011年起，每年豬哥亮都會在 ... Missing: 成就 | Show results with:成就. 豬哥亮的演藝經歷反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了比劃得獎紀錄之外，更重要的是票房實力，因為只有獲得觀眾的肯定，才是藝人演藝事業 ... 秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024."
+                            },
+                            {
+                                "query": "豬哥亮 演藝 成就 證據",
+                                "result": "豬哥亮的演藝經歷其實反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了比劃得獎紀錄之外，更重要的是票房實力，因為只有獲得觀眾的肯定才是藝人演 ... ... 豬哥亮開始大紅大紫都在這之後，但能說前述之人或退或死或墮，遂而成就豬哥亮豎子之名嗎？非也！還是回到彼時的政經結構來解析。儘管彼時秀場有「南豬 ... 秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024."
+                            },
+                            {
+                                "query": "豬哥亮 演藝 成就 證據",
+                                "result": "豬哥亮的演藝經歷其實反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了比劃得獎紀錄之外，更重要的是票房實力，因為只有獲得觀眾的肯定才是藝人演 ... 豬哥亮的演藝經歷反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了 ... 豬哥亮從歌廳秀到電影、電視乃至廣告，都在在證明了他作為一代諧星的社會價值。 秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只當 ... Duration: 50:37. Posted: Jul 7, 2024."
+                            },
+                            {
+                                "query": "豬哥亮 演藝 成就 證據",
+                                "result": "豬哥亮的演藝經歷其實反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了比劃得獎紀錄之外，更重要的是票房實力，因為只有獲得觀眾的肯定才是藝人演 ... 豬哥亮的演藝經歷反映了台灣庶民娛樂的型態與變遷，而一位藝人的成就除了 ... 豬哥亮從歌廳秀到電影、電視乃至廣告，都在在證明了他作為一代諧星的社會價值。 ... 豬哥亮開始大紅大紫都在這之後，但能說前述之人或退或死或墮，遂而成就豬哥亮豎子之名嗎？非也！還是回到彼時的政經結構來解析。儘管彼時秀場有「南豬 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮在台灣文化界的影響力",
+                                "result": "餐廳秀紅到翻成錄影帶豬哥亮催生有線電視功臣藍潑水.丟假鈔前瞻混亂中初審過臨時會拚三 ... Duration: 48:40. Posted: May 16, 2017. 豬哥亮是台灣著名節目主持人，也是早期秀場天王、秀場巨星，在1980年代，他的歌廳秀錄影帶曾紅極一時，帶給觀眾許多歡笑。 之後因賭債消失在演藝圈，直到 ... 放眼國內演藝圈，能夠像豬哥亮這樣大起大落又大起的人物實在少見。李蕙認為，「豬哥亮是台灣演藝界的寶藏，在他身上可以看到一位『台灣卓別林』和一條『台灣 ..."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 文化界 印記",
+                                "result": "上已說到台灣藝人的特質是逆來順受、夾縫求生，豬哥亮自也不意外，所以1994年底首屆省長民選，豬哥亮為宋楚瑜站台，旋即綠營選民反彈甚烈，但也說明本土特色並 ... Missing: 印記 | Show results with:印記. 交通大學傳播與科技系教授張玉佩表示，豬哥亮主要成名在1980年代，對現在的三、四年級生影響很大，當時是台灣經濟起飛期，許多人白手起家，勞工也非常辛苦，而豬 ... 豬哥亮靠著「馬桶蓋頭」行走秀場，成為他的正字標記；加上生冷不忌的閩南俚語，以及消遣女藝人等招數，稱霸南台灣秀場。不但歡眾喜愛他的草根味，覺得很親切； ... Missing: 印記 | Show results with:印記."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 文化界 印記",
+                                "result": "上已說到台灣藝人的特質是逆來順受、夾縫求生，豬哥亮自也不意外，所以1994年底首屆省長民選，豬哥亮為宋楚瑜站台，旋即綠營選民反彈甚烈，但也說明本土特色並 ... Missing: 印記 | Show results with:印記. 交通大學傳播與科技系教授張玉佩表示，豬哥亮主要成名在1980年代，對現在的三、四年級生影響很大，當時是台灣經濟起飛期，許多人白手起家，勞工也非常辛苦，而豬 ... 豬哥亮靠著「馬桶蓋頭」行走秀場，成為他的正字標記；加上生冷不忌的閩南俚語，以及消遣女藝人等招數，稱霸南台灣秀場。不但歡眾喜愛他的草根味，覺得很親切； ... Missing: 印記 | Show results with:印記."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 文化界 印記",
+                                "result": "上已說到台灣藝人的特質是逆來順受、夾縫求生，豬哥亮自也不意外，所以1994年底首屆省長民選，豬哥亮為宋楚瑜站台，旋即綠營選民反彈甚烈，但也說明本土特色並 ... Missing: 印記 | Show results with:印記. 交通大學傳播與科技系教授張玉佩表示，豬哥亮主要成名在1980年代，對現在的三、四年級生影響很大，當時是台灣經濟起飛期，許多人白手起家，勞工也非常辛苦，而豬 ... 豬哥亮靠著「馬桶蓋頭」行走秀場，成為他的正字標記；加上生冷不忌的閩南俚語，以及消遣女藝人等招數，稱霸南台灣秀場。不但歡眾喜愛他的草根味，覺得很親切； ... Missing: 印記 | Show results with:印記."
+                            },
+                            {
+                                "query": "豬哥亮 台灣 文化界 印記",
+                                "result": "上已說到台灣藝人的特質是逆來順受、夾縫求生，豬哥亮自也不意外，所以1994年底首屆省長民選，豬哥亮為宋楚瑜站台，旋即綠營選民反彈甚烈，但也說明本土特色並 ... Missing: 印記 | Show results with:印記. 交通大學傳播與科技系教授張玉佩表示，豬哥亮主要成名在1980年代，對現在的三、四年級生影響很大，當時是台灣經濟起飛期，許多人白手起家，勞工也非常辛苦，而豬 ... 豬哥亮靠著「馬桶蓋頭」行走秀場，成為他的正字標記；加上生冷不忌的閩南俚語，以及消遣女藝人等招數，稱霸南台灣秀場。不但歡眾喜愛他的草根味，覺得很親切； ... Missing: 印記 | Show results with:印記."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 印記 真實性",
+                                "result": "秀場天王豬哥亮傳奇一生在昨天畫下休止符，從罹患大腸癌到病逝短短三年，豬哥亮苦撐不開刀的 ... Duration: 48:25. Posted: May 16, 2017. 事實上，雖然豬哥亮常在舞台上開黃腔，卻不曾出現豬哥亮欺負年輕女藝人的八卦，甚至不曾聽到豬哥亮和其他女藝人鬧誹聞！校園民歌手周華健被來自美國的康粹蘭（ ... Missing: 印記 | Show results with:印記. 從小跟著阿公阿嬤老爹老母看豬哥亮歌廳秀的我，完全可以指出豬哥亮的內容有著當代(或說是美式)脫口秀所沒有的元素，就是「報應論」，也就是警世作用啦。 我 ..."
+                            },
+                            {
+                                "query": "豬哥亮的印記是否不可磨滅",
+                                "result": "Comments39 · 傳奇人生白嘉莉有勇有情看板人物20200119 (完整版) · 【台灣演 ... Duration: 48:25. Posted: May 16, 2017. 吳秋澤 豬哥亮的太太謝金燕的媽媽可能也是高 䠷身材人又漂亮，才會生出算是高䠷又 漂亮的謝金燕。 三度IG：https://www.instagram.com/3doc0609/ 其他邀演合作請洽：m9545353m ... Duration: 10:26. Posted: Feb 17, 2024."
+                            },
+                            {
+                                "query": "豬哥亮的印記 歷久彌新",
+                                "result": "历久弥新的意思是：经过长久的时间，不但没有衰败、陈旧，反而更新、更好。 拼音：lì jiǔ mí xīn。 意思：指经历长掘察神久的时间而更加鲜活，更加有活力，更显 ... Albums & Singles · 豬哥亮爆笑講古嘉慶君遊台灣03 · 豬哥亮爆笑講古廖添丁06 · 豬哥亮爆笑講古廖添丁03. Missing: 印記 歷久 彌 新. 【武備巡禮】老驥伏櫪70載 升級改良歷久彌新美國B-52戰略轟炸機 ... 王彩樺過去曾跟著豬哥亮大哥做歌廳秀，現場會開放觀眾進場，甚至也會邀 ..."
+                            },
+                            {
+                                "query": "豬哥亮的印記是不可磨滅的 證據",
+                                "result": "三立iNEWS #大世界➲ iNEWS 最正新聞直播https://youtu.be/CKjSm5ZeehE ➲王 ... Duration: 1:34. Posted: Aug 15, 2023. 電影開首，Joel和Clementine 的心血來潮，正是兩人念念不忘彼此、深愛對方的 證據。 有時候，留下來的是殘酷印記，像Mary始終忘不了 已婚上司，一再吟誦\"Eloisa to ... 民進黨重要派系「湧言會」精神領袖林崑海(海董)罹癌病逝，享壽70歲，傳奇人生謝幕。林崑海人生際遇充滿故事性，從計程車司機、經營錄影帶事業，一手打造擁地產、掌媒體、控 ..."
+                            },
+                            {
+                                "query": "豬哥亮 印記 真實性",
+                                "result": "秀場天王豬哥亮傳奇一生在昨天畫下休止符，從罹患大腸癌到病逝短短三年，豬哥亮苦撐不開刀的 ... Duration: 48:25. Posted: May 16, 2017. 事實上，雖然豬哥亮常在舞台上開黃腔，卻不曾出現豬哥亮欺負年輕女藝人的八卦，甚至不曾聽到豬哥亮和其他女藝人鬧誹聞！校園民歌手周華健被來自美國的康粹蘭（ ... Missing: 印記 | Show results with:印記. 從小跟著阿公阿嬤老爹老母看豬哥亮歌廳秀的我，完全可以指出豬哥亮的內容有著當代(或說是美式)脫口秀所沒有的元素，就是「報應論」，也就是警世作用啦。 我 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 幽默風格 成名原因",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... 秀場最狂、萬秀之王豬哥亮因為好賭人生大起大落懷念豬式幽默他是台灣人的共同記憶一向只 ... Duration: 50:37. Posted: Jul 7, 2024. 交通大學傳播與科技系教授張玉佩表示，豬哥亮主要成名在1980年代，對現在的三、四年級生影響很大，當時是台灣經濟起飛期，許多人白手起家，勞工也非常辛苦，而豬 ..."
+                            },
+                            {
+                                "query": "豬哥亮 幽默風格 經典偶像",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 | Show results with:偶像. 『豬哥亮經典秀』 每週日晚間7點體驗秀場style 週日再現絕妙豬式風格訪問！！ 感謝＃台灣萬 ... Duration: 0:26. Posted: Aug 4, 2023. 秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024."
+                            },
+                            {
+                                "query": "豬哥亮 幽默風格 經典偶像",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 | Show results with:偶像. 『豬哥亮經典秀』 每週日晚間7點體驗秀場style 週日再現絕妙豬式風格訪問！！ 感謝＃台灣萬 ... Duration: 0:26. Posted: Aug 4, 2023. 陳亞蘭跛腳拐杖拿反照樣能走白雲討債討不到錢還倒貼六千？【豬哥亮ㄟ萬秀劇場】EP14精華白雲素 ... Duration: 4:33. Posted: May 17, 2017."
+                            },
+                            {
+                                "query": "豬哥亮 幽默風格 經典偶像 證據",
+                                "result": "秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. 黃保舜頂著馬桶蓋大唱「豬哥亮的歌廳秀」出場，口吻、手勢、表情皆到位。最近豬哥亮與張菲同台鬥嘴在台掀起經典風潮，黃保舜也與藝人大愷合作讓張、豬兩人 ..."
+                            },
+                            {
+                                "query": "豬哥亮 幽默風格 經典偶像 證據",
+                                "result": "秀場天王豬哥亮幽默豬式歪歌席捲全台！ #秀場#豬哥亮#幽默#風格#A咖名人堂. Duration: 37:13. Posted: Apr 26, 2024. 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 證據. 豬哥亮一生風雲傳奇的際遇、靈活幽默的主持風格， 在演藝圈及所有喜愛他的觀眾心中，豎立了堅定不可 撼動的「天王」地位，更讓他堪稱「空前絕後」的豬 式風格，成為演藝圈 ... Missing: 經典 偶像 證據."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 獨特魅力 成就",
+                                "result": "豬哥亮的舞台魅力,令人懷念.前年的金鐘獎頒獎典禮,豬哥亮和陳亞蘭的搭檔笑果十足，兩 ... Duration: 2:10. Posted: May 15, 2017. 總之，一帶一路是偶然因素，但結合他獨特的語言魅力和主持風格，豬式演藝大概就此成為絕響。模仿倒是不必，可本地演藝界再也難找出可以貼近庶民，繼而成就 ... 豬哥亮言談有一種獨特的味道，他有自己的車速，忽快忽慢由他掌握。當他催下油門時，我眼前竟然噴出「轉吧七彩霓虹燈」的畫面，彷彿昔日的歌廳秀其實並未 ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特魅力 證據",
+                                "result": "豬哥亮，一位昔日在秀場插科打諢的諧星。在「出國深造」回來後，他如何重新站上舞台，讓觀眾更喜愛他，並且改變整個演藝環境？ 豬哥亮歷盡滄桑的謙卑. ... 亮眼，登上無限三台同時段第一名，也證明豬式幽默，依舊魅力無法擋。 一句話就把觀眾逗得哈哈大笑，這是豬哥亮無法取代獨特舞台魅力，雖然這位綜藝界 ... 總之，一帶一路是偶然因素，但結合他獨特的語言魅力和主持風格，豬式演藝大概就此成為絕響。模仿倒是不必，可本地演藝界再也難找出可以貼近庶民，繼而 ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特魅力 證據",
+                                "result": "豬哥亮，一位昔日在秀場插科打諢的諧星。在「出國深造」回來後，他如何重新站上舞台，讓觀眾更喜愛他，並且改變整個演藝環境？ 豬哥亮歷盡滄桑的謙卑. 豬哥亮，一位昔日在秀場插科打諢的諧星。在「出國深造」回來後，他如何重新站上舞台，讓觀眾更喜愛他，並且改變整個演藝環境？ 豬哥亮 圖片來源：黃明堂攝. Comments87 ; 44:31 · 中天娛樂頻道 · 659K views ; 1:31 · 中都新聞 ... Duration: 59:25. Posted: May 15, 2017."
+                            },
+                            {
+                                "query": "豬哥亮 獨特魅力 成功要素",
+                                "result": "豬哥亮，一位昔日在秀場插科打諢的諧星。在「出國深造」回來後，他如何重新站上舞台，讓觀眾更喜愛他，並且改變整個演藝環境？ ... 哥亮在經歷台中與高雄場後，也做了些許微調，就是為了讓買票進場的觀眾可以有最佳的娛樂效果，當然，黃色笑話還是不對的穿插其中，這也是豬哥亮的獨特魅力與舞台效果。而豬哥亮 ... 總之，一帶一路是偶然因素，但結合他獨特的語言魅力和主持風格，豬式演藝大概就此成為絕響。模仿倒是不必，可本地演藝界再也難找出可以貼近庶民，繼而 ..."
+                            },
+                            {
+                                "query": "豬哥亮 獨特魅力 證據",
+                                "result": "豬哥亮，一位昔日在秀場插科打諢的諧星。在「出國深造」回來後，他如何重新站上舞台，讓觀眾更喜愛他，並且改變整個演藝環境？ 豬哥亮歷盡滄桑的謙卑. ... 亮眼，登上無限三台同時段第一名，也證明豬式幽默，依舊魅力無法擋。 一句話就把觀眾逗得哈哈大笑，這是豬哥亮無法取代獨特舞台魅力，雖然這位綜藝界 ... 豬哥亮，一位昔日在秀場插科打諢的諧星。在「出國深造」回來後，他如何重新站上舞台，讓觀眾更喜愛他，並且改變整個演藝環境？ 豬哥亮 圖片來源：黃明堂攝."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 事蹟",
+                                "result": "Chu Ke-liang (豬哥亮): Taiwanese comedian and actor. Hsieh Hsin-ta, professionally known as Chu Ke-liang, was a Taiwanese comedian, actor, television show host and singer. He was known for his \"over-the-top appearance\" with unusual clothing and hair styles and his coarse humor. Chu Ke-liang (豬哥亮) Born: December 6, 1946, Zuoying District, Taiwan. Chu Ke-liang (豬哥亮) Died: May 15, 2017 (age 70 years), NTUH (National Taiwan University Hospital), Taipei, Taiwan. Chu Ke-liang (豬哥亮) Children: Jeannie Hsieh and Twinkling Ting. Chu Ke-liang (豬哥亮) Spouse: Ye Ruei Mei (m. 1994–2017). 豬哥亮20歲時入伍服役。豬哥亮的鄰居稱，豬哥亮於中華民國陸軍服役時曾多次逃兵，被憲兵逮捕銬回老家；豬哥亮逃兵被捕後，其大哥用錢疏通，豬哥亮才順利退伍。豬哥亮 ... 台灣著名主持人豬哥亮周一（5月15日）病逝，終年70歲。他幽默、草根性強的主持風格讓他紅遍台灣，但嗜賭讓他家庭破碎、隱居避債十多年，一生起伏如戲。 萬秀天王豬哥亮去年因大腸癌病逝，享壽70歲，他的一生高潮迭起，曾經在全盛時期一個禮拜可賺進500萬元，但卻又因賭博，讓他一夕間負債2億元，從輝煌的舞台跌落到為躲賭債 ..."
+                            },
+                            {
+                                "query": "豬哥亮 經典偶像",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 | Show results with:偶像. 豬哥亮練蕭威打趣經典橋段一次看｜三立新聞網SETN.com. 1.9K views · 9 months ... Duration: 12:44. Posted: Oct 7, 2023. 【萬秀豬王豬哥亮ㄟ歌廳秀】陪你哈哈笑! · 呂雪鳳《萬秀豬王》精彩合輯用經典歌仔戲腔唱出辛酸際遇 · 方順吉首次見面竟就追求「她」！？ · 蔡秋鳳自爆不敢跟人洗澡被好姊妹張秀卿 ..."
+                            },
+                            {
+                                "query": "豬哥亮 偶像",
+                                "result": "豬哥亮#豬哥會社. Duration: 0:53. Posted: Sep 3, 2024. 豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 | Show results with:偶像. 將豬哥亮視為神級偶像！ 苗可麗曝「他的一句話」讓她想法徹底改變. 娛樂星聞. 2023年5月24日. No compatible source was found for this media."
+                            },
+                            {
+                                "query": "豬哥亮 經典偶像",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 | Show results with:偶像. 豬哥亮練蕭威打趣經典橋段一次看｜三立新聞網SETN.com. 1.9K views · 9 months ... Duration: 12:44. Posted: Oct 7, 2023. 【萬秀豬王豬哥亮ㄟ歌廳秀】陪你哈哈笑! · 呂雪鳳《萬秀豬王》精彩合輯用經典歌仔戲腔唱出辛酸際遇 · 方順吉首次見面竟就追求「她」！？ · 蔡秋鳳自爆不敢跟人洗澡被好姊妹張秀卿 ..."
+                            },
+                            {
+                                "query": "豬哥亮 經典偶像",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 偶像 | Show results with:偶像. 豬哥亮練蕭威打趣經典橋段一次看｜三立新聞網SETN.com. 1.9K views · 9 months ... Duration: 12:44. Posted: Oct 7, 2023. 呂雪鳳《萬秀豬王》精彩合輯用經典歌仔戲腔唱出辛酸際遇 · 方順吉首次見面竟就追求「她」！？ · 蔡秋鳳自爆不敢跟人洗澡被好姊妹張秀卿慫恿「沒人看快脫」【萬秀豬王】EP93 康 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 2014 年 去世 原因",
+                                "result": "「秀場天王」豬哥亮因罹患大腸癌，於2017年病逝，而他的長子謝順福近日受邀參加節目《震震有詞》，當談論到「癌症」話題時，令他有感而發，並在節目上透露 ... 台湾著名主持人猪哥亮周一（5月15日）病逝，终年70岁。他幽默、草根性强的主持风格让他红遍台湾，但嗜赌让他家庭破碎、隐居避债十多年，一生起伏如戏。 2017年5月15日，豬哥亮因病逝世，享壽70歲。而在其逝世後，也出現了「豬哥亮沒有死」的網絡迷因，以表現對他的支持。"
+                            },
+                            {
+                                "query": "豬哥亮 2014年 死亡",
+                                "result": "2017年5月15日，豬哥亮因病逝世，享壽70歲。而在其逝世後，也出現了「豬哥亮沒有死」的網絡迷因，以表現對他的支持。 2009年，猪哥亮在艺人好友的力挺之下复出，所主持的节目《猪哥会社》 ... 2014年猪哥亮证实罹患大肠癌，直至2016年才开始积极治疗，期间多次传出 ... 豬哥亮因罹患大腸，於2017年逝世。（圖／翻攝自臉書豬哥亮）. 由於當時豬哥亮堅持不做正規治療，後來病情急速惡化，自2014 ..."
+                            },
+                            {
+                                "query": "豬哥亮 2014年 去世",
+                                "result": "台湾著名主持人猪哥亮周一（5月15日）病逝，终年70岁。他幽默、草根性强的主持风格让他红遍台湾，但嗜赌让他家庭破碎、隐居避债十多年，一生起伏如戏。 2017年5月15日，豬哥亮因病逝世，享壽70歲。而在其逝世後，也出現了「豬哥亮沒有死」的網絡迷因，以表現對他的支持。 豬哥亮因罹患大腸，於2017年逝世。（圖／翻攝自臉書豬哥亮）. 由於當時豬哥亮堅持不做正規治療，後來病情急速惡化，自2014 ..."
+                            },
+                            {
+                                "query": "豬哥亮 2014年 去世",
+                                "result": "台湾著名主持人猪哥亮周一（5月15日）病逝，终年70岁。他幽默、草根性强的主持风格让他红遍台湾，但嗜赌让他家庭破碎、隐居避债十多年，一生起伏如戏。 2017年5月15日，豬哥亮因病逝世，享壽70歲。而在其逝世後，也出現了「豬哥亮沒有死」的網絡迷因，以表現對他的支持。 豬哥亮因罹患大腸，於2017年逝世。（圖／翻攝自臉書豬哥亮）. 由於當時豬哥亮堅持不做正規治療，後來病情急速惡化，自2014 ..."
+                            },
+                            {
+                                "query": "豬哥亮 2014年 去世",
+                                "result": "台湾著名主持人猪哥亮周一（5月15日）病逝，终年70岁。他幽默、草根性强的主持风格让他红遍台湾，但嗜赌让他家庭破碎、隐居避债十多年，一生起伏如戏。 2017年5月15日，豬哥亮因病逝世，享壽70歲。而在其逝世後，也出現了「豬哥亮沒有死」的網絡迷因，以表現對他的支持。 豬哥亮因罹患大腸，於2017年逝世。（圖／翻攝自臉書豬哥亮）. 由於當時豬哥亮堅持不做正規治療，後來病情急速惡化，自2014 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 去世 原因",
+                                "result": "「秀場天王」豬哥亮因罹患大腸癌，於2017年病逝，而他的長子謝順福近日受邀參加節目《震震有詞》，當談論到「癌症」話題時，令他有感而發，並在節目上透露 ... 据台湾媒体报道，5月15日，台湾知名主持人猪哥亮因癌症于凌晨五时左右在台大医院病逝，享年70岁。 因为是大肠癌末期，从3月28日起就传出病重，但亲友连日来对外封锁消息，也 ... (1946-12-06)1946年12月6日. 中華民國臺灣省高雄市左營區 · 2017年5月15日(2017歲—05—15)（70歲）. 中華民國臺灣臺北市中正區臺大醫院 · 大腸癌末期引發肝衰竭."
+                            },
+                            {
+                                "query": "豬哥亮去世原因",
+                                "result": "「秀場天王」豬哥亮因罹患大腸癌，於2017年病逝，而他的長子謝順福近日受邀參加節目《震震有詞》，當談論到「癌症」話題時，令他有感而發，並在節目上透露 ... 据台湾媒体报道，5月15日，台湾知名主持人猪哥亮因癌症于凌晨五时左右在台大医院病逝，享年70岁。 因为是大肠癌末期，从3月28日起就传出病重，但亲友连日来对外封锁消息， ... (1946-12-06)1946年12月6日. 中華民國臺灣省高雄市左營區 · 2017年5月15日(2017歲—05—15)（70歲）. 中華民國臺灣臺北市中正區臺大醫院 · 大腸癌末期引發肝衰竭."
+                            },
+                            {
+                                "query": "豬哥亮去世原因",
+                                "result": "「秀場天王」豬哥亮因罹患大腸癌，於2017年病逝，而他的長子謝順福近日受邀參加節目《震震有詞》，當談論到「癌症」話題時，令他有感而發，並在節目上透露 ... (1946-12-06)1946年12月6日. 中華民國臺灣省高雄市左營區 · 2017年5月15日(2017歲—05—15)（70歲）. 中華民國臺灣臺北市中正區臺大醫院 · 大腸癌末期引發肝衰竭. 大腸癌相當兇險，已連續15年被列為國人10大癌症死因之首，許多知名人物也都因大腸癌離世，包括藝人豬哥亮、賀一航、屏風表演班創辦人李國修等。台安醫院大腸 ..."
+                            },
+                            {
+                                "query": "豬哥亮 大腸癌 病逝 真實性",
+                                "result": "曾經收治過一名晚期大腸癌患者，確診時已經到了肝轉移，必須立即接受化療、標靶藥物，但想法也跟豬哥亮一樣，以為神明會保佑他，還捐了1000萬給某個寺廟，結果11 ... 藝人豬哥亮因大腸癌病逝台大醫院，享壽70歲。對於大腸癌防治，雖然大家都耳熟能詳，但是仍然有人會諱疾忌醫，甚至是使用偏方，以致延誤治療；醫師提醒，大腸癌 ... Missing: 真實 性. 據三立新聞網獨家報導，豬哥亮2014年5月時，遭診斷罹大腸癌二期，雖曾傳出要開刀治療，不過到最後病危卻遲遲未開刀。對此，謝順福解釋，原本準備去榮總開刀，但卻 ..."
+                            },
+                            {
+                                "query": "豬哥亮 大腸癌 病逝 真實性",
+                                "result": "曾經收治過一名晚期大腸癌患者，確診時已經到了肝轉移，必須立即接受化療、標靶藥物，但想法也跟豬哥亮一樣，以為神明會保佑他，還捐了1000萬給某個寺廟，結果11 ... 藝人豬哥亮因大腸癌病逝台大醫院，享壽70歲。對於大腸癌防治，雖然大家都耳熟能詳，但是仍然有人會諱疾忌醫，甚至是使用偏方，以致延誤治療；醫師提醒，大腸癌 ... Missing: 真實 性. 據三立新聞網獨家報導，豬哥亮2014年5月時，遭診斷罹大腸癌二期，雖曾傳出要開刀治療，不過到最後病危卻遲遲未開刀。對此，謝順福解釋，原本準備去榮總開刀，但卻 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮 作品 評價",
+                                "result": "1988年 · 《天下一大樂》, 豬哥亮 ; 1990年, 《少爺當大兵》, 福利社老闆 ; 1994年, 《新少林五祖》, 蠟人張／雞婆大師 ; 2011年, 《雞排英雄》, 張進亮 ; 2012年, 《新天生一對》 ... 猪哥亮Yu-Chen Hsieh的全部作品（21） · 超级天王猪哥秀 (2017) [ 演员- 主持人] · 万秀猪王 (2017) [ 演员] · 大钓哥 (2017) [ 演员(饰蓝大钓) / 编剧] · 恋爱99 (2016) [ 演员]. 看到最近一部部由豬哥亮復出後所主演的電影， 我實在，我心裡只有一個想法， 爛，已經爛了。 他的那些所謂的低級笑話，已經不再好笑了，他在以前的秀場很紅阿，很厲害阿。"
+                            },
+                            {
+                                "query": "豬哥亮 作品 評價",
+                                "result": "1988年 · 《天下一大樂》, 豬哥亮 ; 1990年, 《少爺當大兵》, 福利社老闆 ; 1994年, 《新少林五祖》, 蠟人張／雞婆大師 ; 2011年, 《雞排英雄》, 張進亮 ; 2012年, 《新天生一對》 ... 猪哥亮Yu-Chen Hsieh的全部作品（21） · 超级天王猪哥秀 (2017) [ 演员- 主持人] · 万秀猪王 (2017) [ 演员] · 大钓哥 (2017) [ 演员(饰蓝大钓) / 编剧] · 恋爱99 (2016) [ 演员]. 看到最近一部部由豬哥亮復出後所主演的電影， 我實在，我心裡只有一個想法， 爛，已經爛了。 他的那些所謂的低級笑話，已經不再好笑了，他在以前的秀場很紅阿，很厲害阿。"
+                            },
+                            {
+                                "query": "豬哥亮 2021年 作品",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、 ... 《猪哥亮歌厅秀》录像带风靡全台。在主持之外，他也演小品、电视剧和电影，而唱歌也有一手。猪哥亮曾因负债两亿而退出娱乐圈，2009年复出。2010年他接拍《鸡排英雄》，彻底甩开 ... 猪哥亮Yu-Chen Hsieh的全部作品（21） · 超级天王猪哥秀 (2017) [ 演员- 主持人] · 万秀猪王 (2017) [ 演员] · 大钓哥 (2017) [ 演员(饰蓝大钓) / 编剧] · 恋爱99 (2016) [ 演员]. Missing: 2021 | Show results with:2021."
+                            },
+                            {
+                                "query": "豬哥亮 作品 評價",
+                                "result": "1988年 · 《天下一大樂》, 豬哥亮 ; 1990年, 《少爺當大兵》, 福利社老闆 ; 1994年, 《新少林五祖》, 蠟人張／雞婆大師 ; 2011年, 《雞排英雄》, 張進亮 ; 2012年, 《新天生一對》 ... 猪哥亮Yu-Chen Hsieh的全部作品（21） · 超级天王猪哥秀 (2017) [ 演员- 主持人] · 万秀猪王 (2017) [ 演员] · 大钓哥 (2017) [ 演员(饰蓝大钓) / 编剧] · 恋爱99 (2016) [ 演员]. 看到最近一部部由豬哥亮復出後所主演的電影， 我實在，我心裡只有一個想法， 爛，已經爛了。 他的那些所謂的低級笑話，已經不再好笑了，他在以前的秀場很紅阿，很厲害阿。"
+                            },
+                            {
+                                "query": "豬哥亮 作品 評價",
+                                "result": "1988年 · 《天下一大樂》, 豬哥亮 ; 1990年, 《少爺當大兵》, 福利社老闆 ; 1994年, 《新少林五祖》, 蠟人張／雞婆大師 ; 2011年, 《雞排英雄》, 張進亮 ; 2012年, 《新天生一對》 ... 猪哥亮Yu-Chen Hsieh的全部作品（21） · 超级天王猪哥秀 (2017) [ 演员- 主持人] · 万秀猪王 (2017) [ 演员] · 大钓哥 (2017) [ 演员(饰蓝大钓) / 编剧] · 恋爱99 (2016) [ 演员]. 豬哥亮真正發光的所在，可能是在夜總會的舞台上，他的秀場表演後來以錄影帶形式流動於全台各地。他的表演的確低俗、歧視、充斥著關於性與女人的玩笑，也有 ..."
+                            }
+                        ]
+                    },
+                    {
+                        "google_searches": [
+                            {
+                                "query": "豬哥亮的形象是否真實存在",
+                                "result": "豬哥亮的演藝活動大多使用台灣話，在臺灣走紅以後，豬哥亮在各個福佬話社群中，如中國和東南亞的閩南人之間也頗有知名度，他早期的《豬哥亮歌廳秀》或其他秀場錄影帶和光碟在 ... Missing: 真實 存在. 人到底該不該火化？退休火化師真實經歷，震驚無數人！看完你就知道了該怎麼做了https://www ... Duration: 24:08. Posted: May 25, 2024. 豬哥亮的馬桶蓋造型，當年由西北髮廊老闆設計，成為他的形象品牌。歷來都不乏透過髮型來爭取曝光的藝人，但都沒有豬哥亮來得成功。理由在於，豬哥亮的形象有著 ..."
+                            },
+                            {
+                                "query": "豬哥亮 形象 真實性",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 真實 | Show results with:真實. 張玉佩指出，豬哥亮不在乎形象，也不在乎當丑角，卻創造出自己的獨特性，走在流行文化的尖端，可說是流行的先驅和開創者；而他再度復出，在豬哥會社延續秀場表演 ... 在一次歌舞厅工作中，他的形象吸引了黑帮老板杨登魁的注意，被邀请签约，并成为歌厅的导演和编剧。他们最后一次联系是在猪哥亮去世后，谢金燕为他送终。"
+                            },
+                            {
+                                "query": "豬哥亮 形象 真實性",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 真實 | Show results with:真實. 張玉佩指出，豬哥亮不在乎形象，也不在乎當丑角，卻創造出自己的獨特性，走在流行文化的尖端，可說是流行的先驅和開創者；而他再度復出，在豬哥會社延續秀場表演 ... 其次，豬哥亮面對年輕、渴望經濟與演藝事業起飛的張清芳，沒有趁勢佔張清芳便宜。事實上，雖然豬哥亮常在舞台上開黃腔，卻不曾出現豬哥亮欺負年輕女藝人的八卦 ..."
+                            },
+                            {
+                                "query": "豬哥亮 形象 真實性",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 真實 | Show results with:真實. 張玉佩指出，豬哥亮不在乎形象，也不在乎當丑角，卻創造出自己的獨特性，走在流行文化的尖端，可說是流行的先驅和開創者；而他再度復出，在豬哥會社延續秀場表演 ... 其次，豬哥亮面對年輕、渴望經濟與演藝事業起飛的張清芳，沒有趁勢佔張清芳便宜。事實上，雖然豬哥亮常在舞台上開黃腔，卻不曾出現豬哥亮欺負年輕女藝人的八卦 ..."
+                            },
+                            {
+                                "query": "豬哥亮 形象 真實存在",
+                                "result": "豬哥亮（台灣話：Ti-ko-liāng，1946年12月6日—2017年5月15日），原名謝新達，復出後改名謝友偵，臺灣節目主持人、歌手、喜劇演員，出生於高雄市左營區，為女歌手謝金燕、謝金晶 ... Missing: 真實 存在. 在一次歌舞厅工作中，他的形象吸引了黑帮老板杨登魁的注意，被邀请签约，并成为歌厅的导演和编剧。他们最后一次联系是在猪哥亮去世后，谢金燕为他送终。 廣告片中，豬哥亮以紅色西裝現身，無論身形及聲音都極盡逼真，謝金晶回憶起拍攝過程，就表示AI科技讓不可能成真，彷彿老爸就在身邊跟她對戲，感覺好真實又溫暖。"
+                            }
+                        ]
+                    }
+                ],
+                "Supported": 20,
+                "Irrelevant": 0,
+                "Not Supported": 7,
+                "f1_-1": 0.31496062992125984
+            }
+        }
+    ],
+    "total_runtime": 5.097544193267822,
+    "autoeval_configs": {
+        "debug_safe": "True",
+        "max_retries": "10",
+        "max_steps": "5",
+        "max_tokens": "512",
+        "model": "OPENAI:gpt-3.5-turbo-0125",
+        "model_short": "gpt_35_turbo",
+        "model_temp": "0.1",
+        "num_searches": "3",
+        "search_type": "serper",
+        "shared_config": "<module 'common.shared_config' from '/home/user/program/long-form-factuality-tradition-chinese/common/shared_config.py'>"
+    },
+    "side2_avg_num_claims": 27.0,
+    "side2_std_num_claims": 0.0,
+    "side2_avg_Supported": 20.0,
+    "side2_std_Supported": 0.0,
+    "side2_avg_Irrelevant": 0.0,
+    "side2_std_Irrelevant": 0.0,
+    "side2_avg_Not Supported": 7.0,
+    "side2_std_Not Supported": 0.0,
+    "side2_avg_f1_-1": 0.31496062992125984,
+    "side2_std_f1_-1": 0.0
+}

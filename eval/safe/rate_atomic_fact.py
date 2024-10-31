@@ -42,7 +42,7 @@ KNOWLEDGE. This new information should be useful for determining the factual \
 accuracy of the given STATEMENT.
 5. The language you use in the query must be in consistent with the major language \
 of the statement.
-6. Your query should not contain more than one language.
+6. Your query must be in Chinese(TW)
 7. Format your final query by putting it in a markdown code block.
 
 KNOWLEDGE:
