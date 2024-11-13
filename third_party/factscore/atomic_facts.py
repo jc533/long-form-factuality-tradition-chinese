@@ -116,6 +116,10 @@ class AtomicFactGenerator(object):
       curr_sentences_2 = tokenize.sent_tokenize(paragraph)
       curr_sentences = fix_sentence_splitter(curr_sentences, initials)
       curr_sentences_2 = fix_sentence_splitter(curr_sentences_2, initials)
+
+      curr_sentences = tw_sentence_splitter(curr_sentences, initials)
+      curr_sentences_2 = tw_sentence_splitter(curr_sentences_2, initials)
+
       # ensure the crediability of the sentence splitter fixing algorithm
       assert curr_sentences == curr_sentences_2, (
           paragraph,
@@ -475,6 +479,7 @@ def detect_initials(text):
 
 def fix_sentence_splitter(curr_sentences, initials):
   """Fix sentence splitter issues."""
+  # print("why ae you not working")
   for initial in initials:
     if not np.any([initial in sent for sent in curr_sentences]):
       alpha1, alpha2 = [t.strip() for t in initial.split('.') if t.strip()]
@@ -512,8 +517,19 @@ def fix_sentence_splitter(curr_sentences, initials):
     else:
       assert not combine_with_previous
       sentences.append(sent)
-
   return sentences
+
+def tw_sentence_splitter(curr_sentences, initials):
+
+  def split_sentences(text):
+    # Use regex to split by punctuation (？ or 。) and keep the punctuation
+    return [s for s in re.split(r'(?<=[？。])', text) if s]  # Filter out any empty strings
+
+  # Apply the function to each element in the list and flatten the result
+  result = [sentence for text in curr_sentences for sentence in split_sentences(text)]
+
+  return result
+
 
 
 def main(_) -> None:
