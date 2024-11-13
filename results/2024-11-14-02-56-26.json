@@ -1,0 +1,113 @@
+{
+    "add_universal_postamble": "True",
+    "max_num_examples": "13",
+    "num_sentences": "1",
+    "parallelize": "False",
+    "responder_model": "OPENAI:gpt-3.5-turbo-0125",
+    "responder_model_short": "gpt_35_turbo",
+    "response_length_postamble": "Respond in exactly 1 sentence.",
+    "save_results": "True",
+    "shared_config": "<module 'common.shared_config' from '/home/user/program/long-form-factuality-tradition-chinese/common/shared_config.py'>",
+    "show_responder_prompts": "True",
+    "show_responder_responses": "True",
+    "shuffle_data": "False",
+    "side_1": "placeholder",
+    "side_2": "vanilla_prompting",
+    "task": "longfact_objects",
+    "task_short": "longfact_objects",
+    "use_length_ablation": "False",
+    "per_prompt_data": [
+        {
+            "prompt": "電影《比悲傷更悲傷的故事》是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "《比悲傷更悲傷的故事》是一部2019年上映的臺灣電影，由導演陳正道執導，劇本改編自作家Giddens的同名小說。電影講述了一段關於愛情、友情和成長的故事。\n\n故事主要圍繞著男主角阿慶和女主角小晴展開。阿慶是一名大學生，他與女友小晴交往多年，兩人感情很好。然而，小晴卻因為家庭壓力和自身困惑，提出了分手。阿慶為了挽回這段感情，開始了一段艱辛的追求之路。\n\n在劇情發展中，觀眾可以看到阿慶和小晴之間的愛情故事，以及他們面臨的困難和挑戰。同時，電影也描繪了現代年輕人在愛情和生活中的掙扎與成長。\n\n《比悲傷更悲傷的故事》在臺灣上映後，獲得了廣泛的好評和迴響。觀眾稱讚電影情感真摯、劇情感人，並對演員的表現給予高度評價。這部電影也成為了當年度的票房佳作，吸引了許多觀眾前往影院觀賞。"
+        },
+        {
+            "prompt": "電影《我的少女時代》是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "《我的少女時代》是一部2015年上映的台灣電影，由陳玉珊執導，陳意涵、柯震東、李玉璽等人主演。\n\n故事講述一名女高中生林真心（由陳意涵飾演）在青春期間的成長與愛情故事。她和男友周大樂（由柯震東飾演）之間的甜蜜戀情以及友情、家庭等各種人生經歷。\n\n電影中有許多經典的場景，例如真心和大樂在學校門口的約會場景、他們在電影院看電影的浪漫時刻、真心和好友小珍（由李玉璽飾演）一起度過的快樂時光等。\n\n《我的少女時代》在台灣上映後獲得了廣泛好評，成為當年度票房冠軍之一，也在國際上獲得了一定的關注。這部電影被譽為一部描寫青春期情感的經典作品，深受觀眾喜愛。"
+        },
+        {
+            "prompt": "由李祖原設計的台北101大樓有什麼特點？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "李祖原設計的台北101大樓是台灣最高的摩天大樓，樓高508公尺，共有101層樓，象徵著「101」的名稱。大樓外觀呈現出獨特的竹子造型，象徵著中國文化中的吉祥物象徵。此外，台北101大樓曾經是世界上最高的建築物，直到2009年被迪拜的哈里發塔超越為止。\n\n在大樓內部，有一部世界上最快的電梯，每秒可達到60.6公里的速度，帶領遊客快速抵達觀景台。觀景台位於大樓的89樓和91樓，可以俯瞰整個台北市的美景，是許多遊客必訪的景點之一。\n\n此外，台北101大樓也是一座綠建築，擁有多項環保設施和技術，例如風力發電機和雨水回收系統，大幅減少能源消耗和碳排放。這些特點使得台北101大樓成為一座現代化、環保、具有地標意義的建築物。"
+        },
+        {
+            "prompt": "由伊東豊雄設計的臺中國家歌劇院有什麼特點？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "臺中國家歌劇院是由日本建築師伊東豊雄設計的，其特點包括：\n\n1. 建築外觀獨特：歌劇院外觀呈現流暢曲線，擁有獨特的建築風格，被譽為是一座現代藝術的代表作品。\n\n2. 環境友善設計：伊東豊雄將綠色植物融入建築中，打造了一個環境友善的空間，讓人們在其中感受到大自然的美好。\n\n3. 內部設計精美：歌劇院內部裝潢精美，採用了高品質的材料和設計，營造出高雅的氛圍，讓觀眾在其中享受音樂劇的饗宴。\n\n4. 設備齊全：歌劇院配備了先進的音響設備和舞台設計，能夠承辦各種大小型的演出活動，包括歌劇、音樂劇、舞蹈表演等。\n\n5. 地理位置優越：臺中國家歌劇院位於臺中市的文化中心，交通便利，是一個重要的文化藝術場所，吸引了許多國內外的觀眾前來欣賞演出。"
+        },
+        {
+            "prompt": "2019年長榮航空空服員罷工事件的爭議是什麼? Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "2019年長榮航空空服員罷工事件爭議主要集中在長榮航空公司與空服員工會之間的勞資爭議。\n\n事件起因於長榮航空空服員工會要求提高工資、改善工時和休假制度等待遇，但長榮航空公司未能滿足他們的要求。最終，空服員工會於2019年6月開始發起罷工行動。\n\n長榮航空空服員罷工期間，造成大量航班取消，影響了數以千計的旅客。長榮航空公司表示，罷工對公司造成了嚴重損失，並對空服員工會的行為表示強烈不滿。\n\n在罷工期間，長榮航空公司也採取了一些措施，例如招募臨時空服員來填補空缺，以維持航班運作。然而，這些臨時空服員的素質和訓練水準引起了一些爭議。\n\n最終，長榮航空空服員罷工在經過數天後結束，雙方達成協議，解決了勞資爭議。然而，這次罷工事件引起了社會各界對於勞資關係和勞工權益的關注和討論。"
+        },
+        {
+            "prompt": "2011年臺灣塑化劑事件的爭議是什麼? Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "2011年臺灣塑化劑事件是指當時臺灣食品安全局在市售飲料中檢測出含有過量塑化劑（如DEHP）的情況，引起社會廣泛關注和爭議。\n\n事件起因於2011年5月，臺灣食品安全局在市售飲料中檢測出含有DEHP的情況，其中包括知名品牌如“全家便利商店”和“統一企業”旗下的飲料產品。這些含有塑化劑的飲料主要是果汁、茶飲和運動飲料等。\n\n這起事件引起了公眾對於食品安全的擔憂和不滿，許多消費者對於飲料品牌和政府的監管措施提出質疑。政府隨即展開調查，要求企業回收相關產品並進行檢測，並加強監管措施以確保食品安全。\n\n事件持續發酵，引起了消費者對於食品安全和產品標示的關注，也促使政府加強對於食品添加物的監管和檢測。這起事件對於臺灣的食品業和消費者信心造成了一定程度的影響，也提醒了人們對於食品安全的重要性和監管的必要性。"
+        },
+        {
+            "prompt": "你能告訴我關於郭懷一事件的內容嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "郭懷一事件是指1997年11月20日發生在臺灣的一起重大刑案。當時，郭懷一在臺北市士林區的一家麵店內持槍行搶，造成店主林姓男子當場死亡，另有一名女子受傷。郭懷一在逃亡期間曾多次與警方發生槍戰，引起社會廣泛關注。\n\n郭懷一是一名因毒品濫用問題而犯罪的重犯，曾多次被判刑入獄。他在犯案後逃亡數日，最終在臺中市被警方逮捕。在審判過程中，郭懷一被判處死刑，並在2000年11月30日在臺北監獄執行槍決。\n\n這起事件引起社會對於毒品問題和犯罪問題的關注，也促使當局加強打擊犯罪和毒品濫用行為。郭懷一事件也成為臺灣社會上一個具有代表性的案例，引發了對於刑罰制度和社會治安的討論。"
+        },
+        {
+            "prompt": "你能告訴我關於牡丹社事件的內容嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "牡丹社事件是指台灣在1947年2月28日發生的一場重大政治事件，也被稱為二二八事件。當時，一位警察在台北市西門町檢查販賣牡丹花的小販時，因為小販沒有合法營業執照而將其打傷。這一事件引發了當時對於政府腐敗、不公正和壓迫的不滿情緒，導致了全島各地的示威遊行和暴力事件。\n\n事件中最為人津津樂道的是當時台北市警察局長陳仲金的行為。他下令對示威者實行嚴格的鎮壓，導致了大量無辜平民的死亡和受傷。陳仲金的暴行被視為事件的主要原因之一，他後來也被指控為二二八事件的主要責任人之一。\n\n牡丹社事件引發了全島各地的抗議示威活動，許多人士因此被捕、拷打甚至處決。事件也對台灣的政治和社會造成了長期的影響，成為了台灣歷史上一個重要的事件。\n\n直到現在，牡丹社事件仍然是台灣歷史上一個傷痛的記憶，許多人都在努力保持對這段歷史的記憶和反省，以免重蹈覆轍。"
+        },
+        {
+            "prompt": "您能告訴我二二八大屠殺事件期間發生的事件嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "二二八大屠殺事件發生於1947年2月28日，當時臺灣總督府警察在臺北市西門町槍殺一名女性攤販，引發了臺灣人民對於政治不滿的情緒。接著在2月28日晚間，臺北市的臺灣製糖公司員工發起罷工，要求政府調查槍殺事件，但卻遭到警察的鎮壓。\n\n事件擴大後，臺灣各地紛紛爆發抗議活動，政府派遣軍隊鎮壓，導致大量無辜平民被殺害。在基隆市，有數十名學生被槍殺；在臺中市，有上千名市民被殺害；在高雄市，更發生了大規模的屠殺事件，造成數千人死亡。\n\n二二八大屠殺事件持續了數個月，造成數萬人死亡，成為臺灣歷史上最黑暗的一頁。這段悲慘的歷史直到近年才逐漸被揭露和正視，成為臺灣社會的重要議題之一。"
+        },
+        {
+            "prompt": "鄧麗君是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "鄧麗君是一位台灣著名的歌手，出生於1953年1月29日，原名鄧麗筠，後來改名為鄧麗君。她在1970年代至1980年代間活躍於歌壇，被稱為「亞洲天后」。鄧麗君的代表作品包括《月亮代表我的心》、《甜蜜蜜》等，這些歌曲至今仍被廣泛演唱。\n\n鄧麗君曾在1970年代至1980年代間舉辦多場演唱會，吸引大批樂迷前往觀賞。她的演唱會場地包括台灣、香港、新加坡、馬來西亞等地，吸引了眾多歌迷。鄧麗君的演唱會曾在1979年在倫敦皇家阿尔伯特音乐厅舉行，吸引了眾多外國觀眾。\n\n鄧麗君的音樂風格多元，涵蓋了流行、民謠、國語、粤語等多種類型。她的歌聲清澈動人，深受樂迷喜愛。鄧麗君也曾與多位知名音樂人合作，如作曲家陳歌辛、詞曲家林夕等，共同創作出許多經典作品。\n\n鄧麗君在1987年9月8日因乳癌病逝，享年34歲。然而，她的音樂作品至今仍受到廣泛喜愛，被視為流行音樂史上的經典之一。"
+        },
+        {
+            "prompt": "豬哥亮是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "豬哥亮（本名：謝君豪），是一位知名的台灣藝人，以其幽默搞笑的風格和獨特的外貌特徵而廣受歡迎。他曾在許多電視節目和電影中演出，並與眾多知名藝人合作過。\n\n豬哥亮在1970年代至1980年代的台灣娛樂圈中享有極高的知名度，他的代表作品包括《豬哥亮快樂大本營》等電視節目，以及電影《飛龍鳳舞》等。\n\n除了演藝事業外，豬哥亮也積極參與公益活動，他曾多次參加慈善演出和義賣活動，為社會做出貢獻。\n\n豬哥亮的逝世消息在2020年1月6日傳出，引起了廣泛的哀悼和追悼。他的離世讓台灣娛樂界失去了一位傳奇人物，但他的作品和精神將永遠留在人們的心中。"
+        },
+        {
+            "prompt": "白冰冰是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "白冰冰是一位知名的台灣女演員，本名為白雲樂，生於1953年。她在1970年代開始演藝生涯，曾參演過許多電視劇和電影作品，如《紅粉地獄》、《少年包青天》等。白冰冰以其出色的演技和獨特的氣質受到觀眾喜愛，被譽為「影壇冰山美人」。\n\n除了演藝事業外，白冰冰也是一位成功的商人，擁有自己的時尚品牌和餐廳。她在社會上也積極參與公益活動，為弱勢群體提供幫助。\n\n白冰冰的個人生活也備受關注，她曾與多位知名男星傳出緋聞，但一直保持低調。她的美麗與才華讓她成為娛樂圈中的傳奇人物，深受觀眾喜愛。"
+        },
+        {
+            "prompt": "李遠哲是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "李遠哲是一位台灣知名的物理學家，他於1934年出生於臺北市。李遠哲畢業於國立臺灣大學，後前往美國深造，先後在加州理工學院和史丹佛大學攻讀博士學位。\n\n李遠哲在物理學領域有著卓越的成就，他於1976年獲得諾貝爾物理學獎，成為第一位獲得該獎項的華人科學家。他的研究成果對於粒子物理學和量子場論有著重大貢獻，對於科學界有著深遠的影響。\n\n除了在學術界的成就外，李遠哲也是一位熱心的社會公益工作者，他積極參與推動科學教育和環境保護等議題。他創辦了李遠哲基金會，致力於推廣科學知識和培育科學人才，對於臺灣的科學發展有著重要的影響。\n\n李遠哲的貢獻不僅在學術領域有所建樹，也在社會公益方面有著卓越的表現，他被譽為臺灣的科學巨人，對於臺灣的科學事業和社會進步有著深遠的影響。"
+        }
+    ],
+    "total_runtime": 63.49503803253174
+}

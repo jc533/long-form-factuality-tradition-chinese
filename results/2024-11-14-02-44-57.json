@@ -1,0 +1,43 @@
+{
+    "add_universal_postamble": "True",
+    "max_num_examples": "3",
+    "num_sentences": "1",
+    "parallelize": "False",
+    "responder_model": "OPENAI:gpt-3.5-turbo-0125",
+    "responder_model_short": "gpt_35_turbo",
+    "response_length_postamble": "Respond in exactly 1 sentence.",
+    "save_results": "True",
+    "shared_config": "<module 'common.shared_config' from '/home/user/program/long-form-factuality-tradition-chinese/common/shared_config.py'>",
+    "show_responder_prompts": "True",
+    "show_responder_responses": "True",
+    "shuffle_data": "False",
+    "side_1": "placeholder",
+    "side_2": "vanilla_prompting",
+    "task": "longfact_concepts",
+    "task_short": "longfact_concepts",
+    "use_length_ablation": "False",
+    "per_prompt_data": [
+        {
+            "prompt": "20世紀台灣的民權運動，例如二二八事件和美麗島事件，如何導致重大立法變化和社會轉變，並影響這些地區後續的民族關係和人權的討論產生影響？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "20世紀初期，台灣作為日本殖民地，受到嚴格的統治和限制，民眾缺乏基本的民主自由。直到二次大戰結束後，台灣由中華民國政府接管，但仍然存在著政治壓迫和社會不公。\n\n1947年的二二八事件是台灣歷史上一個重要的轉折點。當時，因為政府對於物價控制和濫用職權的不滿，引發了民眾的抗議。政府以武力鎮壓，造成大量無辜平民死傷，這次事件激發了台灣人對於民主和人權的追求，也引發了後續的民權運動。\n\n1980年代的美麗島事件更是台灣民主運動的重要里程碑。當時，台灣民主進步黨的黨員被控告參與叛亂，其中包括黨主席林濁水。這次事件引發了國際社會的關注，也讓更多人意識到台灣政治體制的問題。\n\n這些事件最終導致了台灣政治體制的改變。1990年代初，台灣實現了多黨制，並開始進行民主化進程。這些改變使得台灣成為亞洲少數幾個擁有完整民主制度的國家之一。\n\n這些事件也對台灣的民族關係和人權討論產生了深遠影響。台灣的民族認同逐漸從中國轉向獨立，對於台灣獨立和統一的議題引發了激烈的爭論。同時，人權議題也成為台灣社會的重要議題，包括言論自由、組織自由等方面的討論持續進行。\n\n總的來說，20世紀台灣的民權運動對於台灣社會和政治產生了深遠影響，塑造了現代台灣的政治和社會環境，並持續影響著台灣的民族關係和人權議題。"
+        },
+        {
+            "prompt": "清朝時期台灣的治理政策和影響是什麼？請探討清朝對台灣的治理方式及其如何影響當地社會結構、經濟和族群互動。 Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "清朝時期對台灣的治理政策主要是透過行政機構和官員來實施。清朝將台灣劃為福建省的一部分，設立台灣道，由一位道台負責統轄全島事務。此外，清朝也在台灣設立縣、州等行政區劃，並派遣官員來管理當地事務。\n\n清朝對台灣的治理方式主要是依循中央集權的原則，強調對當地官員的控制和監督。清朝官員在台灣實施了一系列政策，如土地制度改革、賦稅制度調整等，以加強對台灣的控制和開發。\n\n這些政策對當地社會結構、經濟和族群互動產生了深遠影響。在社會結構方面，清朝的土地制度改革使得土地集中於少數地主手中，加劇了農民的貧困和不滿。在經濟方面，清朝實施的賦稅制度調整使得農民負擔加重，導致經濟困難。在族群互動方面，清朝的統治政策對漢人、原住民和外來移民產生了不同程度的影響，加劇了族群之間的矛盾和衝突。\n\n總的來說，清朝對台灣的治理政策和影響是多方面的，既有利於中央政府的控制和統治，也對當地社會和經濟造成了一定程度的影響和變革。"
+        },
+        {
+            "prompt": "日治時期對台灣現代化進程的影響有多大？ 闡述日本統治期間基礎建設、教育體系和社會改革的推動，以及其對戰後台灣發展的影響。 Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "日治時期對台灣現代化進程的影響是非常深遠的。日本統治期間，日本政府進行了大量的基礎建設、教育體系和社會改革，對台灣的現代化進程起到了重要推動作用。\n\n首先，在基礎建設方面，日本政府修建了大量的鐵路、公路、港口和水利設施，促進了台灣的交通和經濟發展。例如，日本政府修建了橫貫台灣的鐵路，連接了北部和南部地區，促進了資源和人口的流動。\n\n其次，在教育體系方面，日本政府推行了普及教育政策，建立了許多學校和大學，提高了台灣人民的識字率和教育水平。例如，日本政府成立了台灣總督府學校，培養了許多台灣的精英人才。\n\n再者，在社會改革方面，日本政府推行了現代化的法律制度、行政機構和社會福利制度，提高了台灣人民的生活水準和社會地位。例如，日本政府實施了土地制度改革，促進了土地的合理利用和農業生產的發展。\n\n這些基礎建設、教育體系和社會改革對台灣的現代化進程產生了深遠的影響。戰後，台灣得以借鑑日本的經驗和模式，快速發展經濟、教育和社會事業，成為亞洲四小龍之一，展現出強大的競爭力和活力。可以說，日治時期對台灣現代化進程的影響是不可忽視的，為台灣的發展奠定了堅實的基礎。"
+        }
+    ],
+    "total_runtime": 26.244981050491333
+}
