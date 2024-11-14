@@ -392,20 +392,21 @@ def postprocess_atomic_facts(in_atomic_facts, para_breaks, nlp):
       'elected.',
   ]
   permitted_verbs = ['founding member.']
-  atomic_facts, new_atomic_facts, new_para_breaks = [], [], []
+  atomic_facts, new_atomic_facts, new_para_breaks = in_atomic_facts, [], para_breaks
 
-  for i, (sent, facts) in enumerate(in_atomic_facts):
-    sent = sent.strip()
+  # for i, (sent, facts) in enumerate(in_atomic_facts):
+  #   sent = sent.strip()
 
-    if len(sent.split()) == 1 and i not in para_breaks and i > 0:
-      assert i not in para_breaks
-      atomic_facts[-1][0] += ' ' + sent
-      atomic_facts[-1][1] += facts
-    else:
-      if i in para_breaks:
-        new_para_breaks.append(len(atomic_facts))
+  #   if len(sent.split()) == 1 and i not in para_breaks and i > 0:
+  #     pass
+  #     assert i not in para_breaks
+  #     atomic_facts[-1][0] += ' ' + sent
+  #     atomic_facts[-1][1] += facts
+  #   else:
+  #     if i in para_breaks:
+  #       new_para_breaks.append(len(atomic_facts))
 
-      atomic_facts.append([sent, facts])
+  #     atomic_facts.append([sent, facts])
 
   for _, (sent, facts) in enumerate(atomic_facts):
     entities = detect_entities(sent, nlp)
