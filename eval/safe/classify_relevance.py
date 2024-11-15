@@ -104,9 +104,10 @@ STATEMENT:
 """
 _REVISE_FORMAT = f"""\
 Vague references include but are not limited to:
-- Pronouns (e.g., "his", "they", "her")
-- Unknown entities (e.g., "this event", "the research", "the invention")
+- Pronouns (e.g., "his", "they", "her", "其")
+- Unknown entities (e.g., "this event", "the research", "the invention", "該國")
 - Non-full names (e.g., "Jeff..." or "Bezos..." when referring to Jeff Bezos)
+
 
 
 Instructions:
@@ -114,18 +115,19 @@ Instructions:
 given RESPONSE.
 2. Modify the STATEMENT by replacing vague references with the proper entities \
 from the RESPONSE that they are referring to.
-3. You MUST NOT change any of the factual claims made by the original STATEMENT.
-4. You MUST NOT add any additional factual claims to the original STATEMENT. \
+3. You MUST NOT translate the vague references to other language.
+4. You MUST NOT change any of the factual claims made by the original STATEMENT.
+5. You MUST NOT add any additional factual claims to the original STATEMENT. \
 For example, given the response "Titanic is a movie starring Leonardo \
 DiCaprio," the statement "Titanic is a movie" should not be changed.
-5. Before giving your revised statement, think step-by-step and show your \
+6. Before giving your revised statement, think step-by-step and show your \
 reasoning. As part of your reasoning, be sure to identify the subjects in the \
 STATEMENT and determine whether they are vague references. If they are vague \
 references, identify the proper entity that they are referring to and be sure \
 to revise this subject in the revised statement.
-6. After showing your reasoning, provide the revised statement and wrap it in \
+7. After showing your reasoning, provide the revised statement and wrap it in \
 a markdown code block.
-7. Your task is to do this for the STATEMENT and RESPONSE under "Your Task". \
+8. Your task is to do this for the STATEMENT and RESPONSE under "Your Task". \
 Some examples have been provided for you to learn how to do this task.
 
 
