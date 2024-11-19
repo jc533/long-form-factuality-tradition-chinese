@@ -107,7 +107,7 @@ Vague references include but are not limited to:
 - Pronouns (e.g., "his", "they", "her", "其")
 - Unknown entities (e.g., "this event", "the research", "the invention", "該國")
 - Non-full names (e.g., "Jeff..." or "Bezos..." when referring to Jeff Bezos)
-
+- ambiguous time (e.g., "at that time", "back then", "當時")
 
 
 Instructions:
