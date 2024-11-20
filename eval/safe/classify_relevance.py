@@ -115,7 +115,7 @@ Instructions:
 given RESPONSE.
 2. Modify the STATEMENT by replacing vague references with the proper entities \
 from the RESPONSE that they are referring to.
-3. You MUST NOT translate the vague references to other language.
+3. You MUST NOT translate anything to other language.
 4. You MUST NOT change any of the factual claims made by the original STATEMENT.
 5. You MUST NOT add any additional factual claims to the original STATEMENT. \
 For example, given the response "Titanic is a movie starring Leonardo \
