@@ -58,7 +58,7 @@ Instructions:
 1. You are given a sentence. Your task is to break the sentence down into a \
 list of atomic facts.
 2. An atomic fact is a sentence containing a singular piece of information.
-3. An atomic fact is a sentence with subject.
+3. An atomic fact is a sentence with subject and time.
 4. Each atomic fact in the outputted list should check a different piece of \
 information.
 5. The language of atomic fact must be the same as the given sentence.
