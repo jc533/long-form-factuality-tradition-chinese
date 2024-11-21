@@ -34,7 +34,7 @@ from common import shared_config
 #     'claude_instant',
 # ]
 ################################################################################
-model_short = 'llama3'
+model_short = 'gpt_35_turbo'
 model_temp = 0.1
 max_tokens = 512
 

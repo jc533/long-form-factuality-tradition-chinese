@@ -44,6 +44,7 @@ random_seed = 1
 model_options = {
     'gpt_4_turbo': 'OPENAI:gpt-4-0125-preview',
     'gpt_4': 'OPENAI:gpt-4-0613',
+    'gpt_4o':'OPENAI:gpt-4o',
     'gpt_4_32k': 'OPENAI:gpt-4-32k-0613',
     'gpt_35_turbo': 'OPENAI:gpt-3.5-turbo-0125',
     'gpt_35_turbo_16k': 'OPENAI:gpt-3.5-turbo-16k-0613',
@@ -53,25 +54,28 @@ model_options = {
     'claude_21': 'ANTHROPIC:claude-2.1',
     'claude_20': 'ANTHROPIC:claude-2.0',
     'claude_instant': 'ANTHROPIC:claude-instant-1.2',
-    'gemini_15_pro': 'GEMINI:gemini_15_pro',
-    'groq': 'GROQ:llama-3.1-70b-versatile',
+    'claude35sonnet':'ANTHROPIC:claude-3-5-sonnet-latest',
+    'gemini15pro': 'GEMINI:gemini_15_pro',
+    'groqllama3170b': 'GROQ:llama-3.1-70b-versatile',
     'llama3':'LLAMA:llama3',
     'mixtral8x7':'LLAMA:mixtral'
 }
 model_string = {
     'gpt_4_turbo': 'gpt4turbo',
     'gpt_4': 'gpt4',
+    'gpt_4o':'gpt4o',
     'gpt_4_32k': 'gpt432k',
     'gpt_35_turbo': 'gpt35turbo',
     'gpt_35_turbo_16k': 'gpt35turbo16k',
     'claude_3_opus': 'claude3opus',
     'claude_3_sonnet': 'claude3sonnet',
+    'claude_3.5_sonnet':'claude35sonnet',
     'claude_21': 'claude21',
     'claude_20': 'claude20',
     'claude_instant': 'claudeinstant',
     'llama3':'llama3',
-    'gemini_15_pro':'gemini_15_pro',
-    'groq':'groq'
+    'gemini_15_pro':'gemini15pro',
+    'groq-llama3.1-70b':'groqllama3170b'
 }
 task_options = {}
 root_dir = '/'.join(os.path.abspath(__file__).split('/')[:-2])

@@ -53,7 +53,7 @@ save_results = True
 #     'claude_instant',
 # ]
 ################################################################################
-responder_model_short = 'llama3'
+responder_model_short = 'gpt_4o'
 
 ################################################################################
 #                               DEBUG SETTINGS
@@ -79,7 +79,7 @@ show_responder_responses = True
 ################################################################################
 task_short = 'longfact_objects'
 shuffle_data = True
-max_num_examples = 250
+max_num_examples = 38
 add_universal_postamble = True
 
 ################################################################################

@@ -1,0 +1,288 @@
+{
+    "add_universal_postamble": "True",
+    "max_num_examples": "38",
+    "num_sentences": "1",
+    "parallelize": "False",
+    "responder_model": "OPENAI:gpt-4o",
+    "responder_model_short": "gpt_4o",
+    "response_length_postamble": "Respond in exactly 1 sentence.",
+    "save_results": "True",
+    "shared_config": "<module 'common.shared_config' from '/home/user/program/long-form-factuality-tradition-chinese/common/shared_config.py'>",
+    "show_responder_prompts": "True",
+    "show_responder_responses": "True",
+    "shuffle_data": "True",
+    "side_1": "placeholder",
+    "side_2": "vanilla_prompting",
+    "task": "longfact_objects",
+    "task_short": "longfact_objects",
+    "use_length_ablation": "False",
+    "per_prompt_data": [
+        {
+            "prompt": "Sarah Paoletti在移民法領域是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Sarah Paoletti是美國一位知名的法律學者和實務工作者，專注於移民法和人權法。她在賓夕法尼亞大學法學院擔任臨床法律教授，並且是該校跨國法律診所（Transnational Legal Clinic）的創始主任。這個診所專注於提供與移民和人權相關的法律服務，並且為學生提供實務訓練的機會。\n\nPaoletti教授的工作重點包括為移民和難民提供法律援助，特別是那些面臨被驅逐出境或剝奪人權的群體。她也積極參與國際人權機構的工作，曾經在美洲人權委員會（Inter-American Commission on Human Rights）和聯合國等平台上提出報告和建議。\n\n此外，Sarah Paoletti也致力於研究和倡導勞工權益，特別是移民工人的權利。她曾參與多個國際和國內的研討會和會議，並發表了多篇學術文章，探討移民法和人權法的交叉領域。\n\n她的工作不僅限於學術界，還包括與非政府組織和法律援助機構的合作，以推動政策改革和提高公眾對移民和人權議題的認識。她的努力為許多移民和難民提供了重要的法律支持和保障。"
+        },
+        {
+            "prompt": "Lil Nas X 是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Lil Nas X，本名孟特羅·拉馬爾·希爾（Montero Lamar Hill），是一位美國饒舌歌手、歌手和詞曲創作人。他於1999年4月9日出生在喬治亞州的利思亞泉（Lithia Springs, Georgia）。Lil Nas X 因其歌曲《Old Town Road》而在2019年迅速走紅，這首歌結合了鄉村音樂和嘻哈元素，並在TikTok上廣泛流行。\n\n《Old Town Road》在2019年3月首次發布，隨後與知名鄉村音樂歌手比利·雷·賽勒斯（Billy Ray Cyrus）合作推出了混音版本。這首歌在Billboard Hot 100榜單上連續19周位居榜首，打破了歷史紀錄。\n\nLil Nas X以其大膽的風格和公開的同性戀身份而聞名，他在2019年6月的LGBT驕傲月期間公開出櫃，成為音樂界中少數公開出櫃的黑人饒舌歌手之一。他的出櫃在社交媒體上引起了廣泛的關注和支持。\n\n2021年，Lil Nas X 發行了他的首張錄音室專輯《Montero》，其中包括熱門單曲《Montero (Call Me by Your Name)》。這首歌的音樂錄影帶因其大膽的視覺效果和宗教意象而引發了爭議和討論。此外，他在音樂錄影帶中呈現的藝術表達和性別流動性也受到了讚譽。\n\nLil Nas X 的作品不僅在音樂上取得了成功，也在文化和社會層面引發了廣泛的討論。他以其創新的音樂風格、獨特的個人風格和對LGBTQ+社群的支持而受到廣泛認可和尊重。"
+        },
+        {
+            "prompt": "本·卡森是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "本·卡森（Benjamin Solomon Carson Sr.）是一位美國神經外科醫生、作家和政治人物，以其在醫學界的成就以及後來的政治生涯而聞名。\n\n1. **出生與教育背景**：\n   - 本·卡森於1951年9月18日出生在密歇根州底特律市。\n   - 他在耶魯大學獲得心理學學士學位，之後在密歇根大學醫學院獲得醫學博士學位。\n\n2. **醫學成就**：\n   - 卡森以其在小兒神經外科的卓越成就而聞名，尤其是在約翰·霍普金斯醫院擔任神經外科主任。\n   - 他最著名的成就是1987年成功分離一對連體嬰（賓德爾雙胞胎），這是首次成功分離連體頭顱的手術。\n   - 他還開創了許多小兒神經外科的新技術和手術方法。\n\n3. **寫作與公共演講**：\n   - 卡森撰寫了多本書籍，包括自傳《Gifted Hands: The Ben Carson Story》（《天賦的雙手：本·卡森的故事》），該書後來被改編成電視電影，由小庫柏·古丁主演。\n   - 他以激勵人心的演講聞名，經常談論他的個人故事以及對教育和努力工作的看法。\n\n4. **政治生涯**：\n   - 2013年，他在全國祈禱早餐會上發表了一篇批評奧巴馬政府政策的演講，這使他在保守派中獲得了廣泛關注。\n   - 2015年，他宣布參加2016年美國總統選舉共和黨初選，雖然最終未能獲得提名，但在初選中表現強勁。\n   - 2017年，卡森被任命為美國住房與城市發展部部長，並在特朗普政府中任職至2021年。\n\n5. **個人生活**：\n   - 本·卡森與Candy Carson結婚，兩人育有三個孩子。\n   - 卡森以其虔誠的基督教信仰著稱，並積極參與教會活動。\n\n本·卡森是一位多才多藝的人物，他在醫學和政治領域的影響力使他成為美國公共生活中的重要人物。"
+        },
+        {
+            "prompt": "你能提供關於大型地下氙實驗（LUX）的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "大型地下氙實驗（LUX，Large Underground Xenon experiment）是一個位於美國南達科他州的地下實驗室的暗物質探測實驗。該實驗的主要目的是探測和研究宇宙中假設存在的暗物質粒子，特別是弱相互作用大質量粒子（WIMPs）。\n\n### 地點\nLUX實驗設置在桑福德地下研究設施（Sanford Underground Research Facility，SURF）的地下1.5公里處。這個深度有助於屏蔽來自宇宙射線的干擾，從而提高實驗的靈敏度。\n\n### 實驗設備\nLUX使用液態氙作為探測介質，液態氙具有高密度和高原子序數，有效地提高了對WIMPs的探測能力。探測器包含約370公斤的液態氙，並配備了先進的光電倍增管（PMTs），用於探測氙核與假設的WIMP粒子碰撞後發出的微弱光信號。\n\n### 歷史與時間線\n- **啟動**：LUX實驗於2012年開始運行。\n- **數據收集**：在2013年至2016年間，LUX進行了多次數據收集運行。\n- **結果公佈**：2013年10月，LUX公佈了其首批運行的結果，這些結果是當時世界上最靈敏的暗物質探測數據。\n- **關閉**：LUX實驗於2016年結束運行，並被其繼任者LUX-ZEPLIN（LZ）實驗所取代，後者旨在進一步提高暗物質探測的靈敏度。\n\n### 科學貢獻\nLUX的結果雖然沒有直接探測到WIMPs，但它大幅提高了暗物質探測的靈敏度，並排除了許多理論模型中的WIMP候選者。這些結果為暗物質研究提供了重要的實驗約束，並推動了後續更大規模實驗的發展。\n\n### 參與人員\nLUX實驗由來自多個國家的科學家和研究機構合作完成，包括美國的布朗大學、耶魯大學、南達科他礦業技術學院等。主要的研究人員包括Daniel McKinsey、Rick Gaitskell等。\n\n總的來說，LUX實驗在暗物質探測領域中扮演了重要的角色，為後續的研究奠定了堅實的基礎。"
+        },
+        {
+            "prompt": "約翰·鮑爾比在依附理論領域中的貢獻是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "約翰·鮑爾比（John Bowlby）是依附理論的創始人之一，他對心理學和兒童發展的研究產生了深遠的影響。以下是他在依附理論領域中的一些主要貢獻：\n\n1. **依附理論的創立**：鮑爾比在20世紀中期提出了依附理論，這是一個關於兒童如何與主要照顧者形成情感聯繫的理論。他認為，這種情感聯繫對於兒童的心理發展至關重要。\n\n2. **依附行為的概念**：鮑爾比將依附視為一種本能行為，這種行為有助於嬰兒與照顧者保持接近，以獲得安全感和保護。他指出，依附行為在嬰兒期特別顯著，因為嬰兒在這一階段極為依賴成人的照顧。\n\n3. **研究與報告**：鮑爾比的研究得到了世界衛生組織的支持，他在1951年撰寫了一份名為《母愛剝奪》（Maternal Care and Mental Health）的報告，強調母親對於兒童早期情感發展的重要性。\n\n4. **影響與後續研究**：鮑爾比的工作影響了許多後續的研究者，如瑪麗·安斯沃斯（Mary Ainsworth），她進一步發展了依附理論，並設計了著名的「陌生情境實驗」（Strange Situation）來研究不同的依附類型。\n\n5. **依附類型**：依附理論的研究發展出不同的依附類型，包括安全型依附、逃避型依附和焦慮型依附。這些類型的劃分有助於理解兒童在面對分離或壓力時的不同反應模式。\n\n6. **長期影響**：鮑爾比的理論不僅影響了心理學和精神分析學，還對社會政策和育兒實踐產生了影響。他的研究強調了早期親子關係的重要性，促使許多國家改進了兒童福利和育兒政策。\n\n總之，約翰·鮑爾比通過創立依附理論，為理解人類情感聯繫的形成和發展提供了重要的框架，並對心理學、教育學和社會政策等多個領域產生了深遠的影響。"
+        },
+        {
+            "prompt": "什麼是電子遊戲《集合啦！動物森友會》？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "《集合啦！動物森友會》（日文名稱：あつまれ どうぶつの森，英文名稱：Animal Crossing: New Horizons）是一款由任天堂開發和發行的社交模擬電子遊戲。該遊戲於2020年3月20日在任天堂Switch平台上全球同步發售。\n\n### 遊戲背景與玩法\n《集合啦！動物森友會》是《動物森友會》系列的第五部主要作品。玩家在遊戲中扮演一名角色，受邀參加由狸貓「狸克」（Tom Nook）經營的「無人島移居計畫」。玩家將在一座無人島上展開新生活，通過各種活動逐步建設和裝飾自己的島嶼。\n\n### 角色與居民\n遊戲中有許多可愛的動物角色，這些角色被稱為「居民」。每位居民都有獨特的個性和興趣，例如「阿獺」（K.K. Slider），一位著名的音樂家，會在每週六晚上8點於廣場舉行演唱會。其他知名角色還包括「豆狸」（Timmy）和「粒狸」（Tommy），他們負責經營島上的商店。\n\n### 遊戲機制\n- **時間與季節**：遊戲中的時間與現實時間同步，並且會隨著四季變化，影響島上的環境和活動。例如，冬季會下雪，可以進行堆雪人等活動。\n- **資源收集**：玩家可以收集資源如木材、石頭、魚類和昆蟲，這些資源可以用來製作家具和工具。\n- **DIY系統**：玩家可以使用收集到的材料來製作各種物品，從家具到裝飾品，甚至是工具。\n- **多人遊玩**：支持最多8名玩家在同一座島上生活，並且可以通過本地或網絡連線進行互動。\n\n### 更新與活動\n任天堂持續為《集合啦！動物森友會》提供更新和活動。例如，萬聖節、聖誕節等特別活動會帶來新的物品和挑戰。2020年4月，遊戲推出了「地球日」活動，鼓勵玩家種植樹木和花卉。\n\n### 銷售與影響\n《集合啦！動物森友會》在發售後迅速成為全球暢銷遊戲之一。截至2021年，該遊戲已售出超過3000萬份，成為任天堂Switch平台上最成功的遊戲之一。遊戲因其放鬆的玩法和社交互動而廣受歡迎，尤其是在COVID-19疫情期間，成為許多人保持聯繫和放鬆心情的重要方式。\n\n總結來說，《集合啦！動物森友會》以其獨特的玩法、可愛的角色和豐富的社交互動，吸引了全球眾多玩家，成為一款具有長期影響力的遊戲作品。"
+        },
+        {
+            "prompt": "什麼是安全訊息應用程式 Signal？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Signal 是一款專注於隱私和安全的即時通訊應用程式，由非營利組織 Signal Foundation 和 Signal Messenger LLC 開發。這款應用程式以其強大的端對端加密技術而聞名，確保用戶之間的通訊內容不被第三方截取或查看。\n\n### 背景\nSignal 的前身可以追溯到2010年，由美國密碼學家 Moxie Marlinspike 和機構 Open Whisper Systems 推出。2018年，Signal Foundation 成立，並獲得 WhatsApp 聯合創辦人 Brian Acton 的資助，提供了5000萬美元的資金支持，旨在進一步推廣和開發 Signal。\n\n### 功能\n1. **端對端加密**：Signal 使用自己的 Signal Protocol 進行端對端加密，這意味著只有通訊的雙方能夠讀取訊息內容。\n2. **多平台支持**：Signal 支持 iOS、Android、Windows、Mac 和 Linux，讓用戶可以在多種設備上使用。\n3. **訊息消失功能**：用戶可以設定訊息在指定時間後自動刪除，增強隱私保護。\n4. **語音與視訊通話**：Signal 提供高質量的加密語音和視訊通話。\n5. **開源軟體**：Signal 的程式碼是開源的，這意味著安全專家可以檢查其安全性。\n\n### 事件與使用\nSignal 在全球多個地區受到隱私倡導者的推崇。例如，愛德華·史諾登（Edward Snowden）和其他隱私保護者都曾公開表示支持使用 Signal。2021年初，因為 WhatsApp 更新其隱私政策，引發了用戶對隱私問題的擔憂，Signal 的下載量在短時間內激增，在許多國家成為下載量最高的應用程式之一。\n\n### 使用情境\nSignal 被廣泛用於需要高隱私保護的場合，例如：\n- **新聞記者**：用來與消息來源進行保密通訊。\n- **政治活動家**：在政治敏感地區進行安全的組織和溝通。\n- **一般用戶**：日常通訊中，避免個人資料被未經授權的第三方訪問。\n\nSignal 的設計和功能使其成為一個強大且可靠的隱私保護工具，適合任何重視通訊安全的用戶。"
+        },
+        {
+            "prompt": "達利與拉坦的旁觀者效應實驗在理解社會行為和決策過程中扮演了什麼角色？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "達利（John M. Darley）與拉坦（Bibb Latané）的旁觀者效應實驗在社會心理學中具有重要的角色，特別是在理解社會行為和決策過程中。他們的研究起源於1964年紐約市發生的一起著名案件：基蒂·吉諾維斯（Kitty Genovese）謀殺案。這起事件中，據報導有38位鄰居目擊或聽到了襲擊的過程，但幾乎沒有人及時報警或介入，這引發了社會對「旁觀者效應」的關注。\n\n達利與拉坦於1968年進行了一系列實驗，以科學方式探討這一現象。他們設計了一個經典實驗，讓參與者在實驗室中聽到一個模擬的緊急情況，例如有人突然發病。實驗的變數是參與者認為有多少其他人也在聽到這個緊急情況。結果顯示，當參與者認為自己是唯一的旁觀者時，他們更可能迅速採取行動；而當他們認為有其他人也在場時，行動的可能性顯著降低，這就是所謂的「責任分散」效應。\n\n這些實驗揭示了旁觀者效應的兩個主要原因：責任分散與社會影響。責任分散指的是當有多個旁觀者時，每個人都可能認為其他人會介入，因此降低了個人行動的動機。社會影響則指旁觀者往往會觀察他人的反應來決定自己的行動，這可能導致集體的不作為。\n\n這些研究不僅在學術界產生了深遠影響，也對公共政策和教育產生了影響。例如，急救培訓中強調要指名道姓地請求特定人員幫助，以減少責任分散的情況。此外，這些研究也促使人們在面對緊急情況時更加積極地介入。\n\n總之，達利與拉坦的旁觀者效應實驗深刻地影響了我們對社會行為的理解，揭示了人類在群體情境中的決策過程，並促進了在緊急情況下更有效的干預策略的發展。"
+        },
+        {
+            "prompt": "在 Cadbury 的「Gorilla」廣告活動中，幸福的概念是如何融入的？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Cadbury 的「Gorilla」廣告活動於 2007 年推出，由 Fallon London 廣告公司創作。這個廣告以其獨特且簡單的方式成功地將幸福的概念融入其中，主要透過音樂和情感的表達來達成。\n\n1. **廣告內容**：廣告的主角是一隻身穿大猩猩裝的演員，他坐在一套鼓組前，隨著 Phil Collins 的經典歌曲《In the Air Tonight》演奏。廣告開始時，大猩猩閉著眼睛，深呼吸，似乎在等待一個重要時刻。隨著音樂的高潮到來，大猩猩開始投入地打鼓，表現出極大的喜悅和滿足感。\n\n2. **音樂的選擇**：Phil Collins 的《In the Air Tonight》以其強烈的情感和鼓點而聞名。這首歌的選擇不僅喚起了觀眾的懷舊情感，也讓人感受到音樂帶來的純粹快樂。音樂在廣告中扮演了重要角色，使觀眾能夠立即與大猩猩的情感產生共鳴。\n\n3. **情感共鳴**：廣告中沒有任何對話，完全依賴音樂和大猩猩的表演來傳達信息。這種非語言的表達方式讓觀眾專注於情感的傳遞，進一步強化了幸福的概念。大猩猩在演奏時的投入和喜悅，象徵著追求和享受單純快樂的瞬間。\n\n4. **品牌聯繫**：雖然廣告本身並未直接展示 Cadbury 巧克力，但結尾時出現的 Cadbury 標誌和「A Glass and a Half Full of Joy」的口號，巧妙地將這種幸福感與 Cadbury 的品牌形象聯繫在一起。這句口號進一步強化了 Cadbury 希望傳達的品牌價值，即享受生活中的小確幸。\n\n5. **廣告的影響**：這個廣告在推出後獲得了廣泛的讚譽和成功，不僅增強了 Cadbury 的品牌形象，也提升了其產品的銷售。它在 2008 年贏得了坎城國際創意節的金獅獎，成為廣告界的一個經典案例。\n\n總之，Cadbury 的「Gorilla」廣告透過音樂、情感表達和品牌聯繫，成功地將幸福的概念融入其中，並在觀眾心中留下了深刻的印象。"
+        },
+        {
+            "prompt": "你能提供有關凱克觀測台的一些資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "凱克觀測台位於美國夏威夷大島的莫納克亞山（Mauna Kea），這座山是全球最重要的天文觀測地之一。凱克觀測台由兩座光學/紅外望遠鏡組成，分別是凱克I（Keck I）和凱克II（Keck II），這兩座望遠鏡都是由加州大學和加州理工學院合作經營的。\n\n1. **望遠鏡規格**：凱克望遠鏡的主鏡直徑均為10米，這使它們成為世界上最大的光學和紅外望遠鏡之一。每個主鏡由36個六角形的鏡片組成，這些鏡片能夠精確地協同工作，形成一個完整的反射面。\n\n2. **歷史背景**：凱克I於1993年首次投入使用，而凱克II則在1996年開始運行。這兩座望遠鏡的建造和運行得到了凱克基金會（W. M. Keck Foundation）的慷慨資助。\n\n3. **地理位置**：莫納克亞山位於海拔約4,200米的高度，這個位置提供了極為清晰的觀測條件，因為高海拔能有效減少大氣干擾，並且該地區的空氣通常非常乾燥，適合紅外觀測。\n\n4. **科學成就**：凱克望遠鏡在天文學界取得了許多重要的成就。例如，利用凱克望遠鏡，科學家們發現了許多系外行星，並對銀河系中心的超大質量黑洞進行了詳細研究。凱克望遠鏡還在超新星觀測、星系形成和演化研究等方面發揮了重要作用。\n\n5. **技術創新**：凱克望遠鏡採用了自適應光學技術，這項技術能夠實時校正大氣湍流對觀測圖像的影響，從而大幅提高圖像的清晰度。此外，望遠鏡還配備了多種先進的儀器，如光譜儀和攝影機，這些設備使得它在多個波段進行高精度觀測成為可能。\n\n凱克觀測台的設立和運營代表了天文學技術和科學研究的前沿，它不僅是天文學家們探索宇宙奧秘的重要工具，也是一個促進全球科學合作的典範。"
+        },
+        {
+            "prompt": "誰是喬納斯·索爾克？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "喬納斯·索爾克（Jonas Salk）是一位美國的醫學研究者和病毒學家，以研發出第一個有效的小兒麻痺症（脊髓灰質炎）疫苗而聞名。索爾克於1914年10月28日出生於紐約市的一個俄裔猶太移民家庭。他在紐約大學醫學院獲得醫學學位，並最初在紐約大學和匹茲堡大學進行流感研究。\n\n索爾克最著名的成就是在1950年代開發出小兒麻痺症疫苗。當時，小兒麻痺症是一種非常可怕的疾病，特別是對兒童來說，可能導致終身殘疾或死亡。1952年，美國爆發了史上最嚴重的小兒麻痺症疫情，報告了近58,000例病例。\n\n索爾克在匹茲堡大學的病毒研究實驗室中，利用滅活病毒技術研發出小兒麻痺症疫苗。1954年，索爾克疫苗開始進行大規模的臨床試驗，超過180萬名兒童參與了這次試驗，這些兒童被稱為「小兵」（Polio Pioneers）。1955年4月12日，研究結果公佈，證明索爾克疫苗是安全有效的。\n\n疫苗的成功使得小兒麻痺症的發病率大幅下降，成為公共衛生史上的一個重要里程碑。索爾克選擇不為他的疫苗申請專利，這一決定使疫苗能夠廣泛生產和分發，進一步推動了疾病的控制。\n\n喬納斯·索爾克於1995年6月23日去世，享年80歲。他的工作不僅挽救了數百萬人的生命，也在疫苗研發和公共衛生領域留下了深遠的影響。索爾克的貢獻被廣泛讚譽，他的名字也因此成為科學和人道主義的象徵。"
+        },
+        {
+            "prompt": "你能告訴我關於昴宿星團的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "昴宿星團，也稱為七姊妹星團或Pleiades，是位於金牛座的一個著名疏散星團，距離地球約440光年。這個星團是肉眼可見的最明亮的星團之一，通常在夜空中可以看到六到七顆星星，但在理想的觀測條件下，可能看到更多。\n\n1. **名稱與文化**：昴宿星團在不同文化中有不同的名稱和神話。在希臘神話中，這些星星被稱為七姊妹，分別是阿特拉斯和普勒俄涅的七個女兒：阿爾克俄涅、邁亞、墨洛佩、厄勒克拉、塔伊吉塔、塞拉埃諾和阿斯忒羅珀。\n\n2. **天文特徵**：昴宿星團由大約1000顆恒星組成，年齡估計約為1億歲。這些恒星主要是熱的藍色B型星，星團中最亮的幾顆星包括阿爾克俄涅（最亮的）、阿特拉斯和艾斯特拉。\n\n3. **觀測歷史**：昴宿星團自古以來就為人所知，並在許多古代文明中被記錄。中國古代稱其為「昴宿」，並且在《詩經》中有提到。古巴比倫、瑪雅、阿茲特克等文明中也有關於這個星團的記載。\n\n4. **科學研究**：昴宿星團是研究恒星形成和演化的重要對象。由於其相對較近且年輕，天文學家可以通過觀測這個星團來了解恒星的形成過程和早期演化階段。\n\n5. **光譜與成分**：昴宿星團的恒星主要由氫和氦組成，並且大多數是熱的藍色恒星。星團中的一些恒星周圍還有反射星雲，這些星雲是由星團中的恒星光線反射在周圍的塵埃上形成的。\n\n6. **現代觀測**：現代天文學家利用望遠鏡和太空探測器，如哈勃太空望遠鏡，對昴宿星團進行深入研究，以獲得更詳細的數據和圖像。\n\n昴宿星團不僅是天文學研究的重要目標，還因其美麗的外觀和豐富的文化意義而備受關注。"
+        },
+        {
+            "prompt": "什麼是安全通訊應用 Signal? Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Signal 是一款專注於隱私和安全的即時通訊應用程式，由非營利組織 Signal 基金會和 Signal Messenger LLC 開發。它提供端到端加密，確保只有通信的雙方可以讀取消息內容，這意味著即使是 Signal 的開發者或任何第三方也無法解密用戶的通信。\n\n### 主要功能\n1. **端到端加密**：Signal 使用的加密協議被稱為 Signal Protocol，這是一種非常安全的加密方法，廣泛應用於其他安全通訊工具如 WhatsApp 和 Facebook Messenger 的秘密對話功能。\n\n2. **語音和視頻通話**：Signal 支持高質量的語音和視頻通話，這些通話同樣受到端到端加密的保護。\n\n3. **群組聊天**：Signal 支持加密的群組聊天，允許用戶在安全的環境中進行多人交流。\n\n4. **訊息消失**：用戶可以設置訊息在特定時間後自動消失，從而增加了隱私保護。\n\n5. **開源**：Signal 的程式碼是開源的，這意味著任何人都可以查看和審計其安全性，這增加了透明度和信任度。\n\n### 歷史背景\nSignal 的前身 TextSecure 是由 Moxie Marlinspike 和 Stuart Anderson 在 2010 年創立的。2013 年，Signal Protocol 的前身 Axolotl Protocol 開始被開發，並在後來成為 Signal 的核心加密技術。2018 年，Signal 基金會成立，WhatsApp 的共同創辦人 Brian Acton 投入了 5000 萬美元支持 Signal 的發展。\n\n### 使用情境\nSignal 被廣泛使用於需要高安全性和隱私保護的情境中。例如，記者和活動人士經常使用 Signal 來保護他們的通信不被監控。2016 年，美國國會的一些成員也開始使用 Signal，以保護敏感信息的傳輸。\n\n### 全球使用\nSignal 在全球範圍內都有用戶，尤其是在那些對隱私和安全有較高需求的國家和地區。2021 年年初，WhatsApp 更新其隱私政策，引發用戶擔憂，導致 Signal 的下載量激增，成為當時全球下載量最高的應用程式之一。\n\n總之，Signal 是一款以隱私和安全為核心的通訊應用，適合任何關心其通信安全的個人和組織使用。"
+        },
+        {
+            "prompt": "歌手 \"Billie Eilish\" 是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "比莉·艾利什（Billie Eilish），全名比莉·艾利什·派瑞特·貝爾·奧康奈爾（Billie Eilish Pirate Baird O'Connell），是一位美國創作歌手。她於2001年12月18日出生在美國加利福尼亞州洛杉磯。比莉以其獨特的音樂風格和個性化的形象而聞名，並在青少年時期就迅速崛起成為全球知名的音樂藝術家。\n\n比莉·艾利什在2015年因單曲《Ocean Eyes》的發布而受到關注，這首歌是由她的哥哥菲尼亞斯·奧康奈爾（Finneas O'Connell）創作和製作的。菲尼亞斯不僅是她的哥哥，也是她音樂創作的重要夥伴。\n\n2019年，比莉推出了她的首張錄音室專輯《When We All Fall Asleep, Where Do We Go?》，這張專輯包含了多首熱門單曲如《Bad Guy》、《Bury a Friend》和《When the Party's Over》。其中，《Bad Guy》在全球範圍內取得了巨大的商業成功，並在美國公告牌百強單曲榜（Billboard Hot 100）上登上冠軍位置。\n\n比莉·艾利什在2020年格萊美獎（Grammy Awards）上大放異彩，獲得了包括年度專輯（Album of the Year）、年度製作（Record of the Year）、年度歌曲（Song of the Year）和最佳新人（Best New Artist）在內的多個獎項，成為格萊美史上最年輕的年度專輯獲獎者之一。\n\n比莉以其獨特的時尚風格和音樂視覺效果而聞名，她的音樂通常融合了流行、電子和另類的元素，並以她獨具特色的聲音和深刻的歌詞而著稱。她的音樂和形象都對年輕一代產生了深遠的影響，並且她在全球擁有龐大的粉絲群體。"
+        },
+        {
+            "prompt": "你能提供有關馬克·祖克柏在 Facebook 的角色的信息嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "馬克·祖克柏（Mark Zuckerberg）是 Facebook 的共同創辦人之一，並且在公司的發展過程中扮演了關鍵角色。他於 2004 年與達斯汀·莫斯科維茨（Dustin Moskovitz）、克里斯·休斯（Chris Hughes）和愛德華多·薩維林（Eduardo Saverin）共同創立了 Facebook。當時，這個社交平台最初是為哈佛大學的學生設計的，後來逐漸擴展到其他大學，並最終向全球開放。\n\n以下是一些關於馬克·祖克柏在 Facebook 的角色的具體細節：\n\n1. **首席執行官（CEO）**：自公司成立以來，祖克柏一直擔任 Facebook 的首席執行官。他在公司的戰略規劃和重大決策中發揮了核心作用，推動公司從一個大學社交網站成長為全球最大的社交媒體平台之一。\n\n2. **董事會主席**：祖克柏也擔任 Facebook 的董事會主席，這使他在公司治理中擁有相當大的影響力。\n\n3. **重大事件**：\n   - **首次公開募股（IPO）**：2012 年 5 月 18 日，Facebook 在納斯達克上市，當時的股票代號為 FB。這次 IPO 是科技行業歷史上最大規模之一，籌集了約 160 億美元。\n   - **收購 Instagram 和 WhatsApp**：在祖克柏的領導下，Facebook 於 2012 年以約 10 億美元收購了 Instagram，並於 2014 年以約 190 億美元收購了 WhatsApp，這些收購大大擴展了 Facebook 的產品組合和用戶基礎。\n\n4. **公司改名為 Meta**：2021 年 10 月 28 日，Facebook 宣布更名為 Meta Platforms, Inc.，以反映公司對於「元宇宙」（Metaverse）未來發展的重視。祖克柏在這一過程中發表了多次公開演講，闡述了他對未來虛擬現實和增強現實技術的願景。\n\n5. **隱私和數據安全問題**：在祖克柏的領導下，Facebook 也面臨過多次隱私和數據安全問題的挑戰，其中最著名的是 2018 年的劍橋分析（Cambridge Analytica）事件，這導致全球對 Facebook 在數據處理和用戶隱私保護方面的廣泛關注和批評。祖克柏曾多次在美國國會作證，解釋公司的數據保護措施和政策變更。\n\n這些事件和角色展示了馬克·祖克柏在 Facebook（現為 Meta）中的重要地位和影響力，並且他對於公司未來方向的設定有著深遠的影響。"
+        },
+        {
+            "prompt": "你能告訴我有關西藏的喇嘛寺在藏傳佛教中的意義嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "西藏的喇嘛寺在藏傳佛教中具有重要的宗教、文化和社會意義。這些寺院不僅是宗教活動的中心，也是文化傳承和社會生活的重要組成部分。以下是一些具體的細節和例子：\n\n1. **歷史背景**：\n   - 藏傳佛教起源於公元7世紀，最初由松贊干布引入西藏。隨著時間的推移，喇嘛寺成為藏傳佛教的主要宗教機構。\n   - 西藏的寺院分為不同的教派，如格魯派（黃教）、寧瑪派（紅教）、薩迦派和噶舉派等，各自有其獨特的傳承和教義。\n\n2. **著名寺院**：\n   - **布達拉宮**：位於拉薩，是達賴喇嘛的冬宮，始建於公元7世紀，是藏傳佛教的象徵之一。\n   - **大昭寺**：同樣位於拉薩，建於公元7世紀，為西藏最重要的佛教寺廟之一，是藏傳佛教信徒的朝聖地。\n   - **色拉寺**：位於拉薩，是格魯派的三大寺之一，以辯經活動聞名。\n   - **哲蚌寺**：也是格魯派的主要寺院之一，曾是世界上最大的寺院，僧侶人數曾達到萬人以上。\n\n3. **宗教角色**：\n   - 喇嘛寺是宗教教育的中心，許多寺院設有學院，教授佛教經典、哲學、辯經等課程。\n   - 僧侶在寺院中生活，進行修行、誦經和宗教儀式，保持佛教傳統的延續。\n\n4. **文化與社會影響**：\n   - 喇嘛寺在西藏文化中具有重要地位，許多藝術形式，如唐卡繪畫、佛教音樂和舞蹈，都與寺院密切相關。\n   - 寺院也在當地社會中發揮作用，提供教育、醫療和社會服務，並在重要節日和慶典中扮演關鍵角色。\n\n5. **重要人物**：\n   - **達賴喇嘛**：藏傳佛教格魯派的精神領袖，對西藏文化和宗教影響深遠。\n   - **班禪喇嘛**：另一位重要的宗教領袖，通常與達賴喇嘛互為師徒關係。\n\n6. **現代挑戰與發展**：\n   - 隨著現代化進程和政治變遷，喇嘛寺面臨著文化保護和宗教自由的挑戰。\n   - 許多寺院積極參與文化保護工作，努力保持傳統與現代發展的平衡。\n\n西藏的喇嘛寺在藏傳佛教中具有不可替代的地位，它們不僅是宗教信仰的中心，也是文化和歷史的見證者。"
+        },
+        {
+            "prompt": "誰是馬赫沙拉·阿里？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "馬赫沙拉·阿里（Mahershala Ali），原名馬赫沙拉哈什巴茲·吉爾摩（Mahershalalhashbaz Gilmore），是一位美國知名演員，於1974年2月16日出生在加利福尼亞州奧克蘭。他是當代影視界中備受讚譽的演員之一，以其出色的表演能力和多樣化的角色選擇而聞名。\n\n阿里在電視劇《紙牌屋》（House of Cards）中飾演雷米·丹頓（Remy Danton），這一角色讓他獲得了廣泛關注。此外，他在2016年的電影《月光下的藍色男孩》（Moonlight）中飾演胡安（Juan），這一角色為他贏得了奧斯卡最佳男配角獎，這使他成為首位獲得該獎項的穆斯林演員。\n\n2018年，阿里再次憑藉電影《幸福綠皮書》（Green Book）中的唐·雪利博士（Dr. Don Shirley）一角贏得奧斯卡最佳男配角獎，這部電影講述了一位非裔美國鋼琴家與其白人司機在1960年代美國南部巡演的故事。\n\n此外，阿里還參加了多部影視作品，包括《真探》（True Detective）第三季，他在其中飾演韋恩·海斯（Wayne Hays）偵探，以及漫威電影《刀鋒戰士》（Blade）的重啟版中擔任主角，這一消息於2019年聖地亞哥國際動漫展（San Diego Comic-Con）上公佈。\n\n阿里以其多樣的角色選擇和深刻的表演而受到廣泛讚譽，他的職業生涯不斷攀升，成為好萊塢最具影響力的演員之一。"
+        },
+        {
+            "prompt": "XGBoost 機器學習演算法是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "XGBoost（Extreme Gradient Boosting）是一種高效能的梯度提升（Gradient Boosting）機器學習演算法，由陳天奇（Tianqi Chen）於2014年開發。它以其速度和效能著稱，特別適用於結構化（tabular）數據的預測任務。XGBoost 是一種集成學習方法，主要用於分類和迴歸問題。\n\n### 特點：\n1. **速度與效能**：XGBoost 使用了多執行緒並行運算，使得訓練速度非常快。它還支援分布式計算，可以在大型數據集上進行高效訓練。\n\n2. **正則化**：XGBoost 在目標函數中加入了正則化項（L1 和 L2），以防止過擬合，這是其優於其他梯度提升方法的一大特點。\n\n3. **樹增強（Tree Boosting）**：XGBoost 使用樹增強技術，這意味著它在每次迭代時會生成一棵新的決策樹，並將其加入到現有模型中以減少誤差。\n\n4. **自動處理缺失值**：XGBoost 可以自動處理數據中的缺失值，這使得數據預處理更加簡單。\n\n5. **交叉驗證（Cross-validation）**：內建的交叉驗證功能，允許在訓練過程中進行模型評估，從而幫助選擇最佳的超參數。\n\n### 應用範例：\n- **Kaggle 比賽**：XGBoost 在許多 Kaggle 數據科學競賽中被廣泛使用，參賽者經常使用 XGBoost 來獲得優異的成績。\n- **金融風險評估**：在信用風險評估中，XGBoost 被用來預測客戶的違約風險。\n- **醫療診斷**：在醫療領域，XGBoost 可用於疾病預測和病人分類，幫助醫生做出更準確的診斷。\n\n### 技術細節：\n- **損失函數**：XGBoost 支援多種損失函數，包括對數損失（Log Loss）和平方損失（Squared Loss）。\n- **分裂點查找**：使用了近似算法來加速分裂點的查找，這對於大數據集尤為重要。\n- **剪枝（Pruning）**：XGBoost 使用最大深度而非傳統的預剪枝方法，並在樹生成後進行後剪枝（Post-pruning）。\n\nXGBoost 的誕生地在美國華盛頓大學，陳天奇在這裡完成了他的博士研究。自從發佈以來，XGBoost 已經成為數據科學家和機器學習工程師的重要工具之一。"
+        },
+        {
+            "prompt": "你能提供關於審計分析軟體的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "審計分析軟體是一種專門設計用於協助審計師和會計師進行數據分析和審查的工具。這些軟體可以幫助識別潛在的錯誤、欺詐行為，並提高審計效率。以下是一些常見的審計分析軟體及其特點：\n\n1. **ACL Analytics**：\n   - **公司**：Galvanize（現已被Diligent收購）\n   - **功能**：ACL Analytics 提供強大的數據分析功能，能夠從各種來源提取數據，進行篩選、排序、計算和圖表分析。它特別適合用於檢測異常交易和潛在的欺詐行為。\n   - **應用範圍**：金融、零售、政府部門等。\n\n2. **IDEA（Interactive Data Extraction and Analysis）**：\n   - **公司**：CaseWare International\n   - **功能**：IDEA 提供靈活的數據分析和審計功能，包括數據導入、篩選、統計分析和報告生成。它支持多種數據格式，並能夠處理大量數據。\n   - **特點**：強調用戶友好的界面和強大的分析能力。\n\n3. **TeamMate Analytics**：\n   - **公司**：Wolters Kluwer\n   - **功能**：這款軟體專注於增強審計流程的效率，提供包括數據分析、風險評估、審計計劃和報告生成等功能。\n   - **特點**：集成於Microsoft Excel中，方便用戶操作。\n\n4. **Power BI**：\n   - **公司**：Microsoft\n   - **功能**：雖然不專門針對審計，但Power BI是一款強大的商業智能工具，能夠用於數據可視化和分析。審計師可以利用其來創建交互式報告和儀表板。\n   - **特點**：支持多種數據來源，並提供豐富的可視化選項。\n\n5. **Qlik Sense**：\n   - **公司**：Qlik\n   - **功能**：Qlik Sense 提供強大的數據分析和可視化功能，支持用戶進行深入的數據探索和分析。\n   - **特點**：以其自助式分析和直觀的用戶界面著稱。\n\n這些審計分析軟體在全球各地的企業和政府機構中廣泛使用，幫助審計師更有效地進行數據分析和決策制定。隨著技術的進步，這些工具也在不斷更新和改進，以滿足不斷變化的行業需求。"
+        },
+        {
+            "prompt": "Eliezer Yudkowsky 的機器智能研究所是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Eliezer Yudkowsky 的機器智能研究所（Machine Intelligence Research Institute，簡稱 MIRI）是一個專注於人工智慧安全性研究的非營利組織。該機構於2000年成立，最初名為「種族改進研究所」（Singularity Institute for Artificial Intelligence，SIAI），後來在2013年改名為 MIRI。\n\nMIRI 的總部位於美國加州的伯克利。該機構的主要目標是確保人工智慧的發展對人類是安全且有益的。它專注於研究「友好 AI」的理論，這是一種能夠理解和促進人類價值的人工智慧。\n\nEliezer Yudkowsky 是 MIRI 的創始人之一，他是一位自學成才的人工智慧理論家，以他在人工智慧倫理和安全性方面的工作而聞名。他撰寫了大量關於 AI 和理性思考的文章，並且活躍於線上社群，如 LessWrong。\n\nMIRI 的研究範疇包括決策理論、邏輯不確定性、價值對齊（value alignment）等領域。他們的工作通常涉及數學和計算機科學的理論研究，目的是為了理解和解決在創建強人工智慧（AGI）過程中可能出現的挑戰。\n\nMIRI 曾舉辦和參與多次工作坊和會議，與其他研究機構和學者合作，以促進 AI 安全性領域的進步。例如，他們曾與牛津大學未來人類研究所（Future of Humanity Institute）和劍橋大學存在風險研究中心（Centre for the Study of Existential Risk）合作。\n\n此外，MIRI 也依賴於捐款來維持運營，並且曾獲得來自個人捐助者和基金會的支持，如 Open Philanthropy Project 和 Thiel Foundation。這些資金支持使 MIRI 能夠持續進行其研究計畫，並擴展其影響力和研究範圍。"
+        },
+        {
+            "prompt": "IBM的「Smarter Planet」行銷活動的具體內容是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "IBM的「Smarter Planet」（智慧地球）行銷活動於2008年11月首次推出，旨在推廣利用先進技術和數據分析來改善世界各地的系統和基礎設施。這項活動強調透過智慧科技來創造更高效、更可持續發展的地球。\n\n### 具體內容和例子：\n\n1. **目標和願景**：\n   - 「智慧地球」的願景是利用物聯網（IoT）、大數據分析、雲計算和人工智慧（AI）等技術來提升城市、企業和社會的運作效率。\n   - 活動的口號是「讓世界更智慧」，強調科技在解決全球性問題中的關鍵角色。\n\n2. **行銷策略**：\n   - IBM在全球範圍內舉辦了多場活動和論壇，以提高人們對智慧科技的認識。\n   - 該活動包括廣告宣傳、社交媒體推廣以及與政府和企業的合作。\n\n3. **具體案例**：\n   - **智慧交通**：在斯德哥爾摩，IBM協助實施了一個智慧交通系統，通過收集和分析交通數據來減少擁堵，從而提升交通效率。\n   - **智慧電網**：在美國的科羅拉多州，IBM與當地電力公司合作開發智慧電網技術，改善電力管理和分配效率。\n   - **智慧水資源管理**：在愛爾蘭都柏林，IBM參與了智慧水資源管理項目，利用傳感器和數據分析來監控和管理城市的供水系統。\n\n4. **合作夥伴**：\n   - IBM與多個政府機構和企業合作，包括城市規劃部門、電力公司、交通管理機構等。\n   - 這些合作夥伴關係幫助IBM在全球範圍內推廣智慧解決方案。\n\n5. **技術應用**：\n   - 使用大數據分析來預測和解決可能的問題，例如基於數據的預測維護。\n   - 開發智慧城市解決方案，涵蓋交通管理、能源效率、公共安全等領域。\n\n6. **影響和成果**：\n   - 該活動提升了IBM在智慧科技領域的品牌形象，並促進了相關技術的創新和應用。\n   - 「智慧地球」活動被認為是推動智慧城市和智慧基礎設施發展的重要里程碑。\n\n透過這些努力，IBM的「Smarter Planet」活動不僅推動了技術的進步，也促進了全球範圍內可持續發展的理念。"
+        },
+        {
+            "prompt": "瑪莉亞·莎拉波娃是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "瑪莉亞·莎拉波娃（Maria Sharapova）是一位俄羅斯著名的網球運動員，出生於1987年4月19日。她以其出色的網球技術和在賽場上的表現而聞名於世。莎拉波娃在2004年溫布頓網球錦標賽中一舉成名，當時年僅17歲的她在決賽中擊敗了兩屆冠軍小威廉絲（Serena Williams），贏得了她的第一個大滿貫冠軍。\n\n莎拉波娃職業生涯中共贏得了五個大滿貫單打冠軍，分別是：2004年溫布頓網球錦標賽、2006年美國網球公開賽、2008年澳大利亞網球公開賽，以及2012年和2014年的法國網球公開賽。她是網球史上第十位完成生涯大滿貫的女單選手。\n\n除了她的運動成就，莎拉波娃還因其商業頭腦和品牌影響力而著稱。她在2012年推出了自己的糖果品牌「Sugarpova」，進一步拓展了她在體育之外的事業。\n\n莎拉波娃的職業生涯並非一帆風順。2016年，她因藥檢未過而被國際網球聯合會（ITF）禁賽15個月，這一事件對她的職業生涯造成了重大影響。然而，她在禁賽結束後重返賽場，繼續參加各大賽事。\n\n2020年2月26日，莎拉波娃宣布退役，結束了她長達19年的職業網球生涯。退役後，她繼續活躍於商業和社交媒體平台，並參與多種慈善活動。\n\n莎拉波娃的職業生涯不僅因其在網球場上的成就而備受讚譽，也因她在場外的多元化發展和堅韌不拔的精神而為人所知。"
+        },
+        {
+            "prompt": "你能告訴我1941年恩尼格瑪機器被捕獲的具體事件嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "1941年，盟軍成功捕獲了一台德國的恩尼格瑪（Enigma）密碼機，這對於二戰期間盟軍破解德國的加密通信具有重大意義。具體事件發生在1941年5月9日，當時英國皇家海軍的驅逐艦HMS Bulldog在大西洋上攔截並攻擊了一艘德國潛艇U-110。\n\nU-110是一艘德國的IXB型潛艇，由弗里茨·尤利烏斯·萊姆普（Fritz-Julius Lemp）指揮。當天，U-110正在執行巡邏任務，並試圖攻擊盟軍的船隻。然而，它被英國海軍的護航艦隊發現，並遭到深水炸彈的攻擊。潛艇受到嚴重損壞，被迫浮出水面。\n\n在緊急情況下，潛艇上的船員們準備棄船逃生。由於情況混亂，潛艇上的恩尼格瑪機器和相關的密碼書未能及時銷毀。英國海軍的登船隊伍迅速行動，成功登上了U-110並繳獲了恩尼格瑪機器和密碼書。\n\n這次行動由HMS Bulldog的艦長傑拉德·布羅姆（Gerard Broadmead Roope）指揮，並由他的小隊成功完成了登船和繳獲任務。U-110的捕獲對盟軍來說是一個重要的情報勝利，因為恩尼格瑪機器的捕獲讓英國的密碼破譯專家，包括著名的數學家艾倫·圖靈（Alan Turing），能夠更有效地破解德國的加密通信，從而對戰爭的進程產生了深遠的影響。\n\n這次事件被英國方面高度保密，直到戰後多年才被公之於眾，以保護其情報優勢不被德國方面察覺。"
+        },
+        {
+            "prompt": "你能提供有關國際海洋法法庭的詳細資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "國際海洋法法庭（International Tribunal for the Law of the Sea，ITLOS）是根據《聯合國海洋法公約》成立的一個國際司法機構，專門負責處理與海洋法相關的法律爭端。以下是關於國際海洋法法庭的一些詳細資訊：\n\n### 成立背景\n- **成立日期**：國際海洋法法庭於1996年10月1日正式成立。\n- **法律依據**：《聯合國海洋法公約》（United Nations Convention on the Law of the Sea，UNCLOS），該公約於1982年12月10日通過，1994年11月16日生效。\n\n### 機構設置\n- **總部地點**：法庭總部設於德國漢堡。\n- **法官人數**：法庭由21名法官組成，這些法官來自不同國家，確保地域多樣性和法律專業知識。\n- **任期**：法官的任期為9年，可以連任。\n\n### 職能與管轄\n- **主要職能**：解決國家之間的海洋法爭端，提供法律意見，並在必要時實施強制性裁決。\n- **管轄範圍**：包括但不限於領海、專屬經濟區、大陸架、海洋環境保護、海洋科學研究等方面的法律爭端。\n\n### 重要案例\n- **孟加拉國與緬甸案件**：2012年，法庭裁定關於孟加拉灣海域劃界的爭議，這是法庭首次處理涉及專屬經濟區和大陸架劃界的案件。\n- **阿根廷與加納案件（ARA Libertad號案）**：2012年，法庭裁定加納應釋放被扣押的阿根廷軍艦ARA Libertad號，這是涉及國家主權豁免權的重要案件。\n\n### 組織架構\n- **庭長**：庭長由法官選舉產生，任期為三年。庭長負責主持法庭會議和案件審理。\n- **書記處**：協助法庭的行政和法律事務，由書記長領導。\n\n### 影響力與挑戰\n- **影響力**：作為國際海洋法的專門機構，法庭在推動海洋法的發展和國際海洋爭端的和平解決方面發揮了重要作用。\n- **挑戰**：面臨國際政治因素的影響，一些國家可能不願接受法庭的裁決，這對法庭的權威性和有效性構成挑戰。\n\n國際海洋法法庭在全球海洋治理中扮演著關鍵角色，通過其裁決和意見促進了國際法的發展和各國之間的合作。"
+        },
+        {
+            "prompt": "你能告訴我關於黑斯廷斯戰役的內容嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "黑斯廷斯戰役發生在1066年10月14日，是英國歷史上最著名的戰役之一，標誌著諾曼征服英格蘭的開始。這場戰役是在英格蘭南部的黑斯廷斯附近進行的，參戰雙方分別是英格蘭國王哈羅德二世（Harold II）和諾曼底公爵威廉（後來被稱為征服者威廉，William the Conqueror）。\n\n在戰役之前，英格蘭剛經歷了一場重大的內部衝突，即斯坦福橋戰役，哈羅德二世在這場戰役中擊敗了挪威國王哈拉爾三世（Harald Hardrada）。然而，哈羅德的軍隊在斯坦福橋戰役後疲憊不堪，並且需要迅速南下應對威廉的入侵。\n\n威廉的軍隊由約7000名士兵組成，包括騎兵、步兵和弓箭手，他們從諾曼底橫渡英吉利海峽來到英格蘭。哈羅德的軍隊人數相當，但主要由步兵組成，缺乏騎兵和弓箭手的支援。\n\n戰役開始於10月14日早晨，哈羅德的軍隊在一個名為森拉克山（Senlac Hill）的高地上建立防線。英格蘭軍隊採用盾牆戰術，試圖抵擋住諾曼軍隊的進攻。戰鬥持續了一整天，雙方都付出了慘重的代價。\n\n威廉的軍隊多次嘗試突破盾牆，但都未能成功。隨著時間的推移，威廉採取了一個策略，即假裝撤退，誘使英格蘭士兵離開防線追擊。這一策略成功地分散了哈羅德的軍隊，使諾曼軍隊得以反擊。\n\n戰役的轉折點發生在下午，當時哈羅德二世在戰鬥中被弓箭射中眼睛，隨後陣亡。失去領袖的英格蘭軍隊士氣崩潰，最終被諾曼軍隊擊潰。\n\n黑斯廷斯戰役結束後，威廉繼續向倫敦進軍，並於同年12月25日在倫敦的西敏寺加冕為英格蘭國王，這標誌著諾曼王朝的開始。這場戰役不僅改變了英格蘭的政治格局，也對英語語言和文化產生了深遠影響。"
+        },
+        {
+            "prompt": "你能告訴我關於尼泊爾的盧比尼在佛教中的地位嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "盧比尼是佛教中極為重要的聖地之一，因為這裡是佛祖釋迦牟尼（悉達多·喬達摩）的誕生地。根據佛教傳統，釋迦牟尼出生於公元前623年左右，盧比尼因此成為佛教徒朝聖的重要目的地。\n\n盧比尼位於尼泊爾的盧姆比尼省，靠近印度邊境。這個地區的核心是瑪雅·德維廟（Maya Devi Temple），據傳這裡是釋迦牟尼的母親摩耶夫人（Maya Devi）在樹下生下他的地方。考古發掘顯示，這裡的遺跡可以追溯到公元前3世紀，阿育王（Ashoka）在此建立了一根石柱，以紀念佛陀的誕生。阿育王是孔雀王朝的著名皇帝，他在皈依佛教後，致力於推廣佛教教義，並在盧比尼豎立了這根著名的阿育王石柱，上面刻有銘文，確認此地為佛陀的誕生地。\n\n盧比尼的考古公園內還有許多其他重要的佛教遺址，包括古代寺院和修道院的遺跡。這些遺址展示了不同時期的佛教建築風格，反映了佛教在亞洲的傳播和發展。此外，盧比尼也有一個國際佛教徒協會的開發區，這裡有來自世界各地的佛教國家和團體建立的寺廟和修道院。\n\n每年都有數以萬計的佛教徒和遊客前來盧比尼朝聖，特別是在佛誕節（Vesak），這一天被認為是佛陀的誕生、成道和涅槃的日子。盧比尼因此不僅是宗教信仰的中心，也是文化和歷史研究的重要地點。"
+        },
+        {
+            "prompt": "你能告訴我有關《全面禁止核試驗條約》的信息嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "《全面禁止核試驗條約》（Comprehensive Nuclear-Test-Ban Treaty, CTBT）是一項旨在禁止一切核試驗爆炸的國際條約。該條約於1996年9月10日在聯合國大會上獲得通過，並於同年9月24日開放供各國簽署。截至目前，該條約尚未生效，因為其生效條件是必須有44個特定國家（即《核不擴散條約》附表2中的國家）簽署並批准，然而其中一些國家尚未批准。\n\n以下是一些有關《全面禁止核試驗條約》的具體信息：\n\n1. **簽署與批准情況**：截至2021年，已有185個國家簽署了該條約，170個國家批准。附表2中的44個國家中，仍有8個國家尚未批准，包括中國、埃及、印度、伊朗、以色列、朝鮮、巴基斯坦和美國。\n\n2. **條約內容**：CTBT禁止所有核武器試驗爆炸和其他任何核爆炸。其目的是防止核武器的擴散和發展，推動核裁軍。\n\n3. **監測系統**：為了監測和檢驗是否有核試驗爆炸，條約設立了一個國際監測系統（International Monitoring System, IMS）。IMS包括四種監測技術：地震、次聲波、水聲和放射性核素，覆蓋全球約300個監測站。\n\n4. **組織機構**：管理和推動CTBT的國際組織是位於奧地利維也納的「全面禁止核試驗條約組織籌備委員會」（Preparatory Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization, CTBTO）。CTBTO負責監測條約的遵守情況和運行國際監測系統。\n\n5. **歷史背景**：在冷戰期間，核試驗是核武器發展的重要手段。1963年簽署的《部分禁止核試驗條約》（Partial Test Ban Treaty, PTBT）已經禁止了大氣層、外太空和水下的核試驗，但未禁止地下核試驗。CTBT則進一步全面禁止所有環境中的核試驗。\n\n6. **挑戰與爭議**：儘管大多數國家支持CTBT，但一些國家因地緣政治、安全考量或技術原因遲遲未批准。此外，一些批評者認為，沒有核試驗的環境下，難以確保核武庫的可靠性和安全性。\n\n《全面禁止核試驗條約》被視為全球核裁軍和不擴散努力中的一個重要里程碑，但其生效與否仍取決於尚未批准的關鍵國家的政治決定。"
+        },
+        {
+            "prompt": "電影《大顯神威》是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "截至我所知的資料，《大顯神威》似乎不是一部知名的電影作品。可能是因為這部電影在我的資料庫中沒有記錄，或者是它在特定地區或語言中以不同的名稱發行。如果這是一部近期上映或即將上映的電影，或者是一部小眾或獨立製作的影片，那麼我可能沒有相關的詳細資訊。\n\n如果你有這部電影的其他資訊，例如導演、演員、上映年份或劇情概要，這些資訊可能有助於我更好地識別和提供相關的細節。或者，如果這是一部新發行的作品，建議查看最新的電影資料庫或新聞來源以獲取更多資訊。"
+        },
+        {
+            "prompt": "路德維希·維根斯坦是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "路德維希·維根斯坦（Ludwig Wittgenstein，1889年4月26日－1951年4月29日）是奧地利哲學家，對於20世紀哲學特別是語言哲學和心靈哲學有著深遠的影響。他出生於奧匈帝國的維也納，家境富裕，是家中八個孩子中的最小一位。他的父親卡爾·維根斯坦（Karl Wittgenstein）是當時著名的鋼鐵大亨。\n\n維根斯坦在1908年進入德國柏林工業大學學習機械工程，隨後於1908年到1911年間在英國曼徹斯特大學從事航空工程研究。在這段時間，他對數學基礎問題產生興趣，並開始研究數理邏輯，這使他於1911年轉到劍橋大學，師從著名哲學家伯特蘭·羅素（Bertrand Russell）。\n\n1914年，維根斯坦參加第一次世界大戰，戰後，他於1921年完成了《邏輯哲學論》（Tractatus Logico-Philosophicus），這部作品對於分析哲學和語言哲學產生了重大影響。書中，他提出了著名的命題：「語言的界限就是世界的界限」。該書於1922年首次出版，並得到了羅素的支持。\n\n戰後，維根斯坦一度放棄哲學，成為一名小學教師，並在奧地利的鄉村地區教學。然而，1930年他重返劍橋大學，並開始從事哲學教學和研究。1939年，他成為劍橋大學的哲學教授。\n\n維根斯坦在後期的哲學研究中，逐漸轉向對日常語言的分析，這一階段的思想主要體現在他去世後出版的《哲學研究》（Philosophical Investigations）中。這本書對於語言的功能和意義的討論，挑戰了他早期的觀點，並對後來的語言哲學產生了重要影響。\n\n1951年，維根斯坦因前列腺癌在英國劍橋去世。他的哲學工作在他生前並未完全得到承認，但在他去世後，他的思想逐漸被廣泛接受，並對分析哲學、語言哲學、心靈哲學等領域產生了深遠的影響。"
+        },
+        {
+            "prompt": "誰是Barbara Liskov？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Barbara Liskov，全名為Barbara Jane Liskov，是一位著名的計算機科學家，以其在程序語言、系統設計以及分佈式計算領域的貢獻而聞名。她於1939年11月7日出生於美國加利福尼亞州的洛杉磯。\n\nLiskov於1961年獲得加州大學伯克利分校的數學學士學位，並於1968年成為美國麻省理工學院（MIT）第一位獲得計算機科學博士學位的女性。她的博士論文題為《A Program to Play Chess End Games》，指導教授是John McCarthy。\n\n在她的職業生涯中，Liskov對於抽象數據類型（abstract data types）和面向對象編程的發展做出了重要貢獻。她最著名的工作之一是Liskov替換原則（Liskov Substitution Principle），這是面向對象編程中的一個基本原則，強調子類別應該可以替換其基類別而不影響系統的正確性。\n\n1970年代，Liskov在麻省理工學院領導開發了CLU編程語言，這是一種先驅性語言，對後來的許多現代編程語言（如C++和Java）產生了影響。CLU引入了許多創新的概念，如迭代器和異常處理。\n\n此外，Liskov還在分佈式系統的研究中取得了重要成果。她參與開發的Argus系統，是一種支持分佈式程序設計的語言和系統。Argus在分佈式計算中引入了事務和錯誤恢復的概念。\n\nLiskov的卓越貢獻為她贏得了多項榮譽。2008年，她因在計算機科學領域的先驅性工作獲得了圖靈獎，這是計算機科學界的最高榮譽。她也是美國國家工程院（National Academy of Engineering）和美國藝術與科學學院（American Academy of Arts and Sciences）的成員。\n\nBarbara Liskov的工作對計算機科學的發展產生了深遠的影響，她的研究和教學仍然啟發著新一代的計算機科學家。"
+        },
+        {
+            "prompt": "Thomas E. Moseley在移民法領域是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "截至目前，我沒有關於Thomas E. Moseley在移民法領域的詳細資訊。如果他是一位專業人士或律師，可能在某些法律事務所或特定案件中有參與，但在公開資料中並未廣泛記載。如果你有具體的事件或背景資訊，可以提供更多細節以便我更好地協助你。"
+        },
+        {
+            "prompt": "什麼是布隆博斯洞穴？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "布隆博斯洞穴（Blombos Cave）位於南非的西開普省，距離開普敦約300公里。這個洞穴在考古學界享有盛譽，因為它提供了豐富的證據，顯示早期現代人在大約7萬至10萬年前的行為和文化特徵。\n\n布隆博斯洞穴最著名的發現之一是刻有幾何圖案的紅赭石，這些圖案被認為是早期人類符號性思維的證據。這些刻痕的年代大約在7.5萬年前，這表明當時的人類已經具備了抽象思考和表達的能力。\n\n此外，考古學家在洞穴中還發現了用於製作工具的骨器和石器，這些工具顯示出精湛的製作技術。這些遺物包括骨針和用來打磨石器的磨石，顯示出當時人類的複雜技術和社會行為。\n\n布隆博斯洞穴的發掘工作始於1991年，由南非考古學家克里斯·亨舍爾伍德（Christopher Henshilwood）領導的團隊進行。他們的研究揭示了這個地點的考古學重要性，並對理解早期現代人類的文化發展提供了關鍵的洞見。\n\n洞穴內還發現了一些貝殼珠飾，這些珠飾可能被用作裝飾品或交易物品，進一步證明了早期人類的社會複雜性和符號性行為。\n\n總體而言，布隆博斯洞穴的發現提供了關於早期現代人類行為的重要證據，這些證據有助於理解人類文化的起源和演化過程。"
+        },
+        {
+            "prompt": "伊德瑞斯·艾巴是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "伊德瑞斯·艾巴（Idris Elba）是一位英國演員、製片人、導演和音樂家，以其在電影和電視劇中的多才多藝和出色表演而聞名。他於1972年9月6日出生於英國倫敦的哈克尼區，父親是塞拉利昂人，母親是迦納人。\n\n艾巴最初因在HBO的電視劇《火線重案組》（The Wire，2002-2004年）中飾演羅素·\"史金格\"·貝爾（Russell \"Stringer\" Bell）而獲得廣泛關注。這部劇集以其真實的犯罪描寫和複雜的角色刻畫而著稱，艾巴的表現受到評論家的高度讚譽。\n\n在電影方面，艾巴參與了多部知名作品。他在《雷神》（Thor，2011年）、《雷神2：黑暗世界》（Thor: The Dark World，2013年）和《雷神3：諸神黃昏》（Thor: Ragnarok，2017年）中飾演海姆達爾（Heimdall），這一角色讓他成為漫威電影宇宙的一部分。此外，他在《環太平洋》（Pacific Rim，2013年）中飾演司令官史塔克·潘特科斯特（Stacker Pentecost），以及在《星際爭霸戰：浩瀚無垠》（Star Trek Beyond，2016年）中飾演反派克勞（Krall）。\n\n艾巴也在電視劇《路德探長》（Luther，2010-2019年）中飾演主角約翰·路德（John Luther），這個角色為他贏得了2012年的金球獎最佳電視劇男主角獎。此外，他還在2018年被《時代》雜誌評選為全球最具影響力的100人之一。\n\n除了演藝事業，艾巴也是一名DJ和音樂製作人，以DJ Big Driis或Idris Elba的名義在音樂界活動。他曾在多個國際音樂節上表演，包括2019年的科切拉音樂節（Coachella）。\n\n伊德瑞斯·艾巴在影視和音樂領域的多重才華，使他成為當代娛樂界的重要人物之一。"
+        },
+        {
+            "prompt": "你能告訴我一些關於巴拿馬運河的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "巴拿馬運河是位於中美洲巴拿馬地峽的一條人工運河，連接太平洋和大西洋，是全球最重要的航運通道之一。以下是一些關於巴拿馬運河的具體資訊：\n\n1. **歷史背景**：\n   - 巴拿馬運河的構想最早可以追溯到16世紀，當時西班牙國王查理五世提出了在中美洲修建運河的想法，以縮短從歐洲到亞洲的航程。\n   - 法國工程師費迪南·德·雷賽布（Ferdinand de Lesseps）於1881年開始修建運河，但由於技術困難和疾病等原因，法國的努力最終在1889年失敗。\n\n2. **美國的介入與完成**：\n   - 美國於1904年接手運河建設，時任美國總統西奧多·羅斯福（Theodore Roosevelt）是推動這一工程的關鍵人物。\n   - 巴拿馬運河於1914年8月15日正式通航，首艘通過的船是SS Ancon。\n\n3. **運河的結構**：\n   - 運河全長約80公里，從巴拿馬城附近的太平洋入口到科隆附近的大西洋入口。\n   - 運河包含三組船閘：米拉弗洛雷斯船閘（Miraflores Locks）、佩德羅米格爾船閘（Pedro Miguel Locks）和加通船閘（Gatun Locks）。\n   - 每組船閘能提升或降低船隻約26米，以克服巴拿馬地峽的高差。\n\n4. **運河的擴建**：\n   - 為了應對現代大型船隻的需求，巴拿馬運河於2007年開始進行擴建工程，該工程於2016年完工。\n   - 擴建後的運河新增了一組更大的船閘，稱為新巴拿馬運河船閘（Panama Canal Expansion），允許更大的新巴拿馬型船（New Panamax）通過。\n\n5. **經濟與戰略意義**：\n   - 巴拿馬運河大大縮短了美國東西海岸之間的航程，對國際貿易具有重要的戰略意義。\n   - 每年約有14,000艘船隻通過運河，運輸的貨物量占全球海運貨物的5%左右。\n\n6. **主權移交**：\n   - 根據1977年簽署的《托里霍斯-卡特條約》（Torrijos-Carter Treaties），美國於1999年12月31日將運河主權正式移交給巴拿馬。\n\n巴拿馬運河不僅是一項工程壯舉，也在歷史、經濟和地緣政治上具有深遠的影響。"
+        },
+        {
+            "prompt": "你可以告訴我關於中國長城的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "中國長城，又稱萬里長城，是世界上最著名的建築奇蹟之一。長城的建造始於公元前7世紀的春秋戰國時期，最初由各個諸侯國修建，用於防禦外來侵略。秦始皇在公元前221年統一中國後，將各國的長城連接起來，形成了一個完整的防禦體系。\n\n長城的總長度根據不同的歷史時期和測量方式有所不同，但一般認為超過21,000公里。它橫跨中國北方的15個省、市、自治區，其中最著名的部分位於北京附近，如八達嶺長城和慕田峪長城。\n\n長城的建造涉及大量的人力物力，據估計，有數十萬士兵和民工參與其中。長城的建築材料因地制宜，在山區主要使用石頭和磚塊，而在平原地區則多用夯土。\n\n在歷史上，長城曾多次發揮重要的軍事防禦作用。例如，在明朝時期，長城被用來抵禦蒙古和滿洲的入侵。著名的「戚繼光整頓長城」事件發生在16世紀，戚繼光對長城進行了大規模的修繕和加固，增強了其防禦能力。\n\n長城不僅是軍事建築，還是文化和經濟交流的渠道。在長城沿線，形成了許多貿易市場和文化交流的中心。\n\n1987年，長城被聯合國教科文組織列為世界文化遺產，成為中國最受歡迎的旅遊景點之一。每年吸引數百萬遊客前來參觀，尤其是在北京的八達嶺段，因其保存完好且易於到達而備受青睞。\n\n總之，中國長城是中國古代勞動人民智慧和毅力的象徵，代表著中國悠久的歷史和豐富的文化遺產。"
+        },
+        {
+            "prompt": "Equifax 數據洩漏事件的爭議是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Equifax 數據洩漏事件是指2017年美國三大信用報告機構之一的Equifax遭受大規模數據洩漏，影響了約1.43億美國消費者的個人資料。這起事件引發了廣泛的爭議和批評，以下是一些具體的細節和例子：\n\n1. **洩漏範圍和影響**：\n   - 洩漏的個人資料包括姓名、社會安全號碼、出生日期、地址，甚至部分信用卡號碼和駕駛執照號碼。\n   - 除了美國公民外，部分英國和加拿大的消費者也受到影響。\n\n2. **事件時間線**：\n   - 2017年7月29日：Equifax發現其系統存在漏洞，導致數據洩漏。\n   - 2017年9月7日：Equifax公開披露這一數據洩漏事件，距離漏洞被發現已有超過一個月的時間。\n\n3. **技術問題**：\n   - 洩漏的主要原因是Apache Struts網路應用程式框架中的一個已知漏洞。Equifax未能及時更新和修補這一漏洞，儘管該漏洞的修補程式早已發布。\n\n4. **內部管理問題**：\n   - 在事件披露後，Equifax的首席執行官Richard Smith、首席資訊官David Webb和首席安全官Susan Mauldin相繼辭職。\n   - 據報導，Equifax的內部安全措施和數據保護策略被批評不夠完善。\n\n5. **法律和經濟後果**：\n   - Equifax面臨多起集體訴訟和來自政府的調查，包括美國聯邦貿易委員會（FTC）、美國證券交易委員會（SEC）和多個州的檢察長。\n   - 2020年，Equifax同意支付總額達7億美元的和解金，以解決政府和消費者的索賠。\n\n6. **股市影響**：\n   - 數據洩漏事件披露後，Equifax的股價在短期內大幅下跌，投資者信心受挫。\n\n7. **公眾反應和信任危機**：\n   - 事件引發公眾對個人數據安全的擔憂，許多人對信用報告機構的信任度下降。\n   - Equifax提供了一個免費的身份盜竊保護和信用監控服務，但對其有效性和透明度存在質疑。\n\n這起事件強調了數據保護和網路安全的重要性，也促使企業和政府重新審視和加強對個人資料的保護措施。"
+        },
+        {
+            "prompt": "尤爾根·哈貝馬斯是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "尤爾根·哈貝馬斯（Jürgen Habermas）是一位德國哲學家和社會理論家，以其對批判理論和溝通理論的貢獻而聞名。他於1929年6月18日出生於德國杜塞爾多夫附近的加默斯基興（Gummersbach）。\n\n哈貝馬斯是法蘭克福學派的代表人物之一，他的研究集中在社會理論、政治理論、倫理學及語言哲學等領域。他是法蘭克福學派第二代的主要成員，受到馬克斯·霍克海默（Max Horkheimer）和西奧多·阿多諾（Theodor Adorno）的影響。\n\n他最著名的作品之一是《公共領域的結構轉型》（The Structural Transformation of the Public Sphere），該書於1962年首次出版，探討了公共領域的概念及其在現代社會中的演變。哈貝馬斯認為，公共領域是一個公民可以自由討論和辯論社會問題的空間，這對民主制度的運作至關重要。\n\n另一部重要著作是《溝通行動理論》（The Theory of Communicative Action），分為兩卷，分別於1981年出版。這部作品中，哈貝馬斯提出了一種以溝通為基礎的社會理論，強調透過理性溝通來達成共識的重要性。\n\n哈貝馬斯還在歐洲一體化、全球化和民主等當代議題上發表了許多見解。他曾在法蘭克福大學、海德堡大學等多所學府任教，並獲得多項榮譽，包括2001年的阿斯圖里亞斯親王獎（Prince of Asturias Award）和2004年的京都獎（Kyoto Prize）。\n\n總之，尤爾根·哈貝馬斯是當代最具影響力的思想家之一，他的理論對社會科學、政治學和哲學領域產生了深遠的影響。"
+        },
+        {
+            "prompt": "誰是羅莎琳德·富蘭克林 (Rosalind Franklin)，她在 X 射線衍射圖像方面的工作如何促進了對 DNA 分子結構的理解？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "羅莎琳德·富蘭克林（Rosalind Franklin）是一位英國生物物理學家和結晶學家，她因在 DNA 分子結構研究中的重要貢獻而聞名。富蘭克林於1920年7月25日出生於英國倫敦，她在劍橋大學獲得物理化學的博士學位。她的研究主要集中在 X 射線晶體學，這是一種利用 X 射線衍射技術來研究分子結構的方法。\n\n富蘭克林在1951年至1953年期間於倫敦國王學院工作，她在這段時間拍攝了著名的「照片51」，這是一張高解析度的 DNA X 射線衍射圖像。這張照片為 DNA 的雙螺旋結構提供了關鍵的證據。她的工作顯示了 DNA 的磷酸鹽骨架位於外側，並且揭示了 DNA 的螺旋結構特徵。\n\n富蘭克林的同事莫里斯·威爾金斯（Maurice Wilkins）在未經她同意的情況下，將照片51展示給詹姆斯·沃森（James Watson）和弗朗西斯·克里克（Francis Crick）。沃森和克里克利用這些信息，加上他們自己的研究，於1953年發表了 DNA 雙螺旋結構的模型，這一發現最終於1962年為他們和威爾金斯贏得了諾貝爾生理學或醫學獎。\n\n儘管富蘭克林的貢獻在當時未被充分承認，但她的工作在 DNA 結構的解釋中扮演了不可或缺的角色。她於1958年因卵巢癌去世，享年37歲，未能親眼見證她的研究對科學界的巨大影響。隨著時間的推移，富蘭克林的貢獻得到了更廣泛的承認，她被譽為 DNA 結構發現的關鍵人物之一。"
+        }
+    ],
+    "total_runtime": 529.5590767860413
+}
