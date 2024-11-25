@@ -54,10 +54,11 @@ model_options = {
     'claude_21': 'ANTHROPIC:claude-2.1',
     'claude_20': 'ANTHROPIC:claude-2.0',
     'claude_instant': 'ANTHROPIC:claude-instant-1.2',
-    'claude35sonnet':'ANTHROPIC:claude-3-5-sonnet-latest',
-    'gemini15pro': 'GEMINI:gemini_15_pro',
-    'groqllama3170b': 'GROQ:llama-3.1-70b-versatile',
+    'claude_35_sonnet':'ANTHROPIC:claude-3-5-sonnet-latest',
+    'gemini_15_pro': 'GEMINI:gemini-1.5-pro-latest',
+    'groq_llama3.1_70b': 'GROQ:llama-3.1-70b-versatile',
     'llama3':'LLAMA:llama3',
+    'breeze7B':'LLAMA:breeze7b',
     'mixtral8x7':'LLAMA:mixtral'
 }
 model_string = {
@@ -69,13 +70,15 @@ model_string = {
     'gpt_35_turbo_16k': 'gpt35turbo16k',
     'claude_3_opus': 'claude3opus',
     'claude_3_sonnet': 'claude3sonnet',
-    'claude_3.5_sonnet':'claude35sonnet',
+    'claude_35_sonnet':'claude35sonnet',
     'claude_21': 'claude21',
     'claude_20': 'claude20',
     'claude_instant': 'claudeinstant',
     'llama3':'llama3',
     'gemini_15_pro':'gemini15pro',
-    'groq-llama3.1-70b':'groqllama3170b'
+    'groq_llama3.1_70b':'groqllama3170b',
+    'breeze7B':'mediatek:breeze7b'
+
 }
 task_options = {}
 root_dir = '/'.join(os.path.abspath(__file__).split('/')[:-2])

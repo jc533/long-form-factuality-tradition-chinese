@@ -1,0 +1,288 @@
+{
+    "add_universal_postamble": "True",
+    "max_num_examples": "38",
+    "num_sentences": "1",
+    "parallelize": "False",
+    "responder_model": "ANTHROPIC:claude-3-5-sonnet-latest",
+    "responder_model_short": "claude_35_sonnet",
+    "response_length_postamble": "Respond in exactly 1 sentence.",
+    "save_results": "True",
+    "shared_config": "<module 'common.shared_config' from '/home/user/program/long-form-factuality-tradition-chinese/common/shared_config.py'>",
+    "show_responder_prompts": "True",
+    "show_responder_responses": "True",
+    "shuffle_data": "True",
+    "side_1": "placeholder",
+    "side_2": "vanilla_prompting",
+    "task": "longfact_objects",
+    "task_short": "longfact_objects",
+    "use_length_ablation": "False",
+    "per_prompt_data": [
+        {
+            "prompt": "Sarah Paoletti在移民法領域是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Sarah Paoletti 是一位在移民法和人權法領域的知名學者和實踐者。以下是關於她的主要資訊：\n\n職業背景：\n- 現任賓夕法尼亞大學法學院（University of Pennsylvania Law School）教授\n- 該校跨國法律診所（Transnational Legal Clinic）的創始人和主任\n\n專業領域：\n1. 移民法\n2. 國際人權法\n3. 勞工權益\n4. 人口販運議題\n5. 難民法\n\n主要工作：\n- 為移民、難民和尋求庇護者提供法律援助\n- 指導法學院學生處理實際的跨國法律案件\n- 進行移民權利和人權相關的研究與倡議\n\n研究重點：\n- 移民工人權利\n- 跨國勞工議題\n- 國際人權標準的實施\n- 移民政策改革\n\n她經常與各種國際組織合作，包括：\n- 聯合國人權機構\n- 非政府組織（NGOs）\n- 移民權利倡議團體\n\n教學工作：\n- 指導法律診所課程\n- 培養未來的人權律師\n- 提供實務經驗給法律系學生\n\n影響力：\n- 在移民法領域發表多篇學術論文\n- 參與重要的政策討論\n- 為弱勢移民群體發聲"
+        },
+        {
+            "prompt": "Lil Nas X 是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Lil Nas X（本名：Montero Lamar Hill，1999年4月9日出生）是一位美國饒舌歌手、歌手和詞曲作家。以下是關於他的詳細資訊：\n\n個人背景：\n- 出生於喬治亞州立陶加（Lithia Springs）\n- 在亞特蘭大地區長大\n- 曾就讀喬治亞大學，但後來休學追求音樂事業\n\n音樂生涯重要里程碑：\n1. 突破性單曲《Old Town Road》\n- 2018年12月首次發行\n- 2019年與比利·雷·塞勒斯(Billy Ray Cyrus)合作重製版\n- 在Billboard Hot 100榜連續19週居冠，創下歷史紀錄\n- 獲得2020年葛萊美獎最佳流行二重唱/組合表演獎\n\n其他知名歌曲：\n- 《MONTERO (Call Me By Your Name)》(2021)\n- 《Industry Baby》與Jack Harlow合作 (2021)\n- 《THATS WHAT I WANT》(2021)\n\n專輯：\n- 《7》EP (2019)\n- 《MONTERO》專輯 (2021)\n\n個人特色：\n- 公開承認自己是同性戀（2019年6月30日）\n- 善用社群媒體行銷\n- 風格大膽前衛\n- 經常挑戰傳統音樂產業規範\n\n獲獎記錄：\n- 2個葛萊美獎\n- 2個MTV音樂錄影帶大獎\n- 美國音樂獎等多項大獎\n\n社會影響：\n- 為LGBTQ+族群發聲\n- 打破鄉村音樂與嘻哈音樂的界限\n- 挑戰音樂產業的傳統分類\n\n商業合作：\n- Nike合作推出「Satan Shoes」引發爭議（2021）\n- Taco Bell品牌大使（2021）\n- 多個知名品牌代言\n\n社群媒體影響力：\n- Twitter追訂超過800萬\n- Instagram追訂超過1200萬\n- TikTok擁有大量粉絲群"
+        },
+        {
+            "prompt": "本·卡森是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "本·卡森（Ben Carson，1951年9月18日-）是一位著名的美國神經外科醫生、政治人物和作家。以下是關於他的詳細資訊：\n\n早期生活與教育\n- 1951年出生於底特律\n- 在單親家庭中成長，由母親蘇妮亞·卡森獨自撫養\n- 就讀於耶魯大學（1969-1973）\n- 1977年畢業於密西根大學醫學院\n\n醫療事業成就\n- 1984年33歲時成為約翰·霍普金斯醫院最年輕的神經外科主任\n- 1987年成功完成首例連體嬰分離手術\n- 專門從事腦瘤和兒童神經外科手術\n- 執行過超過300例複雜的腦部手術\n\n政治生涯\n- 2015-2016年參加共和黨總統初選\n- 2017-2021年擔任美國住房和城市發展部部長\n- 是特朗普政府中唯一的非裔內閣成員\n\n著作與榮譽\n- 出版多本暢銷書，包括《天賦的雙手》\n- 獲得總統自由勳章（2008年）\n- 獲得60多個榮譽博士學位\n- 2009年由古巴·古丁主演的電影《天賦雙手》講述其生平故事\n\n社會貢獻\n- 成立卡森獎學金基金會，幫助貧困學生\n- 經常在學校和社區發表激勵演講\n- 提倡教育改革和醫療保健改革\n\n個人生活\n- 1975年與坎迪·卡森結婚\n- 育有三個兒子：穆雷、本三世和羅比\n- 是虔誠的基督教新教徒\n\n這些成就使本·卡森成為美國非裔社群的重要榜樣，也是美國醫學界和政界的重要人物。他的故事經常被用來激勵年輕人，展示通過努力學習和堅持不懈可以實現夢想。"
+        },
+        {
+            "prompt": "你能提供關於大型地下氙實驗（LUX）的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於大型地下氙實驗(LUX)的詳細資訊：\n\n實驗基本資料：\n- 全名：Large Underground Xenon experiment\n- 位置：南達科他州利德市的霍姆斯特克礦場(Homestake Mine)\n- 深度：地下4,850英尺(約1,480公尺)\n- 運作時間：2009年開始建造，2012-2016年進行實驗\n\n實驗設備：\n- 主要偵測器：雙相氙時間投影室(dual-phase xenon time projection chamber)\n- 氙氣重量：370公斤液態氙\n- 偵測器尺寸：高47公分、直徑47公分的鈦製容器\n\n主要研究目標：\n- 尋找暗物質微粒，特別是WIMPs(Weakly Interacting Massive Particles)\n- 測量暗物質與普通物質的交互作用\n\n重要成果：\n- 2013年首次實驗結果發表\n- 2016年發表最終實驗結果\n- 未發現暗物質粒子，但設定了新的暗物質交互作用上限\n\n參與單位：\n- 由19個研究機構組成的國際合作計畫\n- 主要參與國家包括美國、葡萄牙、俄羅斯和英國\n\n後續發展：\n- LUX實驗後來升級為LUX-ZEPLIN(LZ)實驗\n- LZ使用7噸液態氙，靈敏度比LUX提高約50倍\n\n資金來源：\n- 美國能源部\n- 美國國家科學基金會\n- 其他國際研究機構\n\n這個實驗是目前最重要的暗物質搜尋實驗之一，雖然尚未直接觀測到暗物質，但為未來的研究提供了重要的實驗數據和經驗。"
+        },
+        {
+            "prompt": "約翰·鮑爾比在依附理論領域中的貢獻是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "約翰·鮑爾比 (John Bowlby, 1907-1990) 在依附理論領域的主要貢獻包括：\n\n主要理論發展：\n1. 1950年代開始系統性研究母嬰關係\n2. 1969年發表《依附與失落》第一卷\n3. 1973年發表第二卷\n4. 1980年發表第三卷\n\n核心概念：\n\n1. 依附行為系統\n- 嬰兒天生具有尋求照顧者親近的本能\n- 這種行為有助於生存與發展\n- 強調依附是人類的基本需求\n\n2. 內在運作模式\n- 幼兒根據與主要照顧者的互動經驗\n- 形成對自己和他人的認知表徵\n- 影響未來的人際關係發展\n\n研究貢獻：\n\n1. 與世界衛生組織合作（1950-1952）\n- 研究戰後孤兒的心理發展\n- 發現機構撫養對兒童的負面影響\n\n2. 倫敦塔維斯托克診所研究（1946-1990）\n- 建立依附理論的實證基礎\n- 進行長期追蹤研究\n\n理論影響：\n\n1. 臨床應用\n- 兒童心理治療\n- 親子關係輔導\n- 成人心理諮商\n\n2. 依附類型分類：\n與瑪麗·艾因斯沃斯（Mary Ainsworth）合作發展：\n- 安全型依附\n- 焦慮矛盾型依附\n- 逃避型依附\n\n重要發現：\n\n1. 分離焦慮\n- 證實分離對幼兒的負面影響\n- 提出分離焦慮的三階段反應：\n  * 抗議期\n  * 絕望期\n  * 疏離期\n\n2. 早期經驗影響\n- 強調0-3歲依附關係的重要性\n- 對人格發展的長期影響\n\n現代應用：\n\n1. 教育領域\n- 幼兒教育政策制定\n- 托育環境設計\n- 教師培訓\n\n2. 心理健康\n- 親子關係治療\n- 成人情感關係諮商\n- 創傷治療\n\n理論延伸：\n\n1. 代間傳遞\n- 研究依附模式如何代代相傳\n- 探討親職行為的影響\n\n2. 跨文化研究\n- 證實依附行為的普遍性\n- 研究文化差異的影響\n\n對現代心理學的影響：\n\n1. 發展心理學\n- 奠定早期關係研究基礎\n- 影響後續依附研究方向\n\n2. 臨床實踐\n- 發展以依附為基礎的治療方法\n- 改善親子關係介入策略\n\n研究方法創新：\n\n1. 自然觀察法\n- 強調真實情境的重要性\n- 發展系統性觀察工具\n\n2. 縱貫研究\n- 進行長期追蹤研究\n- 建立發展軌跡資料\n\n這些貢獻使約翰·鮑爾比成為20世紀最具影響力的心理學家之一，他的理論至今仍然影響著心理學研究和臨床實踐。"
+        },
+        {
+            "prompt": "什麼是電子遊戲《集合啦！動物森友會》？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "《集合啦！動物森友會》(Animal Crossing: New Horizons) 是一款由任天堂開發和發行的生活模擬遊戲，於2020年3月20日在Nintendo Switch平台發售。以下是詳細資訊：\n\n遊戲主要特色：\n1. 玩法內容\n- 玩家在無人島上開創生活\n- 收集材料、製作道具\n- 與動物居民互動\n- 園藝、釣魚、捕蟲等休閒活動\n- 房屋裝潢與島嶼規劃\n\n重要系統：\n- 工作台製作系統\n- 里程點數兌換\n- 商店經營（狸克商店）\n- 博物館收藏\n- 季節性活動\n\n主要角色：\n- 狸克（Tom Nook）：經營商店的狸貓\n- 豆狸（Timmy & Tommy）：狸克的店員\n- 西施惠（Isabelle）：行政秘書\n- 傅達（Blathers）：博物館館長\n\n遊戲時間系統：\n- 與現實時間同步\n- 每天商店更新商品\n- 季節性變化\n- 不同時段出現不同生物\n\n特殊活動：\n1. 定期活動\n- 櫻花季（每年3-4月）\n- 萬聖節（10月）\n- 聖誕節（12月）\n- 新年活動\n\n遊戲數據：\n- 發售首週在日本銷售188萬份\n- 全球銷量突破4000萬份（截至2023年）\n- Metacritic評分：90分\n- 2020年多個遊戲獎項得主\n\n多人遊戲功能：\n- 最多8人同時在線\n- 好友互訪系統\n- 交換物品\n- 共同遊玩mini遊戲\n\n更新內容：\n- 定期免費更新\n- 新增節日活動\n- 新增家具與物品\n- 遊戲機制改善\n\n客製化選項：\n- 島嶼地形改造\n- 戶外家具擺放\n- 服裝設計\n- 房屋外觀改造\n\n收藏要素：\n- 魚類圖鑑\n- 昆蟲圖鑑\n- 化石收藏\n- 藝術品收藏\n\n這款遊戲以其輕鬆愉快的遊戲風格、豐富的內容更新以及高度的自由度深受玩家歡迎，成為Switch平台最成功的遊戲之一。"
+        },
+        {
+            "prompt": "什麼是安全訊息應用程式 Signal？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Signal 安全訊息應用程式的詳細介紹：\n\n創建背景：\n- 2014年由Moxie Marlinspike和Brian Acton創立\n- Signal Foundation於2018年成立，由WhatsApp共同創辦人Brian Acton提供5000萬美元資金\n\n主要特點：\n1. 安全性\n- 採用端對端加密(End-to-end encryption)技術\n- 使用Signal Protocol加密協議\n- 無法存取用戶通訊內容\n- 不儲存metadata（元數據）\n\n2. 功能：\n- 一對一即時通訊\n- 群組聊天（最多1000人）\n- 語音通話\n- 視訊通話\n- 檔案傳輸\n- 閱後即焚訊息\n- 貼圖功能\n- 支援Android和iOS系統\n\n使用情況：\n- 2021年1月，因WhatsApp隱私政策更新，Signal下載量大幅上升\n- 全球活躍用戶超過4000萬\n- 被Edward Snowden、Elon Musk等知名人士公開推薦\n\n技術規格：\n- 開放原始碼\n- 免費使用\n- 需要手機號碼註冊\n- 可在多個裝置同步使用\n- 支援IPv6\n\n隱私保護措施：\n- 不收集用戶個人資料\n- 無廣告\n- 無追蹤功能\n- 提供螢幕鎖定功能\n- 支援訊息自動銷毀\n\n使用建議：\n- 建議定期更新至最新版本\n- 開啟雙重驗證\n- 設定螢幕鎖定密碼\n- 定期備份聊天記錄\n- 謹慎處理陌生人的訊息請求\n\n在台灣：\n- 可從Google Play或App Store免費下載\n- 支援繁體中文介面\n- 需要台灣手機號碼註冊\n- 可使用台灣地區貼圖"
+        },
+        {
+            "prompt": "達利與拉坦的旁觀者效應實驗在理解社會行為和決策過程中扮演了什麼角色？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "達利與拉坦(Darley & Latané)的旁觀者效應實驗是社會心理學中最具影響力的研究之一。以下是詳細說明：\n\n實驗背景與起因：\n- 1964年3月13日，凱瑟琳·吉諾維斯(Kitty Genovese)命案發生在紐約皇后區\n- 據報導有38位目擊者，但沒有人及時報警或提供幫助\n- 這起事件促使達利與拉坦進行一系列研究\n\n關鍵實驗（1968年）：\n1. 第一個實驗：\n- 參與者：Columbia大學學生\n- 人數：72人\n- 情境：透過對講機聽到他人癲癇發作\n- 變項：參與者被告知還有0、2或4人一起聽到求救\n\n實驗結果：\n- 單獨情況：85%的人尋求協助\n- 2人情況：62%的人尋求協助\n- 4人情況：31%的人尋求協助\n\n重要發現：\n1. 責任分散效應\n- 當場的人越多，個人承擔責任的感覺越低\n- 形成\"群眾無責任\"現象\n\n2. 多重詮釋\n- 其他人的反應會影響個人對情況的判斷\n- 當他人表現冷漠時，個人也傾向認為情況不嚴重\n\n3. 社會影響\n- 害怕在眾人面前出錯\n- 擔心過度反應而尷尬\n\n實驗影響：\n1. 理論貢獻\n- 建立了旁觀者效應理論\n- 解釋群體行為中的決策過程\n\n2. 實務應用\n- 影響緊急救援系統的設計\n- 改善公共安全政策\n- 發展相關培訓課程\n\n3. 後續研究\n- 1970年代至今持續有相關研究\n- 擴展到網路環境中的旁觀者效應\n- 跨文化研究比較\n\n現代意義：\n1. 教育應用\n- 納入道德教育課程\n- 培養社會責任感\n- 提升公民意識\n\n2. 組織管理\n- 改善工作場所的責任分配\n- 建立明確的緊急應變程序\n- 強化團隊合作精神\n\n3. 社會政策\n- 制定相關法律（如好撒瑪利亞人法）\n- 建立緊急救援機制\n- 提供公民教育\n\n防範措施：\n1. 個人層面\n- 提高警覺性\n- 培養主動幫助他人的習慣\n- 學習基本急救技能\n\n2. 社會層面\n- 加強公民教育\n- 建立獎勵機制\n- 提供法律保障\n\n3. 制度層面\n- 完善通報系統\n- 建立標準作業程序\n- 定期進行演練\n\n這項實驗的重要性在於：\n1. 揭示人類行為的複雜性\n2. 提供社會問題的解決方案\n3. 促進社會制度的改善\n4. 影響公共政策的制定\n5. 推動道德教育的發展\n\n總結：\n達利與拉坦的實驗不僅幫助我們理解人類行為，也為改善社會問題提供了重要依據。這項研究的影響"
+        },
+        {
+            "prompt": "在 Cadbury 的「Gorilla」廣告活動中，幸福的概念是如何融入的？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Cadbury 的「Gorilla」廣告於2007年推出，是一支非常經典的廣告案例。這支廣告中的幸福概念主要通過以下方式呈現：\n\n1. 單純的快樂表達\n- 一隻大猩猩單純地沉浸在音樂中\n- 臉部表情展現純粹的愉悅\n- 毫無保留地享受當下的時刻\n\n2. 感官體驗\n- 搭配Phil Collins的歌曲《In the Air Tonight》\n- 大猩猩隨著音樂打鼓的畫面\n- 透過音樂和視覺的結合，傳達愉悅感\n\n3. 品牌連結\n- 廣告最後以 \"A Glass and a Half Full of Joy\" 作為標語\n- 將巧克力與純粹的快樂情緒做連結\n- 暗示享用Cadbury巧克力能帶來單純的快樂\n\n4. 傳播效果\n- 在YouTube上獲得超過百萬次觀看\n- 2007年獲得多個廣告獎項\n- 成功提升品牌好感度和銷售量\n\n這支廣告成功地將「幸福」概念簡化為最純粹的快樂表現，不需要華麗的包裝或複雜的劇情，而是通過一個簡單但令人印象深刻的畫面，傳達出品牌所要表達的幸福感。"
+        },
+        {
+            "prompt": "你能提供有關凱克觀測台的一些資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於凱克觀測台的詳細資訊：\n\n地理位置與基本資料：\n- 位於美國夏威夷州茂宜島哈雷阿卡拉火山頂，海拔3,058公尺\n- 正式名稱為W. M. Keck Observatory（威廉·邁倫·凱克天文台）\n- 於1993年開始運轉\n- 由加州理工學院和夏威夷大學共同管理\n\n主要設備：\n- 擁有兩座10米口徑的凱克望遠鏡（Keck I和Keck II）\n- Keck I於1993年完工\n- Keck II於1996年完工\n- 每座望遠鏡都由36片六角形鏡片組成\n- 採用自適應光學系統技術\n\n重要發現：\n- 1995年發現首個確認的褐矮星Gliese 229B\n- 2004年協助發現Sedna矮行星\n- 參與發現多個系外行星\n- 協助研究銀河系中心的超大質量黑洞\n\n投資與建設：\n- 由威廉·邁倫·凱克基金會提供主要資金\n- 建造成本約為1.4億美元\n- 每年營運費用約為1,100萬美元\n\n技術特點：\n- 使用最先進的自適應光學系統\n- 可進行可見光和紅外線觀測\n- 兩座望遠鏡可以合併使用，形成干涉儀\n- 觀測能力相當於85米口徑的單一望遠鏡\n\n使用與管理：\n- 開放給全球天文學家申請使用\n- 每年接待數百位研究人員\n- 提供遠端遙控觀測服務\n- 設有專業維護團隊24小時值班\n\n參觀資訊：\n- 不對外開放參觀主要設施\n- 在山腳下設有訪客中心\n- 提供虛擬導覽服務\n- 定期舉辦科普教育活動\n\n這些設施使凱克觀測台成為世界上最重要的天文觀測設施之一，為天文學研究做出重大貢獻。"
+        },
+        {
+            "prompt": "誰是喬納斯·索爾克？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "喬納斯·索爾克 (Jonas Salk, 1914年10月28日-1995年6月23日) 是一位美國醫學研究員和病毒學家，以下是關於他的重要細節：\n\n主要成就：\n1. 最著名的成就是在1955年成功研發出世界上第一個安全有效的小兒麻痺症疫苗（索爾克疫苗）\n2. 這項發現極大地改變了全球對抗小兒麻痺症的局面\n\n生平背景：\n- 出生於紐約市東哈林區\n- 父母是俄羅斯猶太裔移民\n- 就讀於紐約市立大學\n- 1939年獲得紐約大學醫學院醫學博士學位\n\n職業生涯：\n1. 1942-1947年：在密西根大學從事流感病毒研究\n2. 1947年：受聘於匹茲堡大學\n3. 1963年：創立索爾克研究所（位於加州聖地牙哥）\n\n研究貢獻：\n- 開發出「滅活疫苗」技術\n- 首次證明可以用已殺死的病毒製造有效疫苗\n- 疫苗在1954年進行大規模臨床試驗，涉及180萬名兒童\n\n人道主義精神：\n1. 拒絕為疫苗申請專利\n2. 選擇將疫苗免費提供給全世界\n3. 放棄可能帶來的巨額收益（估計約70億美元）\n\n晚年工作：\n- 持續進行AIDS研究\n- 致力於開發HIV疫苗\n- 推動全球健康教育\n\n獲得的榮譽：\n1. 1956年獲總統自由勳章\n2. 1977年獲羅伯特·科赫金獎\n3. 獲得多個國家的榮譽博士學位\n\n影響：\n- 索爾克疫苗的發明使小兒麻痺症在許多國家幾乎絕跡\n- 為現代疫苗研究奠定重要基礎\n- 建立了重要的醫學研究典範\n\n家庭生活：\n- 1939年與唐娜·林賽結婚\n- 育有三個兒子\n- 1970年與法蘭西絲卡·西蒙斯再婚\n\n去世：\n- 1995年6月23日在加州拉霍亞逝世\n- 享年80歲\n- 死因為心臟衰竭\n\n這些具體細節展現了索爾克在醫學史上的重要地位，以及他對人類健康的重大貢獻。他的工作不僅拯救了無數生命，也為後續的疫苗研究開創了新方向。"
+        },
+        {
+            "prompt": "你能告訴我關於昴宿星團的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於昴宿星團的詳細資訊：\n\n基本資料：\n- 天文編號：M45\n- 位置：金牛座\n- 距離地球：約444光年\n- 年齡：約1億歲\n- 可見星體數量：約1,000顆恆星\n- 肉眼可見星數：通常可見6-7顆較亮的主星\n\n主要成員星：\n1. 昴宿六 (Alcyone)：最亮的成員星，視星等2.87等\n2. 電光星 (Electra)：視星等3.7等\n3. 天囷增七 (Maia)：視星等3.87等\n4. 昴宿增八 (Merope)：視星等4.18等\n5. 寶瓶星 (Atlas)：視星等3.62等\n6. 昴宿增廿二 (Pleione)：視星等5.09等\n\n歷史與文化意義：\n- 在中國古代稱為「昴宿」\n- 日本稱為「すばる」(Subaru)，也是富士重工業汽車品牌的標誌\n- 在古希臘神話中代表七姊妹\n- 世界多個古文明都有關於昴宿星團的記載，包括：\n  - 瑪雅文明\n  - 埃及文明\n  - 中國古代天文學\n  - 日本古代文化\n\n觀測特徵：\n- 最佳觀測時期：10月至3月\n- 在北半球容易觀測\n- 肉眼可見的星雲狀結構\n- 使用雙筒望遠鏡可見更多細節\n\n物理特性：\n- 星團直徑：約13光年\n- 包含大量年輕的藍色恆星\n- 周圍有反射星雲\n- 恆星密度比太陽系周圍高約三倍\n\n科學研究價值：\n- 作為研究恆星演化的重要目標\n- 幫助了解星團形成過程\n- 為測量宇宙距離提供重要參考\n\n觀測建議：\n- 建議使用7x50或10x50的雙筒望遠鏡\n- 選擇晴朗無月夜觀測\n- 遠離城市光害的地方觀測效果最佳"
+        },
+        {
+            "prompt": "什麼是安全通訊應用 Signal? Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Signal 是一款安全通訊應用程式，以下是詳細說明：\n\n基本資訊：\n- 發布日期：2014年\n- 開發者：Signal Foundation 與 Signal Messenger LLC\n- 創辦人：Moxie Marlinspike（本名 Matthew Rosenfeld）\n- 主要總部：美國加州矽谷\n\n主要特色：\n1. 端對端加密\n- 使用開源的 Signal Protocol 加密協議\n- 所有訊息、通話和檔案皆經過加密\n- 無法被第三方攔截或讀取\n\n2. 隱私保護\n- 不收集用戶個人資料\n- 僅需手機號碼註冊\n- 不儲存通訊紀錄\n- 提供訊息自動銷毀功能\n\n功能：\n- 一對一即時通訊\n- 群組聊天（最多1000人）\n- 語音通話\n- 視訊通話\n- 檔案傳輸\n- 貼圖功能\n- 閱後即焚訊息設定\n\n使用案例：\n- 2020年香港反送中運動期間，示威者廣泛使用\n- 2021年WhatsApp隱私政策爭議後，大量用戶轉移使用\n- 歐盟執委會於2020年正式建議職員使用Signal\n\n重要里程碑：\n- 2018年：獲得WhatsApp共同創辦人Brian Acton 5000萬美元資助\n- 2020年：全球活躍用戶突破5000萬\n- 2021年：月活躍用戶數超過4000萬\n\n支援平台：\n- iOS\n- Android\n- Windows\n- macOS\n- Linux\n\n安全認證：\n- 通過多個獨立安全審計\n- 獲得電子前哨基金會（EFF）推薦\n- 被Edward Snowden公開推薦使用\n\n與其他通訊軟體相比：\n- 比WhatsApp更注重隱私\n- 比Telegram提供更完整的端對端加密\n- 非營利組織營運，不以營利為目的\n\n這些特點使Signal成為全球最受推崇的安全通訊軟體之一，特別受到記者、活動人士和注重隱私的用戶歡迎。"
+        },
+        {
+            "prompt": "歌手 \"Billie Eilish\" 是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Billie Eilish（比莉·艾利許）的詳細資訊如下：\n\n基本資料：\n- 全名：Billie Eilish Pirate Baird O'Connell\n- 出生日期：2001年12月18日\n- 出生地點：美國加州洛杉磯\n- 職業：歌手、詞曲創作人\n\n音樂生涯重要里程碑：\n- 2015年：發布首支單曲《Ocean Eyes》，在SoundCloud平台爆紅\n- 2017年：推出首張EP《Don't Smile at Me》\n- 2019年：發行首張專輯《When We All Fall Asleep, Where Do We Go?》\n- 2021年：推出第二張專輯《Happier Than Ever》\n\n主要獲獎紀錄：\n- 2020年葛萊美獎：\n  - 年度專輯\n  - 年度製作\n  - 年度歌曲\n  - 最佳新人\n  - 最佳流行演唱專輯\n- 2022年奧斯卡金像獎：最佳原創歌曲《No Time to Die》\n\n特色與風格：\n- 獨特的低沉嗓音\n- 前衛的音樂製作風格\n- 常與哥哥Finneas O'Connell合作創作\n- 標誌性的寬鬆穿搭風格\n- 關注環保、動物權益等社會議題\n\n知名歌曲：\n- 《bad guy》（2019）\n- 《everything i wanted》（2019）\n- 《No Time to Die》（2020，007電影主題曲）\n- 《Therefore I Am》（2020）\n- 《Your Power》（2021）\n\n社群媒體影響力：\n- Instagram追蹤人數超過1億\n- 成為最年輕的格萊美大滿貫得主\n- 被時代雜誌評選為最具影響力的青少年之一\n\n個人生活：\n- 素食主義者\n- 患有妥瑞氏症\n- 在家自學教育長大\n- 熱衷於環保議題與動物保護"
+        },
+        {
+            "prompt": "你能提供有關馬克·祖克柏在 Facebook 的角色的信息嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於馬克·祖克柏在 Facebook 的詳細資訊：\n\n創立與早期發展\n- 2004年2月4日，在哈佛大學宿舍創立 Facebook（當時稱為 TheFacebook）\n- 與Eduardo Saverin、Dustin Moskovitz、Chris Hughes等人共同創辦\n- 最初僅限哈佛學生使用，後擴展至其他常春藤盟校\n- 2004年夏天將公司搬遷至加州帕洛阿爾托\n\n領導地位\n- 自創立以來一直擔任執行長（CEO）\n- 2012年5月18日，帶領Facebook完成首次公開募股（IPO）\n- 持有公司B類股份，擁有投票權的多數控制權\n- 年薪象徵性地只有1美元，但透過持股身價達數千億美元\n\n重要決策\n- 2012年以10億美元收購Instagram\n- 2014年以190億美元收購WhatsApp\n- 2021年10月28日宣布將公司更名為Meta\n- 投入大量資源發展元宇宙（Metaverse）計畫\n\n重大挑戰\n- 2018年劍橋分析（Cambridge Analytica）數據醜聞\n- 2018年3月在美國國會作證\n- 2019年7月被FTC罰款50億美元\n- 2021年10月，前員工Frances Haugen揭露內部文件\n\n創新方向\n- 2014年收購Oculus，進軍虛擬實境\n- 2016年推出Facebook直播功能\n- 2020年推出Facebook Shops\n- 2022年持續投資AI和元宇宙技術\n\n個人特色\n- 標誌性的灰色T恤穿著風格\n- 精通普通話，曾在清華大學用中文演講\n- 與普莉希拉·陳（Priscilla Chan）於2012年5月結婚\n- 承諾將99%的Facebook股份捐給慈善事業\n\n公司治理\n- 建立了由獨立董事組成的監督委員會\n- 實施嚴格的隱私保護政策\n- 增加內容審核人員，打擊假新聞\n- 推動透明度報告制度\n\n近期發展（2022-2023）\n- 大規模裁員超過11,000人\n- 持續投資AI技術研發\n- 強化元宇宙平台Reality Labs\n- 加強短影片功能Reels，與TikTok競爭"
+        },
+        {
+            "prompt": "你能告訴我有關西藏的喇嘛寺在藏傳佛教中的意義嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於西藏喇嘛寺在藏傳佛教中的詳細意義說明：\n\n1. 歷史意義\n- 西藏第一座寺院桑耶寺建於西元775年，由蓮花生大士創建\n- 三大寺院（甘丹寺、色拉寺、哲蚌寺）於15世紀由宗喀巴大師創立\n- 歷代達賴喇嘛的冬宮布達拉宮建於西元637年\n\n2. 宗教教育功能\n- 擔任藏傳佛教的教育中心\n- 設有五部大論（因明、般若、中觀、俱舍、戒律）的學習課程\n- 格魯派寺院通常需要15-20年才能獲得格西學位\n\n3. 重要寺院\n- 札什倫布寺：班禪喇嘛駐錫地，位於日喀則\n- 大昭寺：位於拉薩，建於西元647年，藏傳佛教最神聖的寺院之一\n- 色拉寺：位於拉薩，以辯經聞名，有6000多名僧人\n\n4. 文化保存\n- 保存藏文古籍和唐卡藝術\n- 傳承藏傳佛教的修行傳統\n- 維護西藏傳統醫學知識\n\n5. 建築特色\n- 採用藏式建築風格\n- 多採用紅、白、金三色\n- 設有經堂、佛殿、僧舍等建築群\n\n6. 修行制度\n- 實行師徒傳承制度\n- 設有嚴格的戒律規範\n- 強調實修與理論並重\n\n7. 社會功能\n- 作為朝聖中心\n- 提供社會服務\n- 舉辦重要宗教節慶活動\n\n8. 當代發展\n- 目前西藏約有1700多座寺院\n- 僧尼人數約4.6萬人\n- 每年接待大量國內外朝聖者和遊客\n\n9. 修行體系\n- 分為顯密兩大系統\n- 設有四大教派（寧瑪派、薩迦派、噶舉派、格魯派）\n- 各派都有其主要寺院\n\n10. 經濟地位\n- 擁有自己的經濟體系\n- 接受信眾供養\n- 部分寺院發展文化旅遊產業\n\n11. 儀式活動\n- 舉行定期法會\n- 進行薈供儀式\n- 舉辦年度祈福活動\n\n12. 國際影響\n- 促進文化交流\n- 吸引國際佛教學者研究\n- 推動藏傳佛教在全球傳播\n\n這些寺院不僅是宗教場所，更是藏族文化的重要載體，在保存和傳承藏族傳統文化方面發揮著關鍵作用。"
+        },
+        {
+            "prompt": "誰是馬赫沙拉·阿里？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "馬赫沙拉·阿里（Mahershala Ali，1974年2月16日出生）是一位美國演員，以下是關於他的詳細資訊：\n\n個人背景：\n- 本名：Mahershalalhashbaz Gilmore\n- 出生地：加利福尼亞州奧克蘭\n- 宗教信仰：伊斯蘭教（2000年皈依）\n\n教育背景：\n- 聖瑪麗學院（Saint Mary's College）戲劇藝術學士\n- 紐約大學蒂施藝術學院（NYU Tisch School of Arts）戲劇碩士\n\n主要成就：\n- 兩次獲得奧斯卡最佳男配角獎：\n  1. 2017年《月光下的藍色男孩》(Moonlight)\n  2. 2019年《綠皮書》(Green Book)\n- 成為首位獲得奧斯卡獎的穆斯林演員\n\n重要作品：\n電影：\n- 《飢餓遊戲》系列（2014-2015）\n- 《月光下的藍色男孩》（2016）\n- 《綠皮書》（2018）\n- 《阿利塔：戰鬥天使》（2019）\n\n電視劇：\n- 《紙牌屋》（House of Cards, 2013-2016）\n- 《真探》第三季（True Detective, 2019）\n- 《捍衛者聯盟》（The Defenders, 2017）\n\n獎項肯定：\n- 艾美獎提名\n- 金球獎提名\n- 美國演員工會獎\n- 英國電影學院獎提名\n\n個人生活：\n- 2013年與Amatus Sami-Karim結婚\n- 2017年女兒Bari Najma Ali出生\n\n演藝特色：\n- 以深邃的演技著稱\n- 擅長詮釋複雜的角色\n- 常在獨立製作電影中擔任重要角色\n- 展現多元化的演技範疇\n\n社會影響：\n- 為非裔美國演員樹立典範\n- 打破宗教和種族刻板印象\n- 積極參與社會議題討論\n- 為藝術教育發聲\n\n近期發展：\n- 將在漫威電影《刀鋒戰士》中飾演主角（預計2025年上映）\n- 持續參與各類影視製作\n- 擔任製作人開發新項目"
+        },
+        {
+            "prompt": "XGBoost 機器學習演算法是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "XGBoost (eXtreme Gradient Boosting) 機器學習演算法詳細說明：\n\n歷史背景：\n- 2014年由陳天奇在華盛頓大學開發\n- 最初是作為研究項目開發，後來成為開源專案\n- 在2015年開始在Kaggle等數據競賽平台上廣受歡迎\n\n核心特點：\n1. 演算法原理\n- 基於決策樹集成學習方法\n- 使用梯度提升(Gradient Boosting)框架\n- 採用二階導數優化\n- 支援並行運算\n\n2. 主要優勢\n- 執行速度快（比傳統GBM快約10倍）\n- 模型準確度高\n- 支援多種目標函數\n- 內建處理缺失值機制\n- RAM使用效率高\n\n應用領域：\n1. 金融領域\n- 信用評分\n- 詐騙偵測\n- 股票預測\n\n2. 電子商務\n- 商品推薦\n- 用戶行為分析\n- 銷售預測\n\n3. 醫療保健\n- 疾病預測\n- 病患分類\n- 藥物反應預測\n\n重要參數設置：\n1. 基礎參數\n- learning_rate: 通常設定在0.01-0.2\n- max_depth: 常用3-10\n- n_estimators: 100-1000\n\n2. 控制過擬合參數\n- min_child_weight\n- subsample\n- colsample_bytree\n\n使用範例（Python代碼）：\n\n```python\nimport xgboost as xgb\nfrom sklearn.datasets import load_boston\nfrom sklearn.model_selection import train_test_split\n\n# 載入數據\nboston = load_boston()\nX, y = boston.data, boston.target\n\n# 分割訓練集和測試集\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\n# 建立模型\nmodel = xgb.XGBRegressor(\n    learning_rate=0.1,\n    n_estimators=100,\n    max_depth=5\n)\n\n# 訓練模型\nmodel.fit(X_train, y_train)\n\n# 預測\npredictions = model.predict(X_test)\n```\n\n效能優化技巧：\n1. 參數調優\n- 使用GridSearchCV進行網格搜索\n- 使用RandomizedSearchCV進行隨機搜索\n- 採用交叉驗證評估模型\n\n2. 記憶體優化\n- 使用DMatrix數據結構\n- 適當設置緩存大小\n- 使用GPU加速\n\n常見應用實例：\n1. 台灣金融業\n- 玉山銀行信用卡詐騙偵測\n- 國泰人壽客戶流失預測\n\n2. 電商平台\n- PChome商品推薦系統\n- 蝦皮購物用戶行為分析\n\n優點：\n1. 效能優異\n2. 可擴展性強\n3. 特徵重要性評估\n4. 支援多種程式語言\n\n缺點：\n1. 參數調整複雜\n2. 需要較多計算資源\n3. 對過擬合敏感\n\n最佳實踐建議：\n1. 資料預處理\n- 處理缺失值\n- 特徵縮放\n- 類別型變數編碼\n\n2. 模型訓練\n- 使用早停法(early stopping)\n- 實施交叉驗證\n- 監控過"
+        },
+        {
+            "prompt": "你能提供關於審計分析軟體的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於審計分析軟體的詳細資訊：\n\n常見審計分析軟體：\n\n1. ACL (Audit Command Language)\n- 成立於1987年\n- 總部位於加拿大溫哥華\n- 2019年由Galvanize收購\n- 主要用於大數據分析與持續性監控\n\n2. IDEA (Interactive Data Extraction and Analysis)\n- 由CaseWare開發\n- 1987年首次發布\n- 在台灣由資誠聯合會計師事務所(PwC)引進使用\n\n3. TeamMate\n- 由Wolters Kluwer開發\n- 1995年推出\n- 在全球超過120個國家使用\n\n主要功能：\n\n1. 資料分析\n- 100%全數據檢查\n- 可處理數百萬筆交易資料\n- 支援多種檔案格式(Excel、PDF、TXT等)\n\n2. 異常偵測\n- 自動識別重複交易\n- 找出異常金額與模式\n- 執行貝福特定律分析\n\n3. 報告製作\n- 自動產生審計報告\n- 圖表視覺化呈現\n- 可匯出多種格式\n\n台灣使用情況：\n\n1. 四大會計師事務所\n- 資誠(PwC)：主要使用IDEA\n- 安侯(KPMG)：使用ACL\n- 勤業眾信(Deloitte)：使用ACL與TeamMate\n- 安永(EY)：使用ACL\n\n2. 政府單位\n- 審計部：2010年起導入ACL\n- 財政部：使用IDEA進行稅務稽核\n- 金管會：使用ACL進行金融監理\n\n價格參考(2023年)：\n- ACL單機版：約新台幣15-20萬/年\n- IDEA單機版：約新台幣10-15萬/年\n- TeamMate：依使用人數報價，約新台幣8-12萬/人/年\n\n培訓認證：\n- ACL認證課程：3天，費用約新台幣3萬元\n- IDEA認證課程：2天，費用約新台幣2.5萬元\n- 每年約有500-600名台灣審計人員參加相關認證\n\n系統需求：\n- Windows 10以上作業系統\n- 至少8GB RAM\n- 至少100GB硬碟空間\n- 建議使用i5以上處理器\n\n這些軟體持續更新，每年約發布2-4次重要更新，加入新功能與安全性修補。使用這些工具可以顯著提升審計效率，一般可節省30-50%的查核時間。"
+        },
+        {
+            "prompt": "Eliezer Yudkowsky 的機器智能研究所是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Eliezer Yudkowsky的機器智能研究所(Machine Intelligence Research Institute, MIRI)主要資訊如下:\n\n創立背景：\n- 2000年成立,最初名為Singularity Institute for Artificial Intelligence (SIAI)\n- 2013年改名為現在的MIRI\n- 位於美國加州柏克萊\n\n主要目標：\n- 研究人工智能安全\n- 確保未來的人工通用智能(AGI)對人類有利\n- 研究如何讓AI系統保持友善且可控\n\n重要人物：\n- 創辦人：Eliezer Yudkowsky (生於1979年)\n- 現任執行長：Nate Soares\n- 研究員：Scott Garrabrant、Abram Demski等\n\n主要研究領域：\n1. AI對齊問題(AI alignment)\n2. 決策理論\n3. 邏輯與形式推理\n4. 機器學習安全\n\n重要貢獻：\n- 提出\"友善AI\"(Friendly AI)概念\n- 發展了\"同調推理\"(coherent reasoning)理論\n- 出版多篇關於AI安全的學術論文\n\n合作機構：\n- 牛津大學未來人類研究所(Future of Humanity Institute)\n- UC Berkeley\n- OpenAI\n\n資金來源：\n- 私人捐款\n- Open Philanthropy Project\n- 其他慈善基金會\n\n重要著作與出版物：\n- 《理性：從AI到殭屍》(Rationality: From AI to Zombies)\n- 多篇技術報告與研究論文\n\n教育計畫：\n- MIRI Summer Fellows Program\n- AI安全研討會\n- 線上教育資源\n\n影響力：\n- 在AI安全研究領域具有重要地位\n- 影響了許多科技領袖對AI風險的認知\n- 推動了AI安全研究的發展\n\n年度預算：\n- 2020年約300萬美元\n- 主要用於研究項目與人員薪資\n\n工作方式：\n- 進行基礎研究\n- 舉辦研討會\n- 發表學術論文\n- 與其他研究機構合作\n\n地理位置：\n- 總部：加州柏克萊\n- 郵寄地址：2030 Addison Street, Suite 300, Berkeley, CA 94704\n\n研究重點：\n1. 機器學習的可解釋性\n2. AI系統的價值對齊\n3. 決策理論的數學基礎\n4. 形式化推理系統"
+        },
+        {
+            "prompt": "IBM的「Smarter Planet」行銷活動的具體內容是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "IBM的「Smarter Planet」(智慧地球)行銷活動是在2008年11月由時任IBM執行長Sam Palmisano正式提出。以下是這個活動的主要內容和細節：\n\n核心理念與目標：\n1. 透過數位化、互聯網和智慧系統來解決全球性問題\n2. 運用資訊科技使城市、醫療、交通等系統更加智慧化\n3. 促進經濟發展同時兼顧環境永續\n\n具體實施領域：\n\n1. 智慧城市\n- 2010年在台灣推動智慧城市計畫\n- 與台北市政府合作建置智慧交通系統\n- 協助新加坡發展智慧交通管理系統\n\n2. 智慧醫療\n- 與台灣多家醫院合作推動電子病歷系統\n- 開發Watson醫療診斷系統\n- 2012年與紐約Memorial Sloan-Kettering癌症中心合作\n\n3. 智慧能源\n- 建置智慧電網系統\n- 協助企業進行能源管理優化\n- 發展再生能源解決方案\n\n投資規模：\n- 2008-2015年間，IBM在全球投資超過100億美元\n- 在大中華區投資約20億美元發展相關技術與服務\n\n合作夥伴：\n1. 政府部門\n- 美國聯邦政府\n- 中國政府\n- 歐盟各國政府\n\n2. 企業夥伴\n- 思科(Cisco)\n- 西門子(Siemens)\n- 通用電氣(GE)\n\n3. 學術機構\n- 麻省理工學院(MIT)\n- 史丹福大學\n- 清華大學\n\n主要成果：\n\n1. 技術創新\n- 發展出多項智慧城市解決方案\n- 建立雲端運算平台\n- 開發大數據分析工具\n\n2. 商業成效\n- 帶動IBM服務營收成長\n- 擴大全球市場佔有率\n- 提升品牌價值\n\n3. 社會影響\n- 提升城市運作效率\n- 改善環境永續性\n- 促進產業轉型\n\n推廣活動：\n\n1. 全球性會議\n- 每年舉辦Smarter Planet論壇\n- 定期舉辦技術研討會\n- 產業交流會議\n\n2. 教育推廣\n- 與大學合作開設相關課程\n- 提供技術培訓\n- 舉辦創新競賽\n\n3. 媒體宣傳\n- 電視廣告\n- 平面媒體報導\n- 社群媒體行銷\n\n未來發展方向：\n\n1. 技術升級\n- 強化人工智慧應用\n- 發展5G相關解決方案\n- 擴大物聯網應用範圍\n\n2. 市場擴展\n- 深耕新興市場\n- 開發新產業應用\n- 擴大合作夥伴網絡\n\n3. 永續發展\n- 加強環保節能方案\n- 發展循環經濟解決方案\n- 推動社會創新計畫\n\n這個行銷活動不僅改變了IBM的品牌形象，也實際推動了全球智慧化發展，對科技產業和社會發展產生深遠影響。"
+        },
+        {
+            "prompt": "瑪莉亞·莎拉波娃是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "瑪莉亞·莎拉波娃（Maria Sharapova，1987年4月19日出生於西伯利亞）是前俄羅斯職業網球選手，被認為是網球史上最成功的選手之一。以下是關於她的詳細資訊：\n\n職業成就：\n- 贏得5座大滿貫冠軍：\n  - 溫布頓網球錦標賽（2004年）\n  - 美國網球公開賽（2006年）\n  - 澳洲網球公開賽（2008年）\n  - 法國網球公開賽（2012年、2014年）\n- 生涯共獲得36個單打冠軍頭銜\n- 曾排名世界第一（首次在2005年8月22日）\n- 職業生涯獎金超過3,850萬美元\n\n個人背景：\n- 6歲開始打網球\n- 1994年，7歲時與父親移居美國佛羅里達州\n- 在Nick Bollettieri網球學院訓練\n- 2001年，14歲時轉為職業選手\n\n商業成就：\n- 連續11年（2004-2015）成為收入最高的女運動員\n- 與多個知名品牌合作，如Nike、Head、Evian等\n- 2012年推出個人糖果品牌Sugarpova\n\n爭議事件：\n- 2016年因服用被禁藥物米屈肼而被禁賽15個月\n- 2017年4月復出\n\n退役：\n- 2020年2月26日宣布退役\n- 職業生涯持續19年\n\n身體特徵：\n- 身高188公分\n- 以強勁的底線抽球和叫聲大聞名\n\n其他成就：\n- 2012年倫敦奧運會獲得銀牌\n- 2008年代表俄羅斯獲得聯合會盃冠軍\n\n個人生活：\n- 會說俄語和英語\n- 2020年12月與英國商人Alexander Gilkes訂婚\n- 2022年7月1日生下兒子Theodore\n\n慈善工作：\n- 擔任聯合國開發計劃署親善大使\n- 成立瑪莉亞·莎拉波娃基金會，幫助車諾比核災區兒童\n\n這些成就和經歷使莎拉波娃成為網球史上最具影響力的運動員之一，不僅在運動場上取得輝煌成就，在商業領域也相當成功。"
+        },
+        {
+            "prompt": "你能告訴我1941年恩尼格瑪機器被捕獲的具體事件嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "1941年恩尼格瑪機器被捕獲的事件細節如下：\n\n關鍵時間點：\n- 1941年5月9日：德國U-110潛艇在冰島南部海域被英國皇家海軍攔截\n\n地點：\n- 冰島南部海域（北緯61度35分，西經20度44分）\n\n參與船艦：\n- 英國皇家海軍驅逐艦HMS Bulldog\n- 英國皇家海軍驅逐艦HMS Broadway\n- 英國皇家海軍護衛艦HMS Aubretia\n- 德國U-110潛艇\n\n重要人物：\n- 喬·貝克（Joe Baker-Cresswell）：HMS Bulldog艦長\n- 大衛·巴蘭泰（David Balme）：登艇搜查的英國海軍少尉\n- 尤利烏斯·萊姆普（Julius Lemp）：U-110潛艇艦長\n\n關鍵物品：\n- 完整的恩尼格瑪密碼機\n- 密碼本\n- 作戰手冊\n- 密碼設置表\n\n事件經過：\n1. U-110潛艇攻擊一支英國商船隊\n2. 英國軍艦發現並投擲深水炸彈攻擊U-110\n3. U-110被迫浮出水面\n4. 德國船員倉促撤離，未能銷毀密碼機\n5. 英國海軍登艇搜查，發現完整的恩尼格瑪機器\n6. 所有資料被送往英國布萊切利莊園（Bletchley Park）\n\n影響：\n- 這些情報對破譯德軍密碼至關重要\n- 幫助盟軍在大西洋戰役中取得優勢\n- 據估計縮短了二戰約兩年時間\n\n為保密：\n- 英國政府將此事保密至1970年代\n- 對外宣稱U-110已沉沒\n- 參與人員被要求嚴格保密\n\n這次行動的代號為\"Primrose\"（報春花），是二戰期間最重要的情報獲取行動之一。"
+        },
+        {
+            "prompt": "你能提供有關國際海洋法法庭的詳細資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於國際海洋法法庭(ITLOS)的詳細資訊：\n\n成立背景與基本資料：\n- 成立時間：1996年10月1日\n- 總部位置：德國漢堡市\n- 法律依據：1982年《聯合國海洋法公約》\n- 正式語言：英語和法語\n\n組織結構：\n- 法官人數：21名\n- 法官任期：9年，可連選連任\n- 首任庭長：Thomas A. Mensah (加納，1996-1999年)\n- 現任庭長：Albert Hoffmann (南非，2020年起)\n\n主要職能：\n1. 解決締約國間有關海洋法公約解釋和適用的爭端\n2. 處理專屬經濟區、大陸架等海洋劃界糾紛\n3. 審理船舶扣押和即時釋放案件\n\n重要案例：\n1. M/V Saiga案 (1997年)\n- 當事國：聖文森特和格林納丁斯訴幾內亞\n- 內容：涉及船舶扣押和即時釋放\n\n2. 南方藍鰭金槍魚案 (1999年)\n- 當事國：紐西蘭和澳大利亞訴日本\n- 內容：關於漁業資源保護\n\n3. 孟加拉灣海洋劃界案 (2012年)\n- 當事國：孟加拉與緬甸\n- 內容：專屬經濟區和大陸架劃界爭議\n\n程序特點：\n- 訴訟費用：由當事國分擔\n- 審理時限：通常3-6個月內完成\n- 判決效力：具有約束力，不得上訴\n\n重要貢獻：\n1. 建立了海洋爭端解決的專門機制\n2. 發展了國際海洋法判例法\n3. 促進了海洋資源的和平利用\n\n受理案件統計：\n- 截至2023年，共審理過29件案件\n- 包括：\n  - 即時釋放案件：9件\n  - 臨時措施案件：10件\n  - 爭端案件：10件\n\n與其他國際法院的關係：\n1. 與國際法院(ICJ)\n- 互相獨立\n- 管轄權有所重疊但各有專長\n\n2. 與常設仲裁法院(PCA)\n- 可相互配合\n- 在海洋爭端解決方面有合作\n\n設施：\n- 總部大樓面積：約25,000平方米\n- 設有現代化法庭\n- 配備同聲傳譯系統\n- 擁有專業圖書館\n\n程序語言：\n- 正式程序使用英語或法語\n- 提供同聲傳譯服務\n\n財務來源：\n1. 締約國會費\n2. 案件當事國繳納的訴訟費\n3. 信託基金捐助\n\n未來發展方向：\n1. 擴大管轄範圍\n2. 加強與其他國際組織合作\n3. 提高效率和透明度\n\n這些資訊展現了國際海洋法法庭作為解決海洋爭端的重要國際司法機構的專業性和權威性。"
+        },
+        {
+            "prompt": "你能告訴我關於黑斯廷斯戰役的內容嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "黑斯廷斯戰役（Battle of Hastings）發生於1066年10月14日，是英格蘭歷史上最重要的戰役之一。以下是詳細內容：\n\n戰役背景：\n- 1066年1月5日，英格蘭國王愛德華懺悔者（Edward the Confessor）去世\n- 哈洛德·戈德溫森（Harold Godwinson）被選為新國王\n- 諾曼第公爵威廉（William of Normandy）聲稱愛德華曾許諾王位給他\n\n參戰雙方：\n- 英格蘭軍隊：由哈洛德二世率領，約7,000人\n- 諾曼第軍隊：由威廉率領，約7,000-12,000人\n\n戰役地點：\n- 位於英格蘭東薩塞克斯郡（East Sussex）的森林林地\n- 現今的巴特爾鎮（Battle）附近\n\n戰役過程：\n1. 早晨9點左右戰鬥開始\n2. 英軍佔據山丘有利地形，組成盾牆陣型\n3. 諾曼第軍隊進行多次衝鋒但未能突破\n4. 下午，諾曼第軍隊使用佯裝撤退戰術\n5. 部分英軍追擊時脫離陣型\n6. 傍晚時分，哈洛德二世被箭射中眼睛陣亡\n\n戰役結果：\n- 諾曼第軍隊獲勝\n- 哈洛德二世陣亡\n- 威廉於同年12月25日加冕為英格蘭國王\n- 開啟諾曼統治時期\n\n重要影響：\n1. 改變英格蘭統治階層\n2. 引入諾曼文化與制度\n3. 英語受法語深遠影響\n4. 封建制度全面確立\n\ncasualties（傷亡）：\n- 英軍：約2,000人陣亡\n- 諾曼第軍：約1,500-2,000人陣亡\n\n歷史記載：\n- 拜厄詩掛毯（Bayeux Tapestry）詳細記錄了戰役經過\n- 長達70公尺的刺繡作品\n- 現存於法國拜厄市\n\n紀念：\n- 巴特爾修道院（Battle Abbey）建於戰場\n- 每年舉行戰役重演活動\n- 設有訪客中心和博物館\n\n這場戰役被視為中世紀英格蘭最具決定性的戰役，徹底改變了英格蘭的歷史進程。"
+        },
+        {
+            "prompt": "你能告訴我關於尼泊爾的盧比尼在佛教中的地位嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "盧比尼(Lumbini)在佛教中具有極其重要的地位，以下是詳細說明：\n\n1. 歷史意義\n- 佛陀釋迦牟尼於西元前563年誕生於此地\n- 是佛教四大聖地之一（其他三處為：菩提迦耶、鹿野苑、拘尸那羅）\n- 西元前249年，印度孔雀王朝阿育王曾到此朝聖並立石柱\n\n2. 地理位置\n- 位於尼泊爾南部的特萊平原\n- 距離尼泊爾首都加德滿都約280公里\n- 靠近尼泊爾與印度的邊界\n\n3. 重要遺跡\n- 摩耶夫人池：佛陀母親摩耶夫人產前沐浴的池塘\n- 阿育王石柱：高約6公尺，上面刻有古代婆羅米文\n- 摩耶夫人寺：標示佛陀誕生地點的寺廟\n- 世界和平塔：由不同國家建造的佛教寺院\n\n4. 現代發展\n- 1967年聯合國秘書長烏丹特訪問此地\n- 1997年被聯合國教科文組織列為世界文化遺產\n- 尼泊爾政府規劃「大盧比尼發展計畫」，面積約130平方公里\n\n5. 宗教活動\n- 每年吸引數十萬佛教徒前來朝聖\n- 衛塞節（佛誕節）期間會舉行大型慶典\n- 來自世界各地的佛教團體在此建立寺院\n\n6. 考古發現\n- 1896年考古學家福爾開始發掘此地\n- 發現許多古代文物，包括雕像、錢幣等\n- 2013年發現了可能是世界上最早的佛教建築遺跡\n\n7. 保護措施\n- 設立盧比尼發展信託基金\n- 實施嚴格的文物保護政策\n- 定期進行考古發掘和研究工作\n\n8. 交通資訊\n- 最近的機場是位於巴拉特布爾的戈塔姆佛陀機場\n- 從加德滿都可搭乘巴士約8-10小時可達\n- 從印度邊境城市蘇瑙利可乘車約30分鐘抵達\n\n9. 參觀建議\n- 最佳參觀時間為10月至次年3月\n- 建議安排1-2天時間深度遊覽\n- 需遵守當地宗教禮儀和參觀規定\n\n10. 文化影響\n- 促進了尼泊爾與其他佛教國家的文化交流\n- 帶動當地旅遊業發展\n- 成為重要的國際佛教研究中心"
+        },
+        {
+            "prompt": "你能告訴我有關《全面禁止核試驗條約》的信息嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於《全面禁止核試驗條約》(CTBT)的詳細資訊：\n\n簽署和批准情況：\n- 1996年9月24日在紐約聯合國總部開放簽署\n- 截至2023年，共有185個國家簽署，170個國家批准\n- 尚未生效，因為需要44個特定核能力國家全部批准\n\n關鍵條款：\n- 禁止在任何地點進行核武器試驗爆炸\n- 禁止任何其他核爆炸\n- 建立全球性監測系統\n- 允許進行現場視察\n\n監測系統：\n- 國際監測系統(IMS)包含337個監測站\n- 四種監測技術：\n  1. 地震監測\n  2. 水聲監測\n  3. 次聲波監測\n  4. 放射性核素監測\n\n重要國家立場：\n- 中國：已簽署但未批准\n- 美國：已簽署但未批准\n- 印度：未簽署\n- 巴基斯坦：未簽署\n- 朝鮮：未簽署\n- 以色列：已簽署但未批准\n\n條約組織：\n- 總部位於維也納\n- 全面禁止核試驗條約組織(CTBTO)籌備委員會於1997年成立\n- 執行秘書長為羅伯特·弗洛伊德(Robert Floyd)\n\n重要歷史事件：\n- 1963年：《部分禁止核試驗條約》簽署\n- 1994-1996年：條約談判階段\n- 2006-2017年：朝鮮進行六次核試驗，違反國際社會期望\n\n條約意義：\n- 是核裁軍和防止核武器擴散的重要工具\n- 有助於保護環境免受核試驗影響\n- 促進國際和平與安全\n\n執行機制：\n- 允許進行現場視察以核實可疑活動\n- 建立信息交換機制\n- 設立技術秘書處負責日常工作\n- 定期舉行締約國會議\n\n挑戰：\n- 部分關鍵國家遲遲未批准\n- 技術驗證的複雜性\n- 政治意願不足\n- 區域安全局勢影響"
+        },
+        {
+            "prompt": "電影《大顯神威》是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "《大顯神威》(英文片名：Big Trouble in Little China)是1986年上映的一部美國動作喜劇電影。以下是主要細節：\n\n導演與演員：\n- 導演：約翰·卡本特 (John Carpenter)\n- 主演：寇特·羅素 (Kurt Russell) 飾演傑克·伯頓\n- 金·凱特羅 (Kim Cattrall) 飾演葛瑞西·勞\n- 丹尼斯·鄧 (Dennis Dun) 飾演王啟\n- 詹姆斯·洪 (James Hong) 飾演大衛·洛潘\n\n劇情設定：\n- 故事發生在舊金山唐人街\n- 主角是一名卡車司機傑克·伯頓\n- 涉及中國神話、功夫和超自然元素\n\n主要劇情：\n- 傑克·伯頓捲入唐人街地下黑幫鬥爭\n- 對抗邪惡巫師大衛·洛潘\n- 營救被綁架的綠眼女子\n\n特色：\n- 結合動作、喜劇和奇幻元素\n- 融入大量中國傳統文化元素\n- 包含武術動作場面和特效\n\n製作：\n- 製作預算約2,500萬美元\n- 20世紀福斯發行\n- 片長約99分鐘\n\n影響：\n- 雖然上映時票房表現平平\n- 後來成為經典cult電影\n- 對後來的動作喜劇電影有重要影響\n\n這部電影以其獨特的東西方文化混合風格，以及誇張的動作場面而聞名，現在被視為80年代的經典作品之一。"
+        },
+        {
+            "prompt": "路德維希·維根斯坦是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "路德維希·維根斯坦 (Ludwig Wittgenstein, 1889年4月26日-1951年4月29日) 是20世紀最具影響力的哲學家之一。以下是關於他的詳細資訊：\n\n個人背景：\n- 出生於奧地利維也納的富裕猶太家庭\n- 父親卡爾·維根斯坦是一位成功的鋼鐵大亨\n- 有八個兄弟姐妹，其中三位兄弟自殺身亡\n\n教育經歷：\n- 1908-1911年：在英國曼徹斯特大學學習工程學\n- 1911-1914年：在劍橋大學三一學院師從伯特蘭·羅素\n- 1929年在劍橋大學獲得博士學位\n\n主要著作：\n- 《邏輯哲學論》(Tractatus Logico-Philosophicus, 1921年)\n- 《哲學研究》(Philosophical Investigations, 1953年，死後出版)\n\n職業生涯：\n- 1914-1918年：在第一次世界大戰期間服役於奧匈帝國軍隊\n- 1920-1926年：在下奧地利擔任小學教師\n- 1929-1947年：在劍橋大學任教\n\n主要哲學貢獻：\n1. 早期思想（《邏輯哲學論》）：\n- 提出圖像理論\n- 強調語言與世界的邏輯關係\n- 認為哲學問題源於語言的誤用\n\n2. 後期思想（《哲學研究》）：\n- 提出語言遊戲理論\n- 強調日常語言的重要性\n- 反對私人語言的可能性\n\n生活特點：\n- 過著極其簡樸的生活\n- 將大部分遺產捐贈給親屬\n- 經常獨居，性格孤僻\n\n影響：\n- 對分析哲學產生深遠影響\n- 影響了維也納學派\n- 對語言哲學、心靈哲學有重要貢獻\n\n晚年：\n- 1947年辭去劍橋教職\n- 1949年被診斷出癌症\n- 1951年4月29日在劍橋逝世\n\n特殊貢獻：\n- 改變了20世紀哲學的發展方向\n- 建立了新的語言分析方法\n- 對邏輯實證主義有重要影響\n\n人際關係：\n- 與伯特蘭·羅素有密切的師生關係\n- 與經濟學家凱恩斯是好友\n- 與哲學家摩爾有學術交流\n\n這些細節展現了維根斯坦作為一位重要哲學家的生平、思想發展和貢獻，他的影響至今仍在哲學界持續發酵。"
+        },
+        {
+            "prompt": "誰是Barbara Liskov？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Barbara Liskov 是一位舉足輕重的計算機科學家，以下是關於她的詳細資訊：\n\n個人背景：\n- 出生日期：1939年11月7日\n- 出生地：美國加州洛杉磯\n- 現職：麻省理工學院（MIT）教授\n\n學術成就：\n- 1961年：獲得加州大學柏克萊分校數學學士學位\n- 1968年：成為史丹佛大學首位獲得計算機科學博士學位的女性\n- 1972年：加入麻省理工學院，現為該校Institute Professor\n\n重要貢獻：\n1. Liskov替換原則（LSP）：\n- 於1987年提出\n- 這是物件導向程式設計的重要原則之一\n- 成為SOLID原則中的\"L\"\n\n2. CLU程式語言：\n- 1974年設計開發\n- 是首個支援資料抽象的程式語言之一\n- 影響了後來的Java、Python等程式語言\n\n3. Thor分散式資料庫系統：\n- 1990年代開發\n- 專注於分散式運算和容錯處理\n\n重要獎項：\n- 2004年：獲得約翰·馮·紐曼獎\n- 2008年：獲得圖靈獎（A.M. Turing Award）\n- 2012年：獲得美國計算機協會（ACM）終身成就獎\n\n研究領域：\n- 分散式系統\n- 程式語言設計\n- 物件導向程式設計\n- 作業系統\n- 容錯系統\n\n影響：\n- 她的研究對現代程式設計方法學有重大影響\n- 她的工作為軟體工程奠定了重要基礎\n- 被譽為計算機科學領域最具影響力的女性之一\n\n現今：\n- 持續在MIT進行研究和教學工作\n- 致力於推動女性在計算機科學領域的發展\n- 經常受邀在重要會議上發表演說"
+        },
+        {
+            "prompt": "Thomas E. Moseley在移民法領域是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Thomas E. Moseley是一位在美國移民法領域非常著名的律師。以下是關於他的主要資訊：\n\n專業背景：\n- 擁有超過30年的移民法執業經驗\n- 位於新澤西州紐瓦克(Newark, New Jersey)的移民法律師\n- Moseley法律事務所的創始人和主要合夥人\n\n專業成就：\n- 曾在多個具有里程碑意義的移民案件中代表當事人\n- 在聯邦法院處理過數百件移民上訴案件\n- 經常在第三巡迴上訴法院出庭\n\n專業領域：\n- 政治庇護案件\n- 遞解出境辯護\n- 移民上訴\n- 複雜的移民訴訟案件\n- 商務移民\n\n教育背景：\n- 耶魯大學法學院畢業\n\n專業貢獻：\n- 經常在移民法研討會上發表演講\n- 為移民法領域撰寫多篇專業文章\n- 協助培訓新一代移民律師\n\n專業認可：\n- 被美國移民律師協會(AILA)認可為傑出移民律師\n- 多次被評為新澤西州最佳律師之一"
+        },
+        {
+            "prompt": "什麼是布隆博斯洞穴？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "布隆博斯洞穴（Blombos Cave）是一個位於南非西開普省的考古遺址，以下是詳細資訊：\n\n地理位置：\n- 位於南非西開普省斯蒂爾灣（Still Bay）附近\n- 距離開普敦東南方約300公里\n- 位於海岸懸崖上，高出海平面約34.5米\n\n重要發現時間：\n- 1991年首次開始發掘\n- 由克里斯多福·亨舍爾伍德（Christopher Henshilwood）教授領導發掘\n\n主要考古發現：\n1. 年代：\n- 最早的人類活動痕跡可追溯至約10萬年前\n- 持續使用時間長達約7萬年（從10萬年前到7萬年前）\n\n2. 人工製品：\n- 7.5萬年前的赭石雕刻品，呈幾何圖案\n- 約7.7萬年前的貝殼珠飾\n- 精細的骨製工具\n- 石器工具，包括雙面加工的矛頭\n\n3. 生活證據：\n- 發現了海洋資源利用的證據\n- 使用赭石進行顏料製作的工具\n- 發現了最早的人類製作顏料的證據（約10萬年前）\n\n考古意義：\n1. 證明了早期現代人類具有：\n- 抽象思維能力\n- 製作工具的技術\n- 符號表達能力\n- 裝飾藝術創作能力\n\n2. 文化發展：\n- 是非洲中石器時代的重要遺址\n- 提供了早期人類行為現代性的重要證據\n- 展示了早期人類的社會組織能力\n\n研究影響：\n- 改變了學界對早期人類認知能力的認識\n- 為現代人類行為的起源提供重要證據\n- 成為研究人類文化演化的關鍵遺址\n\n保護狀況：\n- 目前受到南非文化遺產保護\n- 持續進行考古發掘和研究工作\n- 被視為世界重要的考古遺址之一\n\n這些發現使布隆博斯洞穴成為研究人類早期文化發展的重要遺址，對理解現代人類行為的起源具有重大意義。"
+        },
+        {
+            "prompt": "伊德瑞斯·艾巴是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "伊德瑞斯·艾巴（Idris Elba，1972年9月6日出生）是一位英國演員、製片人、歌手和 DJ。以下是關於他的詳細資訊：\n\n個人背景：\n- 出生地：英國倫敦哈克尼區\n- 父親來自塞拉利昂，母親來自迦納\n- 在克羅伊登長大\n- DJ 藝名：DJ Big Driis / Big Driis the Londoner\n\n演藝事業重要作品：\n1. 電視劇：\n- 《火線重案組》(The Wire, 2002-2004) 飾演 Stringer Bell\n- 《路德》(Luther, 2010-2019) 飾演 DCI John Luther\n- 因《路德》獲得金球獎提名\n\n2. 電影：\n- 《普羅米修斯》(Prometheus, 2012)\n- 《環太平洋》(Pacific Rim, 2013)\n- 《曼德拉：漫漫自由路》(Mandela: Long Walk to Freedom, 2013) 飾演納爾遜·曼德拉\n- 《復仇者聯盟》系列 (2011-2019) 飾演海姆達爾\n- 《野獸》(Beast, 2022)\n- 《音速小子2》(Sonic the Hedgehog 2, 2022)\n\n獎項與榮譽：\n- 2016年獲英女王伊莉莎白二世頒發大英帝國勳章（OBE）\n- 多次獲得艾美獎提名\n- 2018年入選《時代雜誌》全球最具影響力100人\n\n其他成就：\n- 2014年被《人物》雜誌評選為「全球最性感男人」\n- 除演戲外也是一位專業 DJ，曾在知名音樂節演出\n- 2015年打破陸地速度記錄（英國）\n- 2016年參與專業踢拳比賽並獲勝\n\n個人生活：\n- 已婚三次，現任妻子為 Sabrina Dhowre（2019年結婚）\n- 育有兩個孩子\n- 居住地在倫敦和洛杉磯之間往返\n\n社會貢獻：\n- 積極參與慈善活動\n- 2020年新冠疫情期間，他和妻子都確診，之後成為聯合國親善大使\n- 支持多個社會公益項目，特別是青年教育方面\n\n未來發展：\n- 持續參與電影製作\n- 發展音樂事業\n- 投資製作公司\n\n這些成就使伊德瑞斯·艾巴成為好萊塢最受歡迎的演員之一，也是英國最成功的演藝人士之一。他的多元化才能和敬業精神，為他贏得了廣大觀眾和業內人士的尊重。"
+        },
+        {
+            "prompt": "你能告訴我一些關於巴拿馬運河的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於巴拿馬運河的詳細資訊：\n\n地理位置與基本資料：\n- 位於巴拿馬地峽，連接太平洋和大西洋\n- 全長約77公里\n- 運河寬度介於91-300公尺之間\n- 平均通過時間為8-10小時\n\n歷史發展：\n- 1880年：法國工程師費迪南·德·雷塞普斯開始建造\n- 1889年：法國計畫因資金問題失敗\n- 1904年：美國接手建設工程\n- 1914年8月15日：正式通航\n- 1999年12月31日：美國將運河主權移交給巴拿馬\n\n技術特色：\n- 採用三級船閘系統：\n  1. 加通船閘(Gatun Locks)\n  2. 佩德羅·米格爾船閘(Pedro Miguel Locks)\n  3. 米拉弗洛雷斯船閘(Miraflores Locks)\n- 船閘尺寸：\n  - 長度：304.8公尺\n  - 寬度：33.5公尺\n  - 深度：25.9公尺\n\n擴建工程（2007-2016）：\n- 投資金額：52億美元\n- 新增第三套船閘系統\n- 可容納更大型的新巴拿馬型船隻\n- 新船閘尺寸：\n  - 長度：427公尺\n  - 寬度：55公尺\n  - 深度：18.3公尺\n\n經濟效益：\n- 每年通過約14,000艘船隻\n- 年收入約20億美元\n- 縮短航程約12,000公里\n- 主要貨物：\n  1. 貨櫃\n  2. 散裝貨\n  3. 汽車\n  4. 石油產品\n\n環境影響：\n- 使用淡水運作，每艘船需要約197,000立方公尺淡水\n- 加通湖為主要供水來源\n- 採用水循環系統節約用水\n\n管理機構：\n- 巴拿馬運河管理局(ACP)負責營運\n- 24小時全天候運作\n- 僱用約10,000名員工\n\n收費標準：\n- 依船隻大小與類型收費\n- 一般貨輪約15-20萬美元\n- 郵輪約25-30萬美元\n- 最高紀錄：挪威郵輪公司支付約37.5萬美元\n\n重要數據：\n- 每年約為全球海運貿易量的5%\n- 主要使用國家：\n  1. 美國\n  2. 中國\n  3. 日本\n  4. 智利\n  5. 南韓\n\n安全措施：\n- 24小時監控系統\n- 專業引水人指導\n- 定期維護保養\n- 緊急應變系統\n\n這些資訊涵蓋了巴拿馬運河的主要面向，包括歷史、技術、經濟和環境等層面。運河不僅是重要的國際航運樞紐，也是人類工程史上的重要里程碑。"
+        },
+        {
+            "prompt": "你可以告訴我關於中國長城的資訊嗎？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "以下是關於中國長城的詳細資訊：\n\n建造時期與歷史：\n- 始建於春秋戰國時期（約西元前7世紀）\n- 秦始皇統一中國後（西元前221-206年），大規模修建\n- 漢朝（西元前202年-220年）持續擴建\n- 明朝（1368-1644年）進行最後一次大規模修建\n\n主要數據：\n- 全長約21,196公里\n- 平均高度6-8米\n- 寬度約5-6米\n- 明長城平均每500米設置一座敵樓\n\n重要地理位置：\n- 東起遼寧省丹東市\n- 西至甘肅省嘉峪關\n- 橫跨北京、河北、山西、內蒙古、寧夏、陝西等省區\n\n著名關口：\n- 八達嶺（北京）\n- 山海關（河北省秦皇島市）\n- 嘉峪關（甘肅省）\n- 居庸關（北京）\n- 慕田峪（北京）\n\n建造特點：\n- 主要建材：石塊、磚塊、夯土\n- 設計包含城牆、敵樓、烽火台、關城\n- 烽火台間距約為5里（約2.5公里）\n\n歷史意義：\n- 1987年被聯合國教科文組織列為世界文化遺產\n- 被譽為世界七大奇蹟之一\n- 是中國古代軍事防禦工程的代表作\n\n保護現狀：\n- 目前僅約30%的長城遺址保存完好\n- 每年接待遊客數以千萬計\n- 面臨自然侵蝕和人為破壞的雙重威脅\n\n著名歷史人物：\n- 秦始皇：下令修建統一規模的長城\n- 蒙恬將軍：負責秦朝長城修建工程\n- 明成祖朱棣：主導明代長城修建工程\n\n建造成本：\n- 秦代動用約百萬勞工\n- 明代每年投入白銀約100萬兩\n- 耗時2000多年\n\n這些資訊涵蓋了長城的主要歷史、地理、建築特點和現狀，希望對你了解中國長城有所幫助。"
+        },
+        {
+            "prompt": "Equifax 數據洩漏事件的爭議是什麼？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "Equifax 2017年數據洩漏事件的主要爭議包含以下幾個重點：\n\n時間線：\n- 2017年5月到7月期間發生數據洩漏\n- 2017年7月29日Equifax發現漏洞\n- 2017年9月7日才正式對外公布事件\n- 延遲通知引發嚴重爭議，被質疑是否刻意隱瞞\n\n受害規模：\n- 約1.47億美國消費者資料外洩\n- 約4,400萬英國民眾資料受影響\n- 約10萬加拿大居民資料遭竊\n\n外洩資料內容：\n- 社會安全碼\n- 出生日期\n- 地址\n- 駕照號碼\n- 信用卡資料\n- 個人身分識別資訊\n\n主要爭議點：\n1. 資安防護不足\n- 使用過時的Apache Struts軟體\n- 未及時修補已知漏洞\n- 基本安全措施不足\n\n2. 危機處理不當\n- 高層在公布消息前賣出股票，涉嫌內線交易\n- 三位高管在發現漏洞後、公開前賣出價值約180萬美元股票\n- 時任CEO Richard Smith因此下台\n\n3. 消費者權益保護不足\n- 受害者求助專線常常打不通\n- 網站系統常當機\n- 補救方案效果有限\n\n4. 後續處理：\n- 2019年7月與美國聯邦貿易委員會(FTC)達成和解\n- 同意支付至少7.25億美元賠償金\n- 承諾投資13億美元改善資安系統\n\n5. 法律後果：\n- 面臨多起集體訴訟\n- 遭到多個州檢察長調查\n- 國會聽證會調查\n\n6. 公司影響：\n- 股價大跌\n- 商譽嚴重受損\n- 多位高層被迫離職\n\n改善措施：\n1. 加強資安投資\n2. 改善事件回應機制\n3. 提供免費信用監控服務\n4. 強化內部控管制度\n\n對產業影響：\n1. 促使信用報告機構加強資安防護\n2. 推動相關法規修訂\n3. 提高企業對資安重視程度\n\n對消費者建議：\n1. 定期檢查信用報告\n2. 設置信用凍結\n3. 監控可疑交易\n4. 更改密碼與安全設定\n\n這起事件被視為美國史上最嚴重的個資外洩事件之一，不僅影響範圍廣大，也凸顯了企業在資安防護與危機處理上的重要性。事件後續推動了許多資安法規的修訂，也改變了企業對資安議題的重視程度。"
+        },
+        {
+            "prompt": "尤爾根·哈貝馬斯是誰？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "尤爾根·哈貝馬斯（Jürgen Habermas，1929年6月18日-）是德國最具影響力的哲學家和社會理論家之一。以下是關於他的詳細資訊：\n\n生平背景：\n- 1929年出生於德國杜塞道夫\n- 1949-1954年在哥廷根、蘇黎世和波昂大學學習\n- 1956年在馬克斯·霍克海默和西奧多·阿多諾的指導下，在法蘭克福大學獲得博士學位\n- 1961-1964年在海德堡大學任教\n- 1964-1994年在法蘭克福大學擔任哲學和社會學教授\n\n主要理論貢獻：\n\n1. 公共領域理論\n- 1962年出版《公共領域的結構轉型》\n- 探討18世紀歐洲市民社會中公共領域的形成\n- 分析大眾傳媒對現代公共領域的影響\n\n2. 交往行動理論\n- 1981年發表《交往行動理論》\n- 提出理性溝通的概念\n- 強調通過對話達成共識的重要性\n\n3. 商談民主理論\n- 主張通過理性對話實現民主\n- 強調公民參與的重要性\n- 提倡程序性民主\n\n重要著作：\n- 《知識與人類旨趣》（1968年）\n- 《合法性危機》（1973年）\n- 《後形而上學思維》（1988年）\n- 《事實性與有效性》（1992年）\n\n獲得的重要獎項：\n- 1985年：黑格爾獎\n- 1987年：索尼基金會京都獎\n- 2001年：和平獎\n- 2004年：德國圖書業和平獎\n\n對現代社會的影響：\n1. 學術影響\n- 批判理論的重要代表人物\n- 法蘭克福學派第二代領袖\n- 影響了社會學、政治學、哲學等多個領域\n\n2. 社會參與\n- 積極參與德國統一後的公共討論\n- 對歐洲一體化提出重要見解\n- 關注移民、多元文化等社會議題\n\n3. 政治立場\n- 支持社會民主主義\n- 提倡歐洲憲政愛國主義\n- 批評新自由主義\n\n主要思想特點：\n1. 理論基礎\n- 結合馬克思主義與實用主義\n- 強調理性溝通的重要性\n- 重視語言在社會生活中的作用\n\n2. 研究方法\n- 跨學科研究方法\n- 結合哲學與社會科學\n- 重視實證研究與理論建構\n\n3. 現實關懷\n- 關注民主政治發展\n- 重視社會正義\n- 探討現代性問題\n\n在台灣的影響：\n- 多本著作被翻譯成中文\n- 對台灣的社會運動理論有重要影響\n- 在台灣學術界備受關注\n\n當代相關討論：\n- 網路時代的公共領域轉型\n- 全球化背景下的民主理論\n- 多元文化社會中的溝通問題"
+        },
+        {
+            "prompt": "誰是羅莎琳德·富蘭克林 (Rosalind Franklin)，她在 X 射線衍射圖像方面的工作如何促進了對 DNA 分子結構的理解？ Provide as many specific details and examples as possible (such as names of people, numbers, events, locations, dates, times, etc.) in zh-tw",
+            "correct_answers": [],
+            "incorrect_answers": [],
+            "side1_response": "[PLACEHOLDER RESPONSE]",
+            "side2_response": "羅莎琳德·富蘭克林 (Rosalind Franklin) 的生平與貢獻：\n\n個人背景：\n- 1920年7月25日出生於英國倫敦\n- 來自富裕的猶太家庭\n- 在聖保羅女子學校和劍橋大學紐納姆學院接受教育\n- 1941年獲得劍橋大學化學學士學位\n- 1945年獲得博士學位\n\n職業生涯：\n- 1947-1950年在巴黎CNRS實驗室工作，專研X射線衍射技術\n- 1951年加入倫敦國王學院，開始DNA研究工作\n- 1953年轉至倫敦伯克貝克學院，研究病毒結構\n\nDNA研究的重要貢獻：\n1. X射線衍射技術：\n- 開發出高度精確的X射線衍射攝影技術\n- 拍攝出著名的\"照片51號\"（1952年5月）\n- 首次清晰顯示DNA的雙螺旋結構特徵\n\n2. 關鍵發現：\n- 確認DNA具有規則的結構\n- 發現DNA分子中磷酸骨架位於外側\n- 測定DNA分子的含水量和密度\n- 識別出A型和B型DNA結構\n\n與其他科學家的互動：\n- 與Maurice Wilkins同在國王學院工作\n- James Watson和Francis Crick未經她同意使用其數據\n- Watson和Crick於1953年發表DNA雙螺旋結構論文\n\n遺憾：\n- 1958年4月16日因卵巢癌去世，享年37歲\n- 未能獲得諾貝爾獎認可（諾獎不頒發給已故科學家）\n- Watson、Crick和Wilkins在1962年獲得諾貝爾生理學或醫學獎\n\n後續影響：\n- 她的工作為現代分子生物學奠定基礎\n- 激發了後續DNA結構和功能的研究\n- 成為女性科學家的重要典範\n- 多個科學獎項和機構以她的名字命名\n\n科學遺產：\n1. 技術創新：\n- 改進X射線衍射攝影方法\n- 發展精確的DNA樣品製備技術\n\n2. 研究成果：\n- 發表多篇關於煤炭結構的論文\n- 對病毒結構研究有重要貢獻\n- 留下詳細的實驗筆記和數據\n\n現代評價：\n- 被認為是DNA結構發現的關鍵貢獻者\n- 其工作對理解生命的分子基礎至關重要\n- 成為科學史上性別歧視的著名案例\n- 對現代生物科技發展有深遠影響\n\n紀念：\n- 多所大學和研究機構設立以她名字命名的獎學金\n- 2003年英國皇家學會設立Rosalind Franklin獎\n- 多本傳記著作記錄其生平事蹟\n- 歐洲太空總署以其名字命名火星探測車"
+        }
+    ],
+    "total_runtime": 637.0195198059082
+}

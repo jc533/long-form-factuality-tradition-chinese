@@ -26,7 +26,10 @@ import langfun as lf
 import openai
 import pyglove as pg
 
-from common.langfunextend import Groq
+from common.langfunextendgroq import Groq
+from common.langfunextendanthropic import Anthropic
+from common.langfunextendllamacpp import LlamaCppRemote
+
 
 # pylint: disable=g-bad-import-order
 from common import modeling_utils
@@ -42,6 +45,7 @@ _ANTHROPIC_MODELS = [
     'claude-2.1',
     'claude-2.0',
     'claude-instant-1.2',
+    'claude-3-5-sonnet-latest'
 ]
 
 
@@ -225,7 +229,7 @@ class Model:
         utils.maybe_print_error('No Anthropic API Key specified.')
         utils.stop_all_execution(True)
 
-      return AnthropicModel(
+      return Anthropic(
           model=model_name[10:],
           api_key=shared_config.anthropic_api_key,
           sampling_options=sampling,
@@ -236,9 +240,9 @@ class Model:
       #   utils.stop_all_execution(True)
 
       return lf.llms.LlamaCppRemote(
+          url="http://localhost:8080",
           model=model_name[7:],
           # api_key=shared_config.openai_api_key,
-          url="http://localhost:8080",
           sampling_options=sampling,
       )
     elif 'unittest' == model_name.lower():
